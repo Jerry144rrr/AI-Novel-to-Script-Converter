@@ -2,6 +2,52 @@
 
 将 3 章以上小说文本自动转换为结构化 YAML 剧本初稿，降低改编门槛，提升效率。
 
+> **Demo 视频**：[▶️ 点击观看 B 站演示视频]（此处填入 B 站链接）
+
+## 项目结构
+
+```
+novel-to-script/
+├── app.py                  # Streamlit Web 交互界面
+├── config.py               # 全局配置（API Key / 模型 / Base URL）
+├── requirements.txt        # Python 依赖清单
+├── .env.example            # 环境变量模板
+├── .gitignore              # 排除敏感文件和构建产物
+├── src/
+│   ├── __init__.py
+│   ├── novel_parser.py     # 章节解析与校验
+│   ├── ai_analyzer.py      # AI 三阶段 Pipeline（角色→场景→剧本）
+│   ├── script_builder.py   # 剧本组装与结构校验
+│   └── yaml_generator.py   # YAML 序列化与输出
+├── prompts/
+│   ├── character_extraction.txt  # 角色提取 Prompt
+│   ├── scene_detection.txt       # 场景检测 Prompt
+│   └── script_conversion.txt     # 剧本转换 Prompt
+├── docs/
+│   ├── YAML_SCHEMA.md       # YAML Schema 定义与设计原因
+│   ├── 界面操作流程.md       # 图文操作指南
+│   ├── PR_DESCRIPTIONS.md   # 开发过程 PR 描述
+│   └── DEMO_SCRIPT.md       # Demo 视频演讲稿
+├── output/                  # 生成的 YAML 剧本输出目录
+└── screenshots/             # 运行截图
+```
+
+## 第三方依赖说明
+
+| 依赖 | 用途 | 为何选择 |
+|------|------|----------|
+| **streamlit** | Web 交互界面 | 纯 Python，无需前端代码，适合快速构建工具型应用 |
+| **anthropic** | Claude API 调用 | 官方 SDK，支持消息流和多模型切换 |
+| **pyyaml** | YAML 序列化 | Python 生态标准 YAML 库，支持自定义 representer |
+| **python-dotenv** | 环境变量管理 | 安全存储 API Key，不硬编码密钥 |
+| **json5** | 宽容 JSON 解析 | 容忍尾逗号、注释等 AI 输出中常见的不规范 JSON |
+
+所有依赖均为开源库，`requirements.txt` 中已声明完整版本约束。
+
+## 原创声明
+
+本项目所有代码（`src/`、`app.py`、`config.py`、`prompts/`）均为原创开发。使用 Claude API 作为 AI 引擎，通过灵眸中转服务调用。
+
 ## 快速开始
 
 ### 1. 安装依赖

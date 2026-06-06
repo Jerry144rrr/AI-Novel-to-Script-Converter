@@ -9,9 +9,8 @@ __pycache__/
 dist/
 build/
 
-# 输出目录
+# 输出目录（含生成的 YAML 剧本文件）
 output/
-*.yaml
 
 # IDE
 .vscode/
