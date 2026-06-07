@@ -16,6 +16,9 @@ output/
 .vscode/
 .idea/
 
+# 测试素材（版权文本，不提交）
+所用文本素材/
+
 # 系统文件
 .DS_Store
 Thumbs.db
