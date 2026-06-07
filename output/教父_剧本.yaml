@@ -1,0 +1,4841 @@
+script:
+  meta:
+    title: 教父
+    author: ''
+    total_chapters: 5
+    genre: ''
+    converted_at: '2026-06-05 20:27:58'
+  characters:
+  - id: char_001
+    name: 亚美利哥·邦纳塞拉
+    role: 配角
+    identity: 殡仪馆老板
+    traits:
+    - 隐忍
+    - 偏执于美国法律秩序
+    - 固执
+    - 脆弱
+    - 最终屈服
+    description: 女儿遭暴徒殴打后寻求法律途径无果，迫于无奈向唐·柯里昂求助，代表了那些曾拒绝教父却最终不得不依靠他的人。
+    relationships:
+    - target: char_004
+      relation: 请求帮助的求助者，唐的妻子是其女儿的教母
+    - target: char_009
+      relation: 法庭上对峙的对象，加害者的父母
+  - id: char_002
+    name: 约翰尼·方坦
+    role: 配角
+    identity: 著名歌手兼电影明星
+    traits:
+    - 魅力四射
+    - 软弱
+    - 感情用事
+    - 念旧
+    - 依赖教父
+    description: 唐·柯里昂的教子，事业和婚姻双双陷入危机，回头求教父出手帮他争取一个关键角色，推动了黑根赴洛杉矶与沃尔茨交涉的情节。
+    relationships:
+    - target: char_004
+      relation: 教子与教父
+    - target: char_008
+      relation: 汤姆代表他与沃尔茨谈判
+    - target: char_014
+      relation: 与沃尔茨有深仇，沃尔茨拒绝给他角色
+    - target: char_015
+      relation: 玛格特是他的现任妻子，两人关系破裂
+    - target: char_016
+      relation: 前妻金妮，已离婚但仍有子女联系
+    - target: char_017
+      relation: 童年挚友，婚礼上重逢的搭档
+  - id: char_003
+    name: 纳佐里尼
+    role: 配角
+    identity: 面包师
+    traits:
+    - 老实本分
+    - 护家
+    - 重情义
+    - 传统
+    - 务实
+    description: 唐的儿时好友，为了让女儿的恋人恩佐留在美国入籍，向唐求助，是展现唐处理日常人情的典型案例之一。
+    relationships:
+    - target: char_004
+      relation: 旧友，向唐求助
+    - target: char_018
+      relation: 父女关系
+    - target: char_019
+      relation: 女儿的意大利战俘恋人
+  - id: char_004
+    name: 唐·维托·柯里昂
+    role: 主角
+    identity: 黑手党教父，橄榄油进口商
+    traits:
+    - 沉稳睿智
+    - 权威
+    - 讲义气
+    - 谦逊而不失威严
+    - 洞察人心
+    description: 故事核心人物，掌控着庞大的地下权力网络，以智慧和威望统御各方，拒绝毒品生意后遭到暗杀，成为后续一切冲突的导火索。
+    relationships:
+    - target: char_005
+      relation: 父子，长子
+    - target: char_006
+      relation: 父子，次子
+    - target: char_007
+      relation: 父子，幼子
+    - target: char_008
+      relation: 养子般的顾问
+    - target: char_002
+      relation: 教父与教子
+    - target: char_010
+      relation: 女儿康妮
+    - target: char_011
+      relation: 垂死的老友，前任顾问
+    - target: char_012
+      relation: 最可信赖也最令人紧张的杀手
+    - target: char_020
+      relation: 拒绝其毒品合作提议的商业对手
+    - target: char_021
+      relation: 妻子
+    - target: char_001
+      relation: 妻子是其女儿教母，被求助的对象
+  - id: char_005
+    name: 桑尼·柯里昂
+    role: 配角
+    identity: 柯里昂家族长子，家族核心成员
+    traits:
+    - 冲动
+    - 勇猛
+    - 好色
+    - 有领导力但缺乏克制
+    - 忠于家族
+    description: |-
+      唐的长子，在唐遭到暗杀后暂时接掌家族事务，因脾气暴躁和判断失误而埋下隐患，同时对毒品生意表现出过于明显的兴趣，被索洛佐所利用。
+    relationships:
+    - target: char_004
+      relation: 父子
+    - target: char_006
+      relation: 兄弟
+    - target: char_007
+      relation: 兄弟
+    - target: char_008
+      relation: 兄弟般的关系，共同参与家族事务
+    - target: char_022
+      relation: 妻子珊德拉
+    - target: char_023
+      relation: 婚外情对象，妹妹的伴娘
+  - id: char_006
+    name: 弗雷迪·柯里昂
+    role: 配角
+    identity: 柯里昂家族次子
+    traits:
+    - 忠诚孝顺
+    - 缺乏决断力
+    - 情绪脆弱
+    - 平庸
+    - 善良
+    description: 唐的次子，在父亲遭枪击时因惊吓过度而休克失能，没有展现出应有的保护能力，被认为缺乏接班的魄力。
+    relationships:
+    - target: char_004
+      relation: 父子
+    - target: char_005
+      relation: 兄弟
+    - target: char_007
+      relation: 兄弟
+  - id: char_007
+    name: 迈克尔·柯里昂
+    role: 主角
+    identity: 柯里昂家族幼子，大学生，退伍军官
+    traits:
+    - 冷静理智
+    - 独立自主
+    - 内敛深沉
+    - 观察敏锐
+    - 逐渐卷入家族事务
+    description: 唐最小的儿子，原本刻意与家族黑暗面保持距离，父亲遭暗杀后被迫卷入，冷静的判断力和军事经历使他逐渐展现出接班的潜质。
+    relationships:
+    - target: char_004
+      relation: 父子，被唐视为最有潜力的接班人
+    - target: char_005
+      relation: 兄弟
+    - target: char_006
+      relation: 兄弟
+    - target: char_008
+      relation: 兄弟般的养兄关系
+    - target: char_024
+      relation: 女友，新英格兰出身的美国姑娘，计划秘密结婚
+  - id: char_008
+    name: 汤姆·黑根
+    role: 配角
+    identity: 家族律师兼顾问（军师）
+    traits:
+    - 精明冷静
+    - 忠诚
+    - 务实
+    - 善于谈判
+    - 情感克制
+    description: 唐从街头收留、一手培养的德裔爱尔兰孤儿，成为家族最重要的顾问，负责对外谈判和处理棘手事务，被索洛佐劫持后凭口才脱险。
+    relationships:
+    - target: char_004
+      relation: 养子般的顾问与养父般的老板
+    - target: char_005
+      relation: 兄弟般的家族成员
+    - target: char_007
+      relation: 养兄弟
+    - target: char_014
+      relation: 奉命赴洛杉矶与其谈判
+    - target: char_020
+      relation: 代表唐与其首次会面
+    - target: char_025
+      relation: 妻子特蕾莎
+    - target: char_011
+      relation: 代理其顾问职位长达一年
+  - id: char_009
+    name: 杰瑞·瓦格纳 / 凯文·穆南
+    role: 路人
+    identity: 大学生，邦纳塞拉女儿的侵犯者
+    traits:
+    - 嚣张跋扈
+    - 仗势横行
+    - 轻浮
+    - 后来遭到报应
+    description: 因强力家庭背景而逃脱法律制裁的两个年轻人，最终被保利·加图等人奉命痛打，成为唐为求助者伸张正义的具体体现。
+    relationships:
+    - target: char_001
+      relation: 侵犯其女儿的加害者
+    - target: char_026
+      relation: 被保利·加图奉命惩罚
+  - id: char_010
+    name: 康妮·柯里昂
+    role: 配角
+    identity: 唐的女儿，新娘
+    traits:
+    - 活泼热情
+    - 略显任性
+    - 对丈夫怀有幻想
+    - 神经质
+    description: 故事开篇的婚礼主角，她的婚礼是第一章所有情节的舞台背景，她对丈夫卡洛的选择让唐失望，婚后生活也并不幸福。
+    relationships:
+    - target: char_004
+      relation: 父女
+    - target: char_013
+      relation: 丈夫卡洛·里齐
+    - target: char_023
+      relation: 最好的朋友，她的伴娘
+  - id: char_011
+    name: 占科·阿班丹多
+    role: 配角
+    identity: 唐的前任顾问，身患癌症
+    traits:
+    - 忠诚
+    - 历经沧桑
+    - 临终时恐惧
+    - 狡猾
+    - 对唐依赖至深
+    description: 唐多年的老友和顾问，在医院弥留之际仍求唐陪伴左右，他的去世使黑根正式获得顾问头衔，是家族权力传承的关键节点。
+    relationships:
+    - target: char_004
+      relation: 旧友与前任顾问，唐亲自陪他走完最后时光
+    - target: char_008
+      relation: 黑根代理其顾问职位，后继承该职位
+  - id: char_012
+    name: 卢卡·布拉齐
+    role: 配角
+    identity: 唐最凶悍的杀手，家族核心武力
+    traits:
+    - 暴戾
+    - 对唐绝对忠诚
+    - 令人恐惧
+    - 孤独
+    - 像自然界的力量
+    description: 外表凶残、令所有人胆寒的杀手，对唐抱有近乎崇拜的忠诚，在唐遭到暗杀前夕下落不明，成为全书最大的悬念之一。
+    relationships:
+    - target: char_004
+      relation: 心甘情愿效忠的主人，对唐有罕见的敬爱之情
+    - target: char_008
+      relation: 黑根清楚他的秘密但不愿透露
+  - id: char_013
+    name: 卡洛·里齐
+    role: 配角
+    identity: 康妮的新郎，家族的附属成员
+    traits:
+    - 贪财
+    - 投机
+    - 表面殷勤
+    - 本质上是窝囊废
+    - 好赌酗酒
+    description: 混血新郎，眼睛盯着婚礼收到的礼金，唐明确拒绝让他了解家族生意，婚后品行败坏，打骂康妮，是家族的一个负担。
+    relationships:
+    - target: char_010
+      relation: 丈夫与妻子
+    - target: char_005
+      relation: 通过桑尼认识康妮
+  - id: char_014
+    name: 杰克·沃尔茨
+    role: 配角
+    identity: 好莱坞顶级电影制片人
+    traits:
+    - 傲慢
+    - 色欲旺盛
+    - 刚愎自用
+    - 最终被吓服
+    - 误判了唐的实力
+    description: |-
+      因私人恩怨拒绝给约翰尼安排角色，对黑根的游说不为所动，直到早晨发现爱马喀土穆的头颅出现在床上，才彻底屈服，成为唐手段的最有力注脚。
+    relationships:
+    - target: char_002
+      relation: 宿敌，拒绝给约翰尼角色
+    - target: char_008
+      relation: 被黑根登门游说，最终被迫妥协
+  - id: char_015
+    name: 玛格特·艾什顿
+    role: 路人
+    identity: 好莱坞顶级女明星，约翰尼的现任妻子
+    traits:
+    - 美艳
+    - 放荡
+    - 冷酷嘲讽
+    - 以美貌为盾牌
+    description: 约翰尼为之抛弃家庭的女明星，对约翰尼的感情和暴力行为毫不在意，用嘲讽将他彻底击垮，是约翰尼堕落的根源之一。
+    relationships:
+    - target: char_002
+      relation: 现任妻子，两人关系极度恶劣
+  - id: char_016
+    name: 金妮
+    role: 路人
+    identity: 约翰尼的前妻
+    traits:
+    - 独立
+    - 有原则
+    - 对约翰尼不妥协
+    description: 约翰尼抛弃的糟糠之妻，虽在故事中未直接出场，但唐以她和孩子为由敦促约翰尼反省，是约翰尼良知的象征。
+    relationships:
+    - target: char_002
+      relation: 前妻，共同抚养孩子
+  - id: char_017
+    name: 尼诺·瓦伦蒂
+    role: 配角
+    identity: 歌手，约翰尼的童年挚友
+    traits:
+    - 豪放不羁
+    - 爱喝酒
+    - 才华有限但真诚
+    - 不抱怨
+    description: 婚礼上操起曼陀林为宾客献唱的老友，被唐当作约翰尼忽视友谊的反面教材，也是唐教导约翰尼"友谊比天赋更重要"时的核心例子。
+    relationships:
+    - target: char_002
+      relation: 童年挚友，后被约翰尼疏远
+  - id: char_018
+    name: 凯瑟琳·纳佐里尼
+    role: 路人
+    identity: 面包师的女儿
+    traits:
+    - 痴情
+    - 普通
+    - 为爱勇敢
+    description: 爱上战俘恩佐的面包师女儿，以威胁离家出走来逼父亲接受这段关系，是推动父亲向唐求助的直接动因。
+    relationships:
+    - target: char_003
+      relation: 父女
+    - target: char_019
+      relation: 恋人关系
+  - id: char_019
+    name: 恩佐
+    role: 路人
+    identity: 意大利战俘，面包房帮工
+    traits:
+    - 诚恳
+    - 敢于表达爱意
+    - 懂得感恩
+    description: 在战争期间假释来美的意大利战俘，真心求娶凯瑟琳，面临被遣返的困境，其处境为唐提供了一个展示影响力的机会。
+    relationships:
+    - target: char_018
+      relation: 恋人，求婚对象
+    - target: char_003
+      relation: 主顾与帮工，寻求接纳
+  - id: char_020
+    name: 维吉尔·"土佬"·索洛佐
+    role: 配角
+    identity: 毒品贩子，黑帮人物
+    traits:
+    - 精明危险
+    - 冷酷
+    - 擅长谋划
+    - 果断
+    - 善于利用他人弱点
+    description: |-
+      寻求柯里昂家族资金和政治庇护来开展毒品生意的枭雄，遭唐拒绝后策划暗杀，同时绑架黑根作为谈判筹码，是第一、二、三章核心冲突的制造者。
+    relationships:
+    - target: char_004
+      relation: 被唐拒绝合作后转为敌对，策划暗杀唐
+    - target: char_027
+      relation: 与塔塔利亚家族结盟
+    - target: char_008
+      relation: 绑架黑根以图谈判
+  - id: char_021
+    name: 唐·柯里昂的妻子（妈妈柯里昂）
+    role: 路人
+    identity: 唐的妻子，家族母亲
+    traits:
+    - 传统
+    - 质朴
+    - 坚强
+    - 是邦纳塞拉女儿的教母
+    description: 唐的妻子，在婚礼欢庆和后来唐遭枪击的危机中始终是家庭的情感支柱，丈夫受伤后守在医院病床前。
+    relationships:
+    - target: char_004
+      relation: 夫妻
+    - target: char_001
+      relation: 是邦纳塞拉女儿的教母，两家因此有关联
+  - id: char_022
+    name: 珊德拉（桑尼的妻子）
+    role: 路人
+    identity: 桑尼的妻子
+    traits:
+    - 粗俗直爽
+    - 泼辣
+    - 善于接受现实
+    description: 桑尼的妻子，生育了三个孩子，以调侃式的方式接受了桑尼不忠的现实，在唐遭到枪击后按照桑尼的吩咐守在家中。
+    relationships:
+    - target: char_005
+      relation: 丈夫与妻子
+  - id: char_023
+    name: 露西·曼奇尼
+    role: 配角
+    identity: 康妮的伴娘，大学生
+    traits:
+    - 大胆
+    - 渴望情欲
+    - 主动
+    - 心理有自卑情结
+    description: 康妮的好友兼伴娘，在婚礼当天主动与桑尼发生性关系，此后满心期待桑尼的电话，是展现桑尼好色本性和意大利社区文化的重要配角。
+    relationships:
+    - target: char_005
+      relation: 婚礼上的一夜情对象，之后仍怀有幻想
+    - target: char_010
+      relation: 最好的朋友
+  - id: char_024
+    name: 凯·亚当斯
+    role: 配角
+    identity: 迈克尔的女友，新英格兰名门之后
+    traits:
+    - 聪慧好奇
+    - 坦率
+    - 对柯里昂家族既着迷又警惕
+    - 真诚
+    description: 迈克尔带到婚礼上的未婚妻，新英格兰纯正的美国姑娘，是迈克尔与正常世界之间的纽带，两人计划在圣诞节期间秘密结婚。
+    relationships:
+    - target: char_007
+      relation: 男友，计划结婚
+  - id: char_025
+    name: 特蕾莎·黑根
+    role: 路人
+    identity: 汤姆·黑根的妻子
+    traits:
+    - 优雅
+    - 情感细腻
+    - 为丈夫担忧
+    description: 黑根的妻子，在黑根被索洛佐绑架期间独自在柯里昂家族中等待，丈夫回来时失控痛哭，是展现家族内部情感联结的次要人物。
+    relationships:
+    - target: char_008
+      relation: 丈夫与妻子
+  - id: char_026
+    name: 保利·加图
+    role: 配角
+    identity: 家族小头目，唐的私人司机保镖
+    traits:
+    - 谨慎狡猾
+    - 野心勃勃
+    - 贪财
+    - 出卖主人
+    - 办事利落
+    description: 唐的司机兼保镖，为钱出卖情报给索洛佐，在唐遭枪击当天以病假为由缺席，被桑尼识破，是第一个被列上暗杀名单的叛徒。
+    relationships:
+    - target: char_004
+      relation: 下属兼保镖，实则叛徒
+    - target: char_028
+      relation: 上司克莱门扎
+    - target: char_020
+      relation: 出卖情报给索洛佐
+  - id: char_027
+    name: 塔塔利亚家族（菲利普·塔塔利亚 / 约翰·塔塔利亚）
+    role: 配角
+    identity: 纽约五大家族之一，索洛佐的后台
+    traits:
+    - 野心勃勃
+    - 支持毒品生意
+    - 与柯里昂家族为敌
+    description: 为索洛佐的毒品计划提供担保和支持，在唐遭到暗杀后成为柯里昂家族的主要敌对势力，被桑尼列入暗杀名单。
+    relationships:
+    - target: char_020
+      relation: 同盟，为其提供后台支持
+    - target: char_004
+      relation: 策划针对唐的暗杀行动的共谋
+  - id: char_028
+    name: 彼得·克莱门扎
+    role: 配角
+    identity: 家族首领之一
+    traits:
+    - 肥胖豪爽
+    - 经验丰富
+    - 忠于家族
+    - 处事老到
+    description: 唐麾下的重要首领，在婚礼上活跃欢快，保利·加图的直接上司，唐遭到暗杀后配合桑尼参与应对，奉命处置叛徒保利。
+    relationships:
+    - target: char_004
+      relation: 效忠二十余年的部下首领
+    - target: char_026
+      relation: 直接上司
+    - target: char_005
+      relation: 接受桑尼的指挥
+  - id: char_029
+    name: 忒西奥
+    role: 配角
+    identity: 家族首领之一，布鲁克林"安全阀"首领
+    traits:
+    - 稳重谨慎
+    - 忠诚
+    - 经验老到
+    description: 柯里昂家族在布鲁克林的重要首领，唐遭到袭击后由桑尼紧急召来，负责召集人手守卫医院和家宅，参与制订应对计划。
+    relationships:
+    - target: char_004
+      relation: 忠诚的部下首领
+    - target: char_005
+      relation: 接受桑尼的指挥协调行动
+  - id: char_030
+    name: 法官（庭审法官）
+    role: 路人
+    identity: 纽约第三刑事法庭法官
+    traits:
+    - 外表严厉
+    - 实则妥协
+    - 有所偏袒
+    description: 对袭击邦纳塞拉女儿的两名被告判处缓刑当庭释放，其判决激起邦纳塞拉的绝望，直接促成后者转而求助于唐·柯里昂。
+    relationships:
+    - target: char_001
+      relation: 让邦纳塞拉感到正义缺失的司法代表
+  - id: char_031
+    name: 菲洛蒙娜（纳佐里尼的妻子）
+    role: 路人
+    identity: 面包师的妻子
+    traits:
+    - 务实
+    - 明事理
+    - 直接
+    description: 在丈夫对恩佐和女儿的关系大动肝火时，她提出明智的解决建议，指出应该让恩佐暂时躲避并最终向唐求助。
+    relationships:
+    - target: char_003
+      relation: 夫妻
+  - id: char_032
+    name: 安东尼·科波拉
+    role: 路人
+    identity: 求助者，想开比萨店的男人
+    traits:
+    - 诚实
+    - 谦逊
+    description: 唐年轻时在铁路货场的工作伙伴之子，向唐借五百元开比萨店，是唐展示"体面的慷慨"这一人格特质的小道具式角色。
+    relationships:
+    - target: char_004
+      relation: 向唐借钱的求助者
+  - id: char_033
+    name: 肯尼迪医生
+    role: 路人
+    identity: 占科·阿班丹多的主治医生
+    traits:
+    - 专业冷静
+    - 权威感强
+    - 被唐的气场震慑
+    description: 在医院走廊阻止众人探视垂死的占科，却被唐用简短有力的话语打消了顾虑，是衬托唐的权威与处事风格的次要人物。
+    relationships:
+    - target: char_011
+      relation: 主治医生与病人
+    - target: char_004
+      relation: 被唐的话语所折服
+  - id: char_034
+    name: 比利·高夫
+    role: 路人
+    identity: 电影工会权威人物
+    traits:
+    - 审时度势
+    - 唯利是图
+    - 左右逢源
+    description: 黑根通过他向沃尔茨施压，以罢工威胁为筹码安排会面，是唐在好莱坞影响力渗透的一个节点人物。
+    relationships:
+    - target: char_008
+      relation: 黑根利用他安排与沃尔茨的会面
+    - target: char_014
+      relation: 协助施压对象
+  chapters:
+  - chapter_num: 1
+    title: |-
+      第一章
+
+
+      亚美利哥·邦纳塞拉坐在纽约第三刑事法庭里，等待正义得到伸张，等待报应落在那两个家伙头上，他们企图玷污他的女儿，残忍地伤害了她。
+    scenes:
+    - scene_num: 1
+      heading:
+        location: 纽约第三刑事法庭
+        time: 日
+        interior: true
+      description: 亚美利哥·邦纳塞拉眼睁睁看着伤害女儿的两名年轻人被法官判处缓刑释放，当庭决定去求唐·柯里昂伸张正义。
+      characters_present:
+      - 亚美利哥·邦纳塞拉
+      - 法官（庭审法官）
+      content:
+      - type: action
+        text: |-
+          内景。纽约第三刑事法庭。日。庄严肃穆的法庭大厅，旁听席坐满了人。法官身材魁梧，端坐高台，卷起黑袍袖子，俯视着站在法官席前的两个年轻人。他脸色冰冷，神情鄙夷。旁听席上，亚美利哥·邦纳塞拉面色灰黄，僵坐原处，目不转睛地盯着前方。
+      - type: dialogue
+        character: 法官（庭审法官）
+        line: 你们就像最堕落的变态。
+        parenthetical: (厉声，居高临下地盯着两名被告)
+        emotion: 愤怒
+      - type: action
+        text: |-
+          两个年轻男人留着油亮的平头，脸蛋刮得干干净净，装出虔诚悔悟的神情，顺从地垂着脑袋。邦纳塞拉在席间无声地咬紧牙关，双拳微握。
+      - type: dialogue
+        character: 法官（庭审法官）
+        line: 你们的表现活像丛林野兽，好在没有侵犯那可怜的姑娘，否则我一定关你们二十年大牢。
+        parenthetical: (话锋一顿，目光悄悄瞥向邦纳塞拉，随即低头翻阅面前的鉴定报告，皱眉，耸肩)
+        emotion: 冷漠
+      - type: dialogue
+        character: 法官（庭审法官）
+        line: 不过，考虑到你们年纪尚小，没有犯罪记录，家庭体面，而法律的出发点不是报复，因此我判处你们入感化院改造三年，缓期执行。
+        parenthetical: (语气趋于平静，宣判语气)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          邦纳塞拉如遭雷击，却一动不动。多年殡葬行当练就的克制死死压住他脸上翻涌的情绪。旁听席后排，两个年轻人的父母喜形于色，围住爱子，满脸笑容。邦纳塞拉死死望着这一幕。他从胸袋取出白色亚麻手帕，缓缓按在嘴唇上。
+      - type: action
+        text: |-
+          两个年轻人大踏步走下过道，昂首阔步，笑嘻嘻的，目光甚至都没在邦纳塞拉身上停留。邦纳塞拉一言不发，手帕抵在嘴唇，目送他们走过。紧随其后，两对与他年龄相仿却衣着更有美国风范的父母走近——他们瞥了邦纳塞拉一眼，虽面露惭色，眼底却流露出得意洋洋的藐视。
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 你们也会像我一样流泪！我要让你们流泪，就像你们的孩子让我流泪……
+        parenthetical: (猛地探身，向过道方向大喊，嗓音嘶哑，手帕举至眼角)
+        emotion: 愤怒
+      - type: action
+        text: |-
+          殿后的辩护律师催促着客户加快脚步。父母将两个年轻人团团围住，一行人沿过道向回折返。大块头法警立刻堵住邦纳塞拉那排座位——但其实并没有这个必要。邦纳塞拉已经重新坐定，转向身旁神情茫然、仍在拼命理解眼前一切的妻子。
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 他们愚弄了我们。
+        parenthetical: (压低声音，语气沉重而疲倦)
+        emotion: 悲伤
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 为了正义，我们必须去求唐·柯里昂。
+        parenthetical: (顿了顿，眼神由绝望转为决绝)
+        emotion: 悲伤
+      - type: transition
+        effect: 淡出
+    - scene_num: 2
+      heading:
+        location: 洛杉矶豪华酒店套房
+        time: 夜
+        interior: true
+      description: 约翰尼·方坦烂醉如泥，与妻子玛格特·艾什顿爆发激烈冲突，最终决定回纽约求助教父柯里昂。
+      characters_present:
+      - 约翰尼·方坦
+      - 玛格特·艾什顿
+      content:
+      - type: action
+        text: |-
+          洛杉矶。豪华酒店套房。夜深。
+
+          红色沙发上，约翰尼·方坦四仰八叉躺着，一手攥着苏格兰威士忌酒瓶，对嘴灌下一口，再把嘴唇泡进水晶冰桶。凌晨四点，房间里只有冰块碰撞的细响。他盯着天花板，神情空洞。
+      - type: action
+        text: |-
+          门锁响动。约翰尼没动，继续喝酒。
+
+          玛格特·艾什顿推门而入，在他面前站定。她一身织锦长衣，天使面孔，紫罗兰色的眼眸在灯光下熠熠发光。约翰尼抬起眼，看了她一眼。
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 你他妈去哪儿了？
+        parenthetical: (没有起身，手里还握着酒瓶)
+        emotion: 愤怒
+      - type: dialogue
+        character: 玛格特·艾什顿
+        line: 出去鬼混。
+        parenthetical: (语气随意，甚至带着一丝享受)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          约翰尼腾地跳起，越过鸡尾酒桌，双手卡住玛格特的喉咙。
+
+          两张脸贴近。他看见那双紫罗兰色的眼睛。怒火倏地熄灭，手松了。
+
+          玛格特察觉到他的迟疑。嘴角缓缓勾起一个嘲讽的弧度。
+      - type: dialogue
+        character: 玛格特·艾什顿
+        line: 别打脸，约翰尼，还要拍戏呢。
+        parenthetical: (仰头大笑)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          约翰尼一拳砸在她腹部。玛格特跌倒在地，拼命喘气。他压上去，拳头落在她的手臂和棕褐色大腿上——有分寸地打，像少年时在地狱厨房的街头，能让人吃苦头，但不会破相。
+
+          玛格特仍在笑。她摊开四肢躺着，织锦长衣滑到大腿根，一边喘气一边咯咯轻笑。
+      - type: dialogue
+        character: 玛格特·艾什顿
+        line: 来呀，捅进来呀。你倒是捅进来啊，约翰尼，你真正想要的是这个吧。
+        parenthetical: (仰躺在地，用嘲弄的眼神看着他)
+        emotion: 冷漠
+      - type: action
+        text: '约翰尼站起身，退后一步。
+
+
+          玛格特翻身，舞蹈演员似的一跃而起，面对他站定。她踏着孩子的嘲笑舞步，转着圈，唱起来。'
+      - type: dialogue
+        character: 玛格特·艾什顿
+        line: 约翰尼永远不会伤害我，约翰尼永远不会伤害我。
+        parenthetical: (唱着，踏着嘲笑的舞步)
+        emotion: 冷漠
+      - type: action
+        text: 她停下来，收起笑，神情近乎哀伤地看着他。
+      - type: dialogue
+        character: 玛格特·艾什顿
+        line: |-
+          可怜的傻瓜混蛋，打得我不痛不痒像个小孩。唉，约翰尼，永远是个傻乎乎意大利佬，那么浪漫，连做爱都像小孩，还以为打炮真像你唱的那些白痴小调。
+        parenthetical: (摇头，语气里带着近乎真实的惋惜)
+        emotion: 冷漠
+      - type: dialogue
+        character: 玛格特·艾什顿
+        line: 可怜的约翰尼。再会了，约翰尼。
+        parenthetical: (转身走向卧室，门锁清脆地转动)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          卧室门锁死。
+
+          约翰尼缓缓坐在地板上，脸埋进手心。屈辱和绝望淹没他，胃里翻涌。
+
+          沉默良久。
+
+          他抬起头，抹了把脸，拿起电话。
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 叫辆车送我去机场。
+        parenthetical: (声音平静，眼神已然清醒)
+        emotion: 悲伤
+      - type: action
+        text: '他放下话筒，看了一眼那扇锁着的卧室门。
+
+
+          然后站起身，开始收拾外套。他要回纽约。'
+      - type: transition
+        effect: 淡出
+    - scene_num: 3
+      heading:
+        location: 纳佐里尼面包店
+        time: 日
+        interior: true
+      description: 面包师纳佐里尼质问帮工恩佐与女儿凯瑟琳的感情，在妻子劝说下决定求唐·柯里昂帮助恩佐留在美国。
+      characters_present:
+      - 纳佐里尼
+      - 凯瑟琳·纳佐里尼
+      - 恩佐
+      - 菲洛蒙娜（纳佐里尼的妻子）
+      content:
+      - type: action
+        text: |-
+          纳佐里尼面包店内景，日。面粉气息弥漫，烤炉余温未散。身形敦实的面包师纳佐里尼满身面粉，像一截发怒的木桩站在房间中央，目光在老婆菲洛蒙娜、女儿凯瑟琳和帮工恩佐三人身上来回扫视。恩佐穿着印有绿色字样臂章的战俘制服，双手微微发抖——他在计算时间，生怕误了回总督岛报到的点。
+      - type: dialogue
+        character: 纳佐里尼
+        line: 是不是你羞辱了我的家庭？战争已经结束，你知道美国要把你踢回遍地狗屎的西西里农村，所以给我女儿留了个小包裹做纪念？
+        parenthetical: (咬牙切齿，逼近恩佐)
+        emotion: 愤怒
+      - type: action
+        text: 恩佐个头矮小却筋骨结实，他缓缓举起一只手，按在心口，眼眶泛红，却强撑着没让眼泪落下来。
+      - type: dialogue
+        character: 恩佐
+        line: |-
+          主人，我向圣母发誓，我绝没有辜负你的善意。我全心全意敬爱你的女儿。我全心全意向她求婚。我知道我配不上她，他们要是送我回意大利，我就永远也没法回美国了，就永远没法娶凯瑟琳了。
+        parenthetical: (手按心口，几近落泪，但字字清晰)
+        emotion: 悲伤
+      - type: action
+        text: 菲洛蒙娜侧身上前一步，打断了僵局。
+      - type: dialogue
+        character: 菲洛蒙娜（纳佐里尼的妻子）
+        line: 别犯浑。你知道该怎么做。留下恩佐，让他去长岛和我们的远亲待在一起，避避风头。
+        parenthetical: (平静而直接，望向丈夫)
+        emotion: 冷漠
+      - type: action
+        text: 凯瑟琳站在一旁低声啜泣，泪水模糊了脸。她身形已经开始发福，嘴角上方有一圈若隐若现的浅色胡须。她抬起头，泪眼望向父亲。
+      - type: dialogue
+        character: 凯瑟琳·纳佐里尼
+        line: 我愿意去意大利生活！要是你不让恩佐留下，我就离家出走！
+        parenthetical: (朝父亲尖叫，声音因哭泣而破碎)
+        emotion: 愤怒
+      - type: action
+        text: |-
+          纳佐里尼恶狠狠地瞥了女儿一眼，胸口起伏。他的目光落到柜台上一排刚出炉的意式长棍上，脑子里划过一个念头，表情从愤怒变成了某种认命的苦涩。他拿定了主意——这件事，只有一个人能办。
+      - type: transition
+        effect: 切至
+    - scene_num: 4
+      heading:
+        location: 柯里昂长岛大宅——正门入口
+        time: 日
+        interior: false
+      description: 婚礼当天唐·柯里昂在大宅门口热情迎接宾客，联邦调查局便衣探员在对面抄录车牌，桑尼与探员正面交锋。
+      characters_present:
+      - 唐·维托·柯里昂
+      - 桑尼·柯里昂
+      - 弗雷迪·柯里昂
+      content:
+      - type: action
+        text: |-
+          字幕：1945年8月，长岛。
+
+          柯里昂家族长岛大宅——正门入口。仲夏的阳光洒在宽阔的林荫道上，大宅门前张灯结彩，喜气洋洋。宾客车辆络绎不绝，盛装的人群沿小径鱼贯而入。
+
+          唐·维托·柯里昂身穿笔挺燕尾服，稳稳站在正门台阶上，神态从容，一脸温煦的笑意，逐一迎候到来的每一位宾客。他的两个儿子分立两侧：长子桑尼·柯里昂，高大结实，平头卷发，浓眉重眼，厚唇微翘，浑身透着一股子蛮力；次子弗雷迪·柯里昂，个头稍矮，身形敦实，圆脸卷发，神情憨厚，目光时刻追随父亲。
+
+          宾客一波接一波涌来，依次上前握手、致礼、递上米黄色信封。唐对每一个人都给予同等的热情，毫无轻慢。林荫道对面，停着一辆黑色雪佛兰轿车，一动不动。
+      - type: action
+        text: |-
+          轿车前排，两个男人不紧不慢地掏出记事本，低头抄写路边停靠车辆的牌照号码。他们神情坦然，毫不避讳。
+
+          桑尼余光扫到，转过头，眯眼盯了片刻。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 那边的两个家伙，肯定是警察。
+        parenthetical: (低声，侧头向父亲耳语，神色警惕)
+        emotion: 紧张
+      - type: action
+        text: 唐·柯里昂朝那辆轿车瞥了一眼，随即不动声色地收回目光。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 马路又不是我家的，他们爱干什么就干什么。
+        parenthetical: (平静地耸耸肩，语气淡然)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          桑尼的爱神脸涨得通红。他咬了咬牙，再也忍不住——大步走下台阶，穿过林荫道，直逼那辆黑色轿车。他弯下腰，把脸凑近车窗，怒目圆睁地逼视着司机。
+
+          司机面不改色，不慌不忙地翻开皮夹，隔着车窗亮出一枚绿色证件。
+
+          桑尼愣了片刻，慢慢直起身，无话可说。他狠狠朝轿车后门啐了一口，甩开步子扬长而去，眼角一直盯着车门——等着司机跳出来。
+
+          司机纹丝不动。
+
+          桑尼回到台阶上，胸口还在起伏。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 联邦调查局的，在抄车牌号码。没礼貌的混蛋。
+        parenthetical: (咬牙切齿，压低声音，余怒未消)
+        emotion: 愤怒
+      - type: action
+        text: |-
+          唐·柯里昂神情始终未变，仿佛桑尼说的不过是一句无关紧要的天气预报。他早已心中有数——最亲近的朋友都提前得到过提醒，今天不要乘自己的车来。
+
+          他静静看着大儿子，眼神里有一丝复杂，但随即消散。儿子发脾气自有它的用处：那两个不速之客会以为今天的「意外现身」真的打了这家人一个措手不及。
+
+          唐·柯里昂本人心平气和。他明白，你必须承受这个世界强加给你的侮辱——因为他早就弄清了一个道理：连最卑微的人，只要眼睛始终擦亮，就迟早能找到机会，向最有权势的人讨回公道。
+
+          正是这个道理，让他从不放弃他的谦逊风度。
+
+          宅邸背后的花园里，四人乐队奏起欢快的曲子，乐声随风飘来。宾客已悉数到齐。
+      - type: action
+        text: 唐·柯里昂深吸一口气，将那辆黑色轿车抛诸脑后。他抬起手，做了个轻描淡写的手势，示意两个儿子跟上。
+      - type: action
+        text: 唐领着桑尼和弗雷迪，转身走下台阶，向婚宴花园走去。三人的背影融入喧闹而喜庆的人群之中。
+      - type: transition
+        effect: 切至
+    - scene_num: 5
+      heading:
+        location: 柯里昂大宅——花园婚宴现场
+        time: 日
+        interior: false
+      description: 婚宴在花园热闹展开，宾客云集，新娘康妮与新郎卡洛就坐主桌，保利·加图、克莱门扎、尼诺·瓦伦蒂等各色人物悉数登场。
+      characters_present:
+      - 康妮·柯里昂
+      - 卡洛·里齐
+      - 桑尼·柯里昂
+      - 弗雷迪·柯里昂
+      - 迈克尔·柯里昂
+      - 凯·亚当斯
+      - 彼得·克莱门扎
+      - 保利·加图
+      - 尼诺·瓦伦蒂
+      - 亚美利哥·邦纳塞拉
+      - 纳佐里尼
+      - 安东尼·科波拉
+      - 卢卡·布拉齐
+      - 唐·维托·柯里昂
+      - 唐·柯里昂的妻子（妈妈柯里昂）
+      content:
+      - type: action
+        text: |-
+          柯里昂大宅花园。阳光明媚的婚礼现场，数百名盛装客人分布其中。鲜花装点的木台上舞者翩翩，长桌边宾客觥筹交错，食物香气弥漫，大罐家酿红酒摆满桌面。婚礼台上，新娘康妮·柯里昂身着白色婚纱，与新郎卡洛·里齐并肩而坐，周围簇拥着伴娘、女傧相和迎宾员。乡村风格的布置透着浓浓的意大利传统气息。
+      - type: action
+        text: |-
+          康妮神情陶醉，将手悄悄搭上卡洛肌肉发达的大腿，噘起弓形嘴唇，隔空抛出一个飞吻。她今日容光焕发，几乎称得上美丽。卡洛为她斟满酒杯，殷勤备至，眼神却不时漂向她右肩上那只胀鼓鼓的丝绒手包——里面塞满了装现金的信封。他微微一笑，心中盘算。
+      - type: action
+        text: |-
+          人群边缘，年轻人保利·加图一身笔挺西装，油光水滑的雪貂脸朝着那只丝绒手包望了又望，脑子里转着些无伤大雅的妄想。他很快将视线挪向前方——上司彼得·克莱门扎正在木台上领舞。
+      - type: action
+        text: |-
+          克莱门扎身形高大、体如山丘，舞步娴熟而放肆，用硬邦邦的肚皮挨蹭比他年轻矮小得多的姑娘们，宾客鼓掌喝彩。年长的女人争相拉他的手臂抢占下一轮舞伴，年轻男人们恭敬退让，伴着曼陀林的狂放节奏击掌助兴。终于，克莱门扎瘫坐回椅子上，大喘粗气。保利·加图立刻端来一杯冰镇黑葡萄酒，掏出丝绸手帕替他擦拭满头大汗。克莱门扎鲸鱼般大口喝酒，没有道谢，直接开口。
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: 别杵在这儿当舞蹈裁判，去做你该做的事情。到附近多走两圈，看看有什么问题。
+        parenthetical: (头也不抬，语气随意却带着不容置疑的命令感)
+        emotion: 冷漠
+      - type: action
+        text: 保利·加图连忙钻进人群，消失不见。
+      - type: action
+        text: |-
+          乐队暂停休息。年轻人尼诺·瓦伦蒂捡起他们放下的曼陀林，左脚踏上椅座，放声唱起粗俗的西西里情歌。他面容英俊，却因长年饮酒而略显浮肿，此刻已有几分醉意——翻着白眼，舔着舌头，将淫秽歌词唱得肆无忌惮。女人们兴奋尖叫，男人们齐声喊出每个小节的最后一个字。
+      - type: action
+        text: 唐·柯里昂面色一沉，转身向屋内走去——在这种事情上，他出了名地保守守旧，尽管他矮胖的妻子正跟着众人起哄笑闹。
+      - type: action
+        text: |-
+          桑尼·柯里昂将这一切看在眼里，嘴角微动，随即起身，信步走向新娘的餐桌，在伴娘露西·曼奇尼身旁坐下。他的妻子此刻在厨房忙着婚礼蛋糕的最后装饰——时机恰好。桑尼俯身靠近露西的耳边。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: （低声说了几个字）
+        parenthetical: (嘴唇几乎贴着露西的耳廓，声音压得极低，只有她能听见)
+        emotion: 紧张
+      - type: action
+        text: 露西·曼奇尼起身离开，神情如常。桑尼等了几分钟，才假作漫不经心地跟上，时而停下与宾客寒暄，从容地挤过人群。
+      - type: action
+        text: |-
+          四周不少眼睛悄悄跟随着他们的动向。露西念了三年大学，早已是个见过世面的成熟女孩，彩排期间便从未停止与桑尼的调情打趣——既然婚礼仪式上他们本就扮作一对，她觉得这无可厚非。此刻她挽起粉色长袍，轻快地跑上楼梯，进了卫生间，待了片刻后推门而出。抬起头，她看见桑尼·柯里昂站在上层楼梯平台，正向她招手。
+    - scene_num: 6
+      heading:
+        location: 柯里昂大宅——唐的办公室
+        time: 日
+        interior: true
+      description: 汤姆·黑根在唐的办公室俯瞰婚宴，依次安排面包师纳佐里尼、安东尼·科波拉、卢卡·布拉齐觐见唐·柯里昂并逐一处理请托。
+      characters_present:
+      - 唐·维托·柯里昂
+      - 汤姆·黑根
+      - 纳佐里尼
+      - 安东尼·科波拉
+      - 卢卡·布拉齐
+      - 桑尼·柯里昂
+      content:
+      - type: action
+        text: |-
+          柯里昂大宅——唐的办公室。日，内景。房间设在大宅的拐角，地面略微垫高。窗户紧闭，窗外是张灯结彩的花园婚宴。汤姆·黑根站在窗边，俯视着喧嚣的庆典。他身后，书架贴墙而立，塞满法律书籍。
+      - type: action
+        text: |-
+          黑根看见唐·柯里昂从花园离席，向大宅走来。他从容转身，走向办公桌，拿起一张手写名单——上面列着获准私下面见唐的求助者姓名。
+      - type: action
+        text: 唐走进办公室。黑根将名单递上。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 邦纳塞拉留到最后。
+        parenthetical: (扫视名单，平静地吩咐)
+        emotion: 平静
+      - type: action
+        text: 黑根推开法式双开门，走入花园，走向聚在酒桶旁等候的求助者人群，抬手示意胖乎乎的面包师纳佐里尼跟他来。
+      - type: action
+        text: |-
+          唐·柯里昂张开双臂，拥抱纳佐里尼。两人是儿时的玩伴，多年的老友。唐将一根雪茄递给面包师，斟上一杯黄色的「女巫」利口酒，而后将手轻轻按在纳佐里尼的肩上，示意他开口。
+      - type: action
+        text: |-
+          纳佐里尼深吸一口气，开始讲述。他的女儿凯瑟琳爱上了意大利西西里战俘恩佐。恩佐被美军俘虏后假释来美，如今战争结束，即将被遣返意大利。他越说越动情，声音开始发颤。
+      - type: action
+        text: 唐陪着纳佐里尼在房间里慢慢踱步，手始终按在他的肩上，不时点头。等面包师终于说完，唐微微一笑。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 我亲爱的朋友，你可以不用担心了。
+        parenthetical: (温和地笑着)
+        emotion: 平静
+      - type: action
+        text: |-
+          唐仔细解释他的解决方案：向本选区国会议员请愿，由议员提出特别法案，允许恩佐入籍美国。法案在国会通过不成问题。办事需要两千块，由他代收，他本人保证事情顺利办成。
+      - type: action
+        text: |-
+          纳佐里尼使劲点头，感激得热泪盈眶。唐亲自送他到门口，保证会派得力干将登门安排一切文书细节。面包师用力拥抱唐，随后消失在花园里。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 纳佐里尼倒是做了一笔好投资。两千块一个女婿和一个面包房的终身帮工。
+        parenthetical: (对唐笑着，停顿片刻)
+        emotion: 喜悦
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 交给谁办？
+        emotion: 平静
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          别找我们的人。交给隔壁选区的犹太佬。换个家庭住址。战争结束，估计会有很多类似的事。得在华盛顿再安排几个人，处理我们办不完的事情，免得价格上涨。
+        parenthetical: (蹙眉思考，语气沉稳)
+        emotion: 平静
+      - type: action
+        text: 黑根在记事簿上快速记录。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 别找鲁特科议员，试试费歇尔。
+        emotion: 平静
+      - type: action
+        text: 黑根走出门，片刻后带回第二个人——安东尼·科波拉，一个神情拘谨的年轻男人。
+      - type: action
+        text: 科波拉说明来意：父亲是唐年轻时在铁路货场的工作伙伴。他想开比萨店，购置设施和特制烘箱需要五百块定金，对方不接受赊账。
+      - type: action
+        text: 唐从衣袋里摸出一卷钞票，数了数，皱起眉头——数量不够。他转向黑根。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 借我一百块，星期一我去了银行还你。
+        parenthetical: (做个无奈的鬼脸)
+        emotion: 平静
+      - type: action
+        text: 科波拉连忙摆手，声称四百块就够了。唐拍拍他的肩膀。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 婚礼开销太大，搞得我有点缺现金。
+        parenthetical: (抱歉地笑)
+        emotion: 平静
+      - type: action
+        text: 唐接过黑根递来的一百块，连同自己那卷钞票一并塞给科波拉。科波拉受宠若惊，连声道谢，退出房间。
+      - type: action
+        text: 黑根目送这一幕，眼中满是仰慕。他深知唐的用意——向旁人借钱来帮衬一个穷朋友，这份姿态比金额本身更有分量。
+      - type: action
+        text: 唐抬起头，目光投向黑根，像是在问下一个是谁。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 卢卡·布拉齐，不在名单上，但他想见你。他明白他见不得人，可他想当面祝贺你。
+        emotion: 平静
+      - type: action
+        text: 唐第一次流露出不愉快的神色，略作迟疑后开口，语气拐弯抹角。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 非得见他？
+        parenthetical: (神色微微收紧)
+        emotion: 疑惑
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 你比我更熟悉他。不过你请他参加婚礼，他已经感恩戴德了。他没料到你会请他，估计他想表达一下谢意。
+        parenthetical: (耸耸肩)
+        emotion: 平静
+      - type: action
+        text: 唐·柯里昂沉默片刻，点点头，做手势示意黑根将布拉齐带进来。
+      - type: action
+        text: |-
+          与此同时——花园。卢卡·布拉齐穿行于宾客之间。他身材矮壮，骨架粗大，脸色紫胀，眼神死气沉沉，薄薄的嘴唇如橡皮，颜色像嫩牛肉。他出现的地方，周围宾客不自觉地让出一圈空间。
+      - type: action
+        text: 凯·亚当斯望见布拉齐，神色一僵，悄声向身旁的迈克尔·柯里昂询问。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: |-
+          卢卡·布拉齐是东部地区黑社会最可怕的角色之一，据说头号天赋就是能单枪匹马执行杀人任务，不需要帮凶协助，所以法律不可能发现他的罪行并给他定罪。
+        parenthetical: (压低声音，做个鬼脸)
+        emotion: 平静
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 我不知道这些说法有多少是真的，但我知道他算是我父亲的朋友。
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 你不是想说这种人是你父亲的部下吧？
+        parenthetical: (半信半疑，蹙眉)
+        emotion: 疑惑
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: |-
+          差不多十五年前，有几个人想夺走我父亲的进口油生意。他们刺杀他，险些成功。卢卡·布拉齐杀上门去，风传他在两周内干掉了六个人，终结了著名的橄榄油战争。
+        parenthetical: (笑得像是在说笑话)
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 你是说你父亲被黑帮放过冷枪？
+        parenthetical: (打了个寒战)
+        emotion: 恐惧
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 十五年前。从此就风平浪静了。
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 你想吓唬我对不对？不想和我结婚就直说嘛。
+        parenthetical: (笑着用胳膊肘戳他的侧肋)
+        emotion: 喜悦
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 非常聪明。
+        emotion: 喜悦
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 只是希望你考虑清楚而已。
+        parenthetical: (微笑)
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 他真的杀了六个人？
+        emotion: 疑惑
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: |-
+          报纸这么说的。反正没有证据。不过，有一桩他的事谁也不肯说。估计太恐怖了，连我父亲都避而不谈。汤姆·黑根知道，但不肯告诉我。有次我跟他开玩笑，说，'我得长到几岁才有资格听卢卡的那桩事？'汤姆答道，'一百岁吧。'
+        parenthetical: (抿了一口红酒)
+        emotion: 平静
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 事情肯定非同小可。卢卡也肯定不是平常人。
+        emotion: 平静
+      - type: action
+        text: |-
+          回到办公室。黑根推开房门，卢卡·布拉齐走进来。他的出现令室内气氛骤然一紧。布拉齐在唐面前停下脚步，毕恭毕敬，手足无措，与花园里那副令人胆寒的姿态判若两人。
+      - type: action
+        text: 布拉齐结结巴巴地说了些祝贺的话，一本正经地祝愿唐的第一个外孙是男孩。而后，他从怀中取出一只信封，塞满现金，双手呈上。
+      - type: action
+        text: |-
+          唐·柯里昂接过信封，神色从容，如同皇帝接见立下汗马功劳的臣子——不特别亲昵，却带着王者的尊重。他的每个手势和每句话都表明他非常看重眼前这个人。他用好听的词句向布拉齐致谢。
+      - type: action
+        text: |-
+          黑根看着布拉齐那张凶狠的脸，渐渐漾出满足与自豪。布拉齐俯身，亲吻唐的手背，随后起身，走向黑根为他拉开的房门。黑根不多不少地给了他一个友善的笑容。布拉齐彬彬有礼地扯了扯嫩牛肉颜色的橡皮嘴唇，以此还礼。
+      - type: action
+        text: 门徐徐关上。唐·柯里昂轻轻长出一口气。他耸耸肩，抬眼看向黑根。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 只剩下邦纳塞拉了？
+        parenthetical: (探询地望着黑根)
+        emotion: 平静
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 是。
+        parenthetical: (点点头)
+        emotion: 平静
+      - type: action
+        text: 唐蹙眉沉思片刻。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 带他进来之前，先叫桑蒂诺过来。他该学着点儿。
+        emotion: 平静
+      - type: transition
+        effect: 切至
+    - scene_num: 7
+      heading:
+        location: 柯里昂大宅——花园及室内走廊
+        time: 日
+        interior: false
+      description: 迈克尔向凯介绍卢卡·布拉齐的可怕传闻，黑根在花园急寻桑尼，凯与迈克尔谈及汤姆·黑根的身世。
+      characters_present:
+      - 迈克尔·柯里昂
+      - 凯·亚当斯
+      - 汤姆·黑根
+      content:
+      - type: action
+        text: |-
+          柯里昂大宅花园。阳光明媚，婚礼宾客的喧嚣声在远处回响。迈克尔·柯里昂与女友凯·亚当斯并肩站在花园一角。凯的目光落在不远处的卢卡·布拉齐身上——那张紫胀狂暴的脸令她脸色微变。
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 那个人是谁？
+        parenthetical: (压低声音，目光不敢直视卢卡)
+        emotion: 恐惧
+      - type: action
+        text: 迈克尔望了卢卡一眼，神情复杂，略作犹豫后开口。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 他叫卢卡·布拉齐。东部地区最可怕的人物之一。据说他能单枪匹马执行任务，不需要帮凶——所以法律根本拿他没办法。
+        parenthetical: (停顿，扯了扯嘴角)
+        emotion: 平静
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 我不知道这些说法有多少是真的，但我知道他算是我父亲的朋友。
+        parenthetical: (做了个无所谓的鬼脸)
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 你不是想说这种人是你父亲的部下吧？
+        parenthetical: (半信半疑，蹙眉)
+        emotion: 疑惑
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: |-
+          差不多十五年前，有几个人想夺走我父亲的进口油生意。他们刺杀他，险些成功。卢卡·布拉齐杀上门去，风传他在两周内干掉了六个人，终结了著名的橄榄油战争。
+        parenthetical: (轻描淡写地笑着，像在讲一个无关紧要的笑话)
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 你是说你父亲被黑帮放过冷枪？
+        parenthetical: (打了个寒战)
+        emotion: 恐惧
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 十五年前。从此就风平浪静了。
+        parenthetical: (语气平静，随即收住话头)
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 你想吓唬我对不对？不想和我结婚就直说嘛。
+        parenthetical: (笑着用胳膊肘戳他侧肋)
+        emotion: 喜悦
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 非常聪明。
+        parenthetical: (语带调侃)
+        emotion: 喜悦
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 只是希望你考虑清楚而已。
+        parenthetical: (微笑回应)
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 他真的杀了六个人？
+        emotion: 疑惑
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: |-
+          报纸这么说的。反正没有证据。不过，有一桩他的事谁也不肯说。估计太恐怖了，连我父亲都避而不谈。汤姆·黑根知道，但不肯告诉我。
+        emotion: 平静
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 有次我跟他开玩笑，说：'我得长到几岁才有资格听卢卡的那桩事？'汤姆答道：'一百岁吧。'
+        parenthetical: (抿了一口红酒)
+        emotion: 平静
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 事情肯定非同小可。卢卡也肯定不是平常人。
+        emotion: 冷漠
+      - type: action
+        text: |-
+          镜头转向卢卡·布拉齐。他身材矮壮，骨架粗大，走动间宾客不自觉地让开一条道。那张脸永远一副凶相——棕色的眼睛毫无暖意，死气沉沉的黄褐色；薄嘴唇橡皮质地，色如嫩牛肉。他出现在哪儿，哪儿就仿佛警笛长鸣。
+      - type: action
+        text: |-
+          唐·柯里昂办公室门口。卢卡·布拉齐走入房间，巨大的身躯在门框前显得局促。他双手微颤，神情毕恭毕敬，与花园里令人生畏的形象判若两人。汤姆·黑根站在一侧，静静观察。
+      - type: dialogue
+        character: 卢卡·布拉齐
+        line: 唐……祝您的第一个外孙是男孩。
+        parenthetical: (结结巴巴，将塞满现金的信封恭敬地递上，手足无措)
+        emotion: 紧张
+      - type: action
+        text: |-
+          唐·柯里昂接过信封，神情不露惊讶，如皇帝接见立下汗马功劳的臣子——并不亲昵，而是带着王者的尊严。他用好听的词句道谢，每一个手势都表明他非常看重眼前这个人。黑根看着卢卡·布拉齐那张凶狠的脸渐渐漫上自豪与喜悦。布拉齐俯身，亲吻唐的手背。
+      - type: action
+        text: |-
+          黑根上前为卢卡拉开房门，对他露出不多不少的友善微笑。矮壮的男人彬彬有礼地扯了扯那副嫩牛肉颜色的橡皮嘴唇，以此还礼，随后走出房间。
+      - type: action
+        text: 门徐徐关上。唐·柯里昂轻轻地长出一口气，肩膀微微松动。他转向黑根，神情平静，却有一丝不易察觉的释然。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 只剩下邦纳塞拉了？
+        parenthetical: (探询地望着黑根)
+        emotion: 平静
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 是的。
+        parenthetical: (点点头)
+        emotion: 平静
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 带他进来之前，先叫桑蒂诺过来。他该学着点儿。
+        parenthetical: (蹙眉思考片刻后吩咐)
+        emotion: 平静
+      - type: action
+        text: 花园。黑根走出房间，目光在宾客中快速扫视，心急火燎地寻找桑尼·柯里昂。他走向迈克尔与凯，面色沉着，语气简短。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 见到桑尼了吗？
+        emotion: 紧张
+      - type: action
+        text: 迈克尔摇摇头。黑根压下心头的烦躁，向邦纳塞拉示意稍候，随即快步朝半小时前桑尼进去的那扇门走去。
+      - type: action
+        text: 迈克尔目送黑根走进屋内。凯若有所思地望着那道背影。
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 他是谁？你介绍说他是你哥哥，但他和你不是一个姓，而且怎么看都不是意大利人。
+        emotion: 疑惑
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: |-
+          汤姆十二岁开始就和我们住在一起了。父母双亡，他在街头流浪，眼睛严重感染。一天夜里，桑尼带他回家，他从此就住下了。他没别的地方可去，结婚以后才搬走。
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 多么浪漫啊。你父亲肯定是个热心肠，已经有好几个子女了，还二话不说就又收养了一个。
+        parenthetical: (激动地说)
+        emotion: 喜悦
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 没有收养汤姆，他只是和我们住在一起。
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 为什么不收养他？
+        emotion: 疑惑
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 因为我父亲说要汤姆改姓是不尊重他，不尊重汤姆的亲生父母。
+        parenthetical: (笑道)
+        emotion: 喜悦
+      - type: action
+        text: |-
+          两人望向法式双开门方向——黑根正催着桑尼穿门而过，走进唐的办公室。片刻后，黑根探出身子，朝花园角落的亚美利哥·邦纳塞拉勾了勾手指。
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 他们为什么要在今天这种日子拿公事打扰你父亲？
+        emotion: 疑惑
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 因为他们知道，按照传统，西西里人不能在女儿结婚的日子拒绝请求，也没有哪个西西里人会让这种机会平白溜走。
+        parenthetical: (笑道，语气带着几分无奈与了然)
+        emotion: 平静
+      - type: transition
+        effect: 切至
+    - scene_num: 8
+      heading:
+        location: 柯里昂大宅——二楼空卧室
+        time: 日
+        interior: true
+      description: 桑尼将露西引入空卧室，两人发生性关系，随后被黑根敲门打断，桑尼赶去唐的办公室。
+      characters_present:
+      - 桑尼·柯里昂
+      - 露西·曼奇尼
+      - 汤姆·黑根
+      content:
+      - type: action
+        text: 柯里昂大宅二楼走廊。婚礼的喧嚣声从楼下隐约传来。露西·曼奇尼挽起粉色伴娘礼服，跑上楼梯，气喘吁吁地转过拐角平台。
+      - type: action
+        text: |-
+          桑尼·柯里昂站在走廊阴影里，浓眉大眼，脸因酒气和欲望涨得通红。他伸出手，一把抓住露西的手腕，将她拽进走廊尽头一间空卧室。门在身后关上。
+      - type: action
+        text: |-
+          昏暗的空卧室。窗帘半掩，婚礼乐声若隐若现。两人扑向彼此——桑尼的嘴贴上露西的嘴，他的手摸进伴娘礼服，衣料发出沙沙声。露西两腿发软，搂住他的脖子，几乎吊在半空中。
+      - type: action
+        text: |-
+          桑尼用双手托起她赤裸的臀部将她举起，她双腿裹住他的腰。他拼命一顶，她的后脑撞在门板上。两人狂热缠绵，难分难解，终于一同颤抖着达到高潮。他的身体慢慢松弛，她缠住他的双腿也慢慢松开，滑落回地面。两人彼此偎依，大口喘气。
+      - type: action
+        text: 沉默片刻。轻轻的敲门声骤然响起。桑尼迅速扣上裤子，用身体堵住房门。露西慌忙抚平粉色长袍，眼睛闪闪发亮。
+      - type: action
+        text: 门外传来汤姆·黑根压低的声音。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 桑尼，在里面吗？
+        parenthetical: (压低声音，隔门轻叫)
+        emotion: 平静
+      - type: action
+        text: 桑尼松了一口气，朝露西使个眼色。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 在，汤姆，什么事？
+        parenthetical: (扬声应门，语气随意)
+        emotion: 平静
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 唐要你去他的办公室。就现在。
+        parenthetical: (声音依旧压低)
+        emotion: 平静
+      - type: action
+        text: |-
+          黑根的脚步声渐渐走远。桑尼等了几秒钟。露西猛地扑上去，使劲亲吻他的嘴唇。桑尼轻拍她的脸颊，然后悄悄溜出房门，跟着黑根离去。
+      - type: action
+        text: |-
+          露西独自留在空卧室里。她对着窗玻璃梳理头发，拉好吊袜带，仔细检查一遍衣服。嘴唇软乎乎的，一碰就疼。她的身体感觉受了擦伤，两腿之间黏糊糊湿漉漉的。
+      - type: action
+        text: 她走出房门，没有去卫生间，径直下楼，穿过嘈杂的人群，走进阳光灿烂的花园。
+      - type: action
+        text: 婚礼花园。宾客簇拥在新娘餐桌四周。露西回到座位，在康妮身旁坐下。康妮皱起眉头。
+      - type: dialogue
+        character: 康妮·柯里昂
+        line: 露西，你去哪儿了？怎么像是喝醉了，现在不许再走开了。
+        parenthetical: (压低声音，语带责怪)
+        emotion: 愤怒
+      - type: action
+        text: |-
+          金发新郎卡洛·里齐拿起酒瓶，给露西斟了一杯葡萄酒，心领神会地笑了笑。露西不在乎。她把深红色的葡萄酒端到灼热的嘴唇边，喝了一大口，并拢双腿。身体仍在轻轻颤抖。她隔着杯沿，目光饥渴地在宾客人群中搜寻桑尼·柯里昂的身影。
+      - type: action
+        text: 她凑近康妮，咬着她的耳朵，顽皮地低语。
+      - type: dialogue
+        character: 露西·曼奇尼
+        line: 再过几个小时，你就知道是怎么回事啦。
+        parenthetical: (咬着康妮耳朵，压低声音，坏笑)
+        emotion: 喜悦
+      - type: action
+        text: 康妮咯咯直笑。露西端庄地把双手叠放在桌上，脸上掩不住喜气，就好像偷走了新娘的什么珍宝。她再次举起酒杯，慢慢喝下一口。
+      - type: transition
+        effect: 切至
+    - scene_num: 9
+      heading:
+        location: 柯里昂大宅——唐的办公室
+        time: 日
+        interior: true
+      description: 亚美利哥·邦纳塞拉向唐·柯里昂痛诉女儿被侵害、法庭失公正之事，在唐的一番斥责与教训后，终于低头求得唐的庇护与正义。
+      characters_present:
+      - 唐·维托·柯里昂
+      - 亚美利哥·邦纳塞拉
+      - 汤姆·黑根
+      - 桑尼·柯里昂
+      content:
+      - type: action
+        text: |-
+          柯里昂大宅，唐的办公室。日。内景。汤姆·黑根引领亚美利哥·邦纳塞拉走进拐角房间。唐·柯里昂端坐于宽阔的写字台后，神情冷峻，既未起身拥抱，也未伸手握手。桑尼·柯里昂站在窗口，背对房间，凝望花园。
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 请您原谅我的女儿，您妻子的教女——她今天无法亲自登门，奉上敬意，因为她还没出院。
+        parenthetical: (措辞委婉，说完后瞥了桑尼和黑根一眼，暗示希望单独谈话)
+        emotion: 紧张
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 我们都知道你女儿遭遇的不幸。要是我能帮得上什么忙，你尽管开口就是了。我妻子毕竟是她的教母，我可忘不了这份荣誉。
+        parenthetical: (语气平静，却暗含斥责)
+        emotion: 冷漠
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 能和您单独聊聊吗？
+        parenthetical: (脸色灰败，直截了当)
+        emotion: 紧张
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 这两位都是我愿意托付性命的人。他们是我的两条右臂。我不能打发他们走开，那太侮辱人了。
+        parenthetical: (摇头，语气不容置疑)
+        emotion: 冷漠
+      - type: action
+        text: 邦纳塞拉闭上双眼，沉默片刻。当他再度开口，声音出奇地平静——那是他多年来用来安慰死者家属的声音。
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: |-
+          我按照美国习惯抚养女儿。我相信美国。美国帮我发家。我给女儿自由，但也教她不要让家族蒙羞。她找了个所谓的'男朋友'，不是意大利人。她和他看电影，很晚回家，但她从没见过他的父母。我接受了这一切，没有反对——这都怪我。两个月前，他拉她去看电影，他还带了个伙伴，两人骗她喝威士忌，企图占她便宜。她奋起反抗，保住了贞操，却被他们像对待畜生似的殴打。我赶到医院，她顶着两个黑眼圈，鼻梁折断，下巴粉碎性骨折。医生得用钢丝箍起来才行。她痛得直哭：'爸爸，爸爸，他们为什么要那么做？他们为什么要那么对我？'我也哭了。
+        parenthetical: (声音始终压抑克制，说到最后，哽咽，老泪纵横，却刻意不让情感外露)
+        emotion: 悲伤
+      - type: action
+        text: 唐·柯里昂不情愿地做出一个同情的手势。邦纳塞拉深吸一口气，继续说下去，积压的痛苦终于让他的声音有了人味儿。
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 我为什么哭？我惹人疼爱的女儿，我的生命之光。一个漂亮的女孩。她以前信任别人，以后再也不会了。她再也不漂亮了。
+        parenthetical: (浑身发抖，灰黄的脸涨成深红)
+        emotion: 悲伤
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: |-
+          我像正经美国人那样去报警。警察逮捕了那两个小伙子，送他们上法庭接受审判。证据确凿，他们认罪。法官判处他们监禁三年，却缓期执行，审判当天就释放了。我站在法庭上，活像个大傻瓜，那些杂种还对我笑。于是我对老婆说：'我们必须找唐·柯里昂伸张正义。'
+        parenthetical: (愤恨难平，声音微微颤抖)
+        emotion: 愤怒
+      - type: action
+        text: 唐低下头，向这个男人的痛苦致以短暂的敬意。片刻后，他抬起眼，声音冷得像刀锋。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你为什么报警？为什么不一开始就来找我？
+        parenthetical: (语气冰冷，像是尊严受到了冒犯)
+        emotion: 冷漠
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 你要我怎么做？就说你要什么吧。但请您实现我的恳求。
+        parenthetical: (几不可闻地喃喃，语气近乎傲慢)
+        emotion: 紧张
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你的恳求是什么？
+        parenthetical: (正色，目光锐利)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          邦纳塞拉瞥了黑根和桑尼一眼，摇摇头。唐坐在写字台后，没有起身，只是朝殡仪馆老板探出身子。邦纳塞拉犹豫片刻，随即弯下腰，将嘴唇凑到唐毛茸茸的耳畔，低声耳语。唐·柯里昂如告解室里的神父般静静聆听，眼望远方，冷漠而不动声色。这个姿势保持良久。邦纳塞拉终于挺直腰杆。唐抬起眼，严肃地打量着他。邦纳塞拉脸孔通红，毫不畏惧地回视。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 我做不到，你得意忘形了。
+        parenthetical: (语气平静，却如同判决)
+        emotion: 冷漠
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 你要什么我都答应。
+        parenthetical: (提高嗓门，清清楚楚，孤注一掷)
+        emotion: 恐惧
+      - type: action
+        text: 黑根打了个哆嗦，脑袋里一阵抽紧。桑尼·柯里昂抱起双臂，冷笑一声，从窗口转过身，第一次将目光投向房间里这幕戏。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          我们认识已经很多年了，你和我。但直到今天，你从没有征求过我的意见，或者寻求我的帮助。我妻子是你独生女儿的教母，但我记不得你上次请我去你家喝咖啡是什么时候了。你践踏我的友情，唯恐欠我的债。
+        parenthetical: (从写字台前起身，声音仍不动声色，却仿佛冷酷的死神)
+        emotion: 冷漠
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 我不想惹麻烦。
+        parenthetical: (喃喃，声若蚊鸣)
+        emotion: 恐惧
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          算了，你别说了。你觉得美国是天堂。你生意兴隆，过得不错，以为这世界是个无忧无虑的地方，你可以随心所欲享受快乐。你不用真正的朋友武装自己，因为有警察保护你，还有法院，你和你的家人向他们求助不怕吃亏。你不需要唐·柯里昂。很好。我的感情受了伤害，但我不会把友谊硬塞给并不需要的人，尤其是那些看不起我的人。
+        parenthetical: (抬手止住对方，走向殡仪馆老板，边走边说，语气不疾不徐)
+        emotion: 冷漠
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          今天你却跑来找我，说什么'唐·柯里昂，请帮我伸张正义'，求我却不尊重我。你没有拿出你的友谊。你在我女儿结婚的日子来找我，要我去杀人，还说什么——
+        parenthetical: (顿了顿，对邦纳塞拉露出客气而嘲讽的笑容)
+        emotion: 冷漠
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: '''你要什么我都答应。''不，不，我并不生气，我只想知道，我做了什么，害得你待我这么缺乏礼数？'
+        parenthetical: (轻蔑地模仿邦纳塞拉的语气，末了恢复平静，直视对方)
+        emotion: 冷漠
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 美国对我很好。我想当个好公民。我希望我的孩子能是美国人。
+        parenthetical: (苦闷而恐惧，近乎叫喊)
+        emotion: 恐惧
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          说得好。非常好。那你还有什么可抱怨的？法官已经作出判决。美国已经作了决定。带着鲜花和糖果去医院探望她吧，她见了会很欣慰的。还有什么不满足的吗？再说本来也不算什么大事嘛，小伙子还年轻，血气方刚，况且还有一个是高官的儿子。唉，我亲爱的，亚美利哥，你这人一直循规蹈矩。尽管你践踏我的友谊，我必须承认我完全相信亚美利哥·邦纳塞拉的诺言比别人的都靠得住。所以呢，你要答应我，你会打消那些疯狂的念头。这可不符合美国精神。要宽恕，要遗忘。生命本来就充满了不幸。
+        parenthetical: (拍手，语气克制却字字如刀，冷嘲热讽将邦纳塞拉逼入绝境)
+        emotion: 冷漠
+      - type: action
+        text: 邦纳塞拉在连番讽刺下颤抖成一团，却仍硬撑着鼓起最后一点勇气，再度开口。
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 我请你伸张正义。
+        parenthetical: (咬牙，固执)
+        emotion: 悲伤
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 法庭给了你正义。
+        parenthetical: (敷衍，轻描淡写)
+        emotion: 冷漠
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 不，法庭把正义给了两个年轻人，而没有给我。
+        parenthetical: (固执地摇头，语气罕见地清晰有力)
+        emotion: 愤怒
+      - type: action
+        text: 唐点点头，神情里透出一丝认同。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你要什么正义？
+        parenthetical: (语气平静，等待)
+        emotion: 冷漠
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 以眼还眼。
+        parenthetical: (直视唐，声音低沉而坚定)
+        emotion: 愤怒
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你要得太多了。你女儿还活着。
+        parenthetical: (语气平静，带着轻微的警告)
+        emotion: 冷漠
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 那就让他们受同样的苦。
+        parenthetical: (不情愿，停顿片刻，最终鼓起勇气)
+        emotion: 悲伤
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 我要付给你多少？
+        parenthetical: (绝望地低声问，近乎哀鸣)
+        emotion: 恐惧
+      - type: action
+        text: |-
+          唐·柯里昂背过身去。这是明确的拒绝。邦纳塞拉一动不动，僵立原地。长久的沉默。最后，唐叹了口气，像个没法对犯错朋友长久生气的好心人，缓缓转身，面对脸色苍白如尸体的殡仪馆老板。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          你为什么害怕把第一忠诚献给我？你告上法院，一等就是几个月。你花钱请律师，律师知道得很清楚，你最终只会自取其辱。你接受法官的判决，而法官就像街头最廉价的妓女一样出卖自己。早几年你手头紧，到银行去借钱，利息高得能杀人，你拿着帽子，乞丐似的站在一边等待，他们东闻西闻，把鼻子都伸到你屁眼里了，就为了确认你有能力还贷。
+        parenthetical: (语气渐趋严厉，一字一句，重若千钧)
+        emotion: 冷漠
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          但你要是来找我，我的钱包就是你的。你要是来找我伸张正义，侮辱你女儿的人渣今天只会哭得更加伤心。你这么老实的人要是不走运招惹了敌人，那他们也就是我的敌人……
+        parenthetical: (抬起胳膊，指向邦纳塞拉，目光如炬)
+        emotion: 冷漠
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 那么，请相信我，他们只会害怕你。
+        parenthetical: (声音放缓，语气里第一次浮现一丝温度)
+        emotion: 冷漠
+      - type: action
+        text: 邦纳塞拉低下头。沉默片刻后，他终于开口，声音被某种东西紧紧扼住。
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 做我的朋友吧。我全都接受。
+        parenthetical: (低头，声音哽咽，彻底屈服)
+        emotion: 悲伤
+      - type: action
+        text: 唐·柯里昂伸出手，按在邦纳塞拉的肩上。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          很好。你的正义将得到伸张。有一天——也许永远也不会有这一天——我会请你报答我，帮忙办点小事。在那天之前，就当这份正义是礼物吧，来自我的妻子，你女儿的教母。
+        parenthetical: (温和而庄重，语速缓慢，每个字都像是承诺也像是枷锁)
+        emotion: 平静
+      - type: action
+        text: 房门在感恩戴德的殡仪馆老板身后轻轻关上。唐·柯里昂转身面对黑根，语气恢复到日常处事的简洁。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          把事情交给克莱门扎，吩咐他派靠得住的人处理，不能是闻见血腥味就忘乎所以的手下。不管那个伺候尸体的笨脑瓜里做什么白日梦，我们毕竟不是杀人犯。
+        parenthetical: (语气平静，如同交代一件寻常差事)
+        emotion: 平静
+      - type: action
+        text: 唐注意到桑尼仍背对房间，透过窗玻璃张望着花园里的婚宴。唐凝视着这个男子气概十足的大儿子，心里涌起一阵深重的忧虑。
+      - type: transition
+        effect: 淡出
+    - scene_num: 10
+      heading:
+        location: 柯里昂大宅——花园婚宴现场及门口
+        time: 日
+        interior: false
+      description: 约翰尼·方坦突然现身婚宴，与老友尼诺合唱助兴，随后被唐领进屋内密谈。
+      characters_present:
+      - 约翰尼·方坦
+      - 康妮·柯里昂
+      - 尼诺·瓦伦蒂
+      - 唐·维托·柯里昂
+      - 迈克尔·柯里昂
+      - 凯·亚当斯
+      - 汤姆·黑根
+      content:
+      - type: action
+        text: 花园婚宴现场。欢呼声如浪潮般席卷整个庭院。桑尼·柯里昂快步走向窗户，向外张望，脸上浮现出愉快的笑容。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 是约翰尼，他来参加婚礼了，我怎么说的来着？
+        parenthetical: (快步走向房门)
+        emotion: 喜悦
+      - type: action
+        text: 黑根走向窗户，确认了桑尼的话，转身对唐·柯里昂说。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 确实是你的教子。要带他过来吗？
+        parenthetical: (望向唐)
+        emotion: 平静
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 不用。让大家跟他开开心吧。叫他有空了再来见我。
+        parenthetical: (对黑根微微一笑)
+        emotion: 平静
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 看到了吗？真是个好教子。
+        emotion: 喜悦
+      - type: action
+        text: 黑根心头一阵隐痛，嫉妒悄然涌上，表情却维持着一贯的克制。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 都两年没见了。多半又惹了麻烦，来找你帮忙。
+        parenthetical: (语气干涩)
+        emotion: 冷漠
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 有麻烦不找他的教父还能找谁呢？
+        emotion: 平静
+      - type: action
+        text: 花园里。约翰尼·方坦穿过人群走进婚宴。康妮·柯里昂一眼认出他，全然忘了新娘的矜持，尖声呼喊。
+      - type: dialogue
+        character: 康妮·柯里昂
+        line: 约翰尼！
+        parenthetical: (跑过去扑进他的怀抱)
+        emotion: 喜悦
+      - type: action
+        text: |-
+          约翰尼紧紧拥抱康妮，亲吻她的嘴。旧日伙伴们纷纷涌上前问候，他仍一直搂着康妮，笑容温暖。康妮拽着他去见新郎——一个因为不再是焦点而面露不悦的金发年轻人。约翰尼一眼看穿，却毫不露声色，使出全部魅力与新郎握手，端起一杯葡萄酒向他敬酒。
+      - type: action
+        text: 演奏台上。一个熟悉的声音从人群中喊出来。
+      - type: dialogue
+        character: 尼诺·瓦伦蒂
+        line: 约翰尼，来给我们唱一首吧？
+        parenthetical: (笑容灿烂，举起曼陀林)
+        emotion: 喜悦
+      - type: action
+        text: 约翰尼抬起头，见到尼诺·瓦伦蒂醉醺醺的促狭笑容，往日情谊一涌而来。他跳上演奏台，大步走过去，将尼诺紧紧抱住。
+      - type: action
+        text: 约翰尼搭上尼诺的肩膀，转向宾客。
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 这首歌献给新娘。
+        parenthetical: (跺脚起唱，声音放浪)
+        emotion: 喜悦
+      - type: action
+        text: |-
+          尼诺拨响曼陀林，同时用夸张的肢体动作配合演出。一首下流的西西里情歌在花园里飘荡。康妮骄傲地涨红了脸。宾客们欢声雷动，随着每个小节末尾的双关语跺脚吼叫，掌声经久不息。约翰尼清清嗓子，接着唱起第二首。
+      - type: action
+        text: |-
+          约翰尼俯身，将新娘康妮拽上演奏台，让她站在自己与尼诺之间。两人面对面弯下腰，尼诺猛地拨弦，奏出几个刺耳的和弦。老把戏重现——模仿情场争斗，声音如利刃对决，轮流吼出一段迭句。约翰尼微妙地退让半步，让尼诺的声音盖过自己，让尼诺从他怀里'抢走'新娘，让尼诺接过最后一段凯旋的歌词，自己的声音则渐渐隐去。整个婚宴现场爆发出震天的欢呼与掌声。三人相拥，宾客高声央求再唱一首。
+      - type: action
+        text: |-
+          屋子拐角的门口。唐·柯里昂静静站在阴影里，神情若有所思——他感觉到有什么地方不对劲，却将这情绪压了下去，随即换上一副心满意足的面容，向花园里大声喊道。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 我的教子跑了三千英里来向我们致敬，难道谁也不想让他润润嗓子？
+        parenthetical: (快活地，向四周宾客示意)
+        emotion: 喜悦
+      - type: action
+        text: |-
+          十几个斟满红酒的杯子立刻伸向约翰尼·方坦。他从每个酒杯里各喝一口，随后穿过人群跑向教父，给了老人一个拥抱，同时凑近耳边低声说了些什么。唐颔首，领着他走进屋子。
+      - type: action
+        text: 室内。约翰尼跟着唐走进房间，汤姆·黑根迎上前，伸出手。
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 最近可好，汤姆？
+        parenthetical: (握手，神情礼貌却疏淡)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          黑根察觉到约翰尼少了往日那种真诚与热情，心里微微一沉，却很快将这点情绪压了下去——这不过是担任唐的心腹所要承受的代价之一。
+    - scene_num: 11
+      heading:
+        location: 柯里昂大宅——唐的办公室
+        time: 日
+        interior: true
+      description: |-
+        约翰尼向唐倾诉感情失败、嗓子受损、被电影公司老板杰克·沃尔茨排挤的困境，唐训斥他软弱并承诺摆平沃尔茨，同时安排黑根飞赴洛杉矶处理此事。
+      characters_present:
+      - 唐·维托·柯里昂
+      - 约翰尼·方坦
+      - 汤姆·黑根
+      content:
+      - type: action
+        text: 约翰尼·方坦走进办公室。汤姆·黑根起身，向他伸出手。
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 最近可好，汤姆？
+        parenthetical: (握手，语气平淡，缺乏往日的热情)
+        emotion: 冷漠
+      - type: action
+        text: 黑根感受到约翰尼的冷淡，略有些受伤，但不动声色。约翰尼转向唐·柯里昂，深吸一口气。
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: |-
+          收到婚礼请帖，我心想，'我的教父不再生我的气了。'我离婚后给你打过五次电话，汤姆总说你出去了或者很忙，所以我知道你不高兴。
+        parenthetical: (语气小心，带着试探)
+        emotion: 紧张
+      - type: action
+        text: 唐·柯里昂拿起桌上黄色的「女巫」酒瓶，不紧不慢地给约翰尼斟满酒杯。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 都是过去的事了。现在归现在。我还能为你做什么事情吗？还是你名气太大，太有钱，已经不需要我的帮助了？
+        emotion: 平静
+      - type: action
+        text: 约翰尼一口饮尽那杯黄澄澄的烈酒，伸出空杯示意再倒一杯。他努力让自己的声音听起来轻松自在。
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 我哪里算有钱啊，教父？我在走下坡路。你说得对。我不该为了现在这个贱婆娘抛弃老婆和孩子。你生我的气，我不怪你。
+        emotion: 悲伤
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 我只是担心你，你是我的教子，没别的。
+        parenthetical: (耸耸肩)
+        emotion: 平静
+      - type: action
+        text: 约翰尼开始在房间里踱步，积蓄已久的愤恨随着脚步一同涌出。
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: |-
+          我被那条母狗迷花了眼。好莱坞最了不起的明星。她貌若天仙。可你知道她拍完电影做什么吗？要是化妆师是男人，把她的脸画得好看点，她就允许他操她。要是摄影师把她拍得格外上镜，她就领他去更衣室，跟他打一炮。随便什么人都行。她对她的肉体就像我对口袋里当小费的零钱。完全是魔鬼的婊子。
+        parenthetical: (踱步，语气从痛苦转为愤恨)
+        emotion: 愤怒
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你的家人怎么样了？
+        parenthetical: (突然打断，语气平静但有力)
+        emotion: 平静
+      - type: action
+        text: 约翰尼停住脚步，叹了口气。
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 我照顾着呢。离婚后，我给金妮和孩子的比法庭的判决还要多。我每周见他们一次。我想念他们。有时候我觉得我要发疯了。
+        parenthetical: (停顿，又喝掉一杯酒)
+        emotion: 悲伤
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: |-
+          现在的妻子成天嘲笑我。她不理解我为什么吃醋。她说我是死脑筋的黑皮，还取笑我的歌艺。我走前好好收拾了她一顿，但没打脸，因为她在拍电影。我揍得她抽筋，像小孩似的只打胳膊和腿，她笑个不停。
+        parenthetical: (点燃香烟，语气麻木)
+        emotion: 悲伤
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 就这样，教父，活得真没意思。
+        emotion: 悲伤
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 这些麻烦我可帮不了你。
+        parenthetical: (顿了顿)
+        emotion: 平静
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你的嗓子是怎么了？
+        emotion: 疑惑
+      - type: action
+        text: 约翰尼脸上的自信与自嘲瞬间消失。他几乎哽咽。黑根和唐对视一眼——约翰尼向来硬气，这番模样令两人都感到震惊。
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 教父啊，我没法再唱歌了，我的喉咙出了问题，医生也搞不清楚原因。
+        parenthetical: (声音哽咽，几近落泪)
+        emotion: 悲伤
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 我的两部电影挣了很多钱。我曾经是大明星，现在他们一脚把我踢开。电影公司老板对我恨之入骨，现在要打发我滚蛋了。
+        emotion: 悲伤
+      - type: action
+        text: 唐·柯里昂缓缓站起身，走到教子面前，神情阴沉。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 他为什么讨厌你？
+        emotion: 平静
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: |-
+          我以前唱过颂扬自由派组织的歌曲，你知道的，你很不喜欢我唱那些东西。唉，杰克·沃尔茨也不喜欢。他说我是共产党，不过没能把罪名栽给我。后来我勾搭了他的女人。完全是一夜情，她却反过来追我。我他妈能怎么办？再然后我的婊子老婆赶我出门，金妮和孩子不肯接受我，除非我愿意趴在地上哀求，而且我连歌都没法唱了。教父啊，我他妈该怎么办？
+        parenthetical: (语气崩溃，近乎哭诉)
+        emotion: 恐惧
+      - type: action
+        text: 唐·柯里昂脸色铁青，毫无同情之意。他盯着约翰尼，眼神轻蔑。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 首先，你得像个男人。
+        emotion: 冷漠
+      - type: action
+        text: 唐的脸突然被怒火扭曲。他猛地探身越过办公桌，一把揪住约翰尼的头发，动作粗猛却带着一种蛮横的爱意。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          像个男人！老天在上，你在我身边待了那么久，怎么可能变成这个样子？好莱坞的软蛋？哭哭啼啼求人可怜？哭得像个娘儿们——'我该怎么办？哦，我该怎么办？'
+        parenthetical: (吼叫，末句模仿约翰尼哭腔，神情夸张)
+        emotion: 愤怒
+      - type: action
+        text: |-
+          唐的模仿来得突然，出人意料。黑根和约翰尼先是一愣，随即都放声大笑。唐自己也有几分得意，沉默片刻，目光柔和地落在教子身上。约翰尼已经在笑了，正重新打起精神。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          你抢了老板的女人，他比你有权势得多，然后居然还抱怨他不肯拉你一把。真是一派胡言。你抛弃了家庭，另娶一个婊子，让孩子没了父亲，现在因为他们不肯敞开怀抱迎接你而哭哭啼啼。那个婊子，你不肯打她的脸，就因为她在拍电影，她笑话你，你居然还吃惊。你活得像白痴，自然有白痴一样的下场。
+        emotion: 平静
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 这次愿意接受我的建议吗？
+        parenthetical: (停顿，换上耐心的语气)
+        emotion: 平静
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: |-
+          我不能和金妮复婚，我没法过她想要的日子。赌博、喝酒、和朋友一起鬼混，这些我都戒不掉。漂亮的女人追我，我拒绝不了她们。回到金妮面前，我总觉得自己在做贼。天哪，我可不想再受一遍那些折磨。
+        parenthetical: (耸耸肩，语气疲倦)
+        emotion: 悲伤
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          我没叫你复婚。你爱怎么过就怎么过。你愿意当孩子的父亲，这当然最好。男人要是不愿意好好当父亲就不是真正的男人。但另一方面，你不能强迫孩子的母亲接受你。谁说你不能每天去看孩子了？谁说你们不能住在一个屋檐下了？谁说你不能想怎么过日子就怎么过日子了？
+        parenthetical: (难得露出恼怒，语气加重)
+        emotion: 愤怒
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 教父啊，不是所有女人都是老式的意大利妻子。金妮可不吃这套。
+        parenthetical: (苦笑)
+        emotion: 无奈
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          那是因为你活得就像个软蛋。你给的比法庭判的更多。你不打现在老婆的脸，因为她在拍电影。你让女人主宰你的世界，可她们无法胜任。虽说死后她们都会上天堂当圣人，我们只能在地狱受煎熬。另外，这些年我一直在看着你。
+        parenthetical: (挖苦，随后语气转为真诚)
+        emotion: 平静
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          你始终是个好教子，给了我最大的尊敬。可是，你的老朋友呢？今年你跟这个人厮混，明年又是另外一个人。那个意大利小伙子怎么样了？他在电影里很有趣，可是运气不好，你见不到他了，因为你现在出名了。跟你一起上学的老伙计怎么样了？他可是你唱歌的搭档啊。对，尼诺。他很失望，拼命喝酒，但从不抱怨。他开卡车运砂土，干得很卖力，周末唱歌挣区区几个小钱。他从不说你的坏话。你就不能帮帮他？为什么？他唱得不错。
+        emotion: 平静
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 教父，他实在天赋不足。好是挺好，但并不出色。
+        parenthetical: (虽厌倦，仍耐心解释)
+        emotion: 冷漠
+      - type: action
+        text: 唐·柯里昂的眼皮几乎耷拉成一条缝，目光落在约翰尼身上，意味深长。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你，我的教子，你啊，才是实在天赋不足。要不我给你找个和尼诺一起开卡车运砂土的工作？
+        emotion: 冷漠
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          友谊就是一切。比天赋更重要，比政府更重要。和家人差不多同样重要。千万别忘了这一点。你要是能用友谊筑起一道墙，就不需要求我帮忙了。来，说说看，你为什么没法唱歌了？你在花园里唱得不赖，都赶得上尼诺了。
+        parenthetical: (约翰尼没有吭声，唐继续道)
+        emotion: 平静
+      - type: action
+        text: 唐话语里暗藏的讽刺让黑根和约翰尼都微微一笑。约翰尼耐心地开口。
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: |-
+          我的嗓子变得很脆弱。唱上一两首，然后有几个小时甚至几天没法唱歌。彩排和重拍我怎么都熬不下来。我的嗓子很脆弱，肯定得了什么毛病。
+        emotion: 悲伤
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 这么说，你有女人的麻烦，嗓子有毛病，现在又告诉我，你还和那位好莱坞的一把手不和，他拒绝让你工作。
+        parenthetical: (语气转换，开始谈正事)
+        emotion: 平静
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: |-
+          他比你说的一把手还大。他是电影公司的老板。他是总统的顾问，利用电影宣传战争。一个月前刚买了今年最热门的小说的电影改编权。一本畅销书，主角恰好就是我这种人，我都不需要表演，做我自己就行了。连唱歌都不需要。说不定能拿奥斯卡奖。大家都知道那个角色适合我，我会重新走红。这次是以演员的身份。可混蛋杰克·沃尔茨要赶我走，不肯把角色给我。我说我愿意白干，拿最低薪酬就行，但他还是说不行。他还放出风声说，我要是肯去电影公司的内部餐厅舔他的屁眼，说不定他还会稍微考虑一下。
+        parenthetical: (越说越激动，最后一句充满屈辱)
+        emotion: 愤怒
+      - type: action
+        text: 唐·柯里昂挥挥手，示意约翰尼停下情绪化的抱怨。他走到教子身边，拍拍他的肩膀，目光审视地打量着他。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你泄气了。你觉得没有人关心你？你瘦多了，喝了不少酒吧？睡不着，吃安眠药？
+        parenthetical: (不满地摇摇头)
+        emotion: 平静
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          我要你遵守我的命令。我要你在我家住一个月。好好吃饭，休息睡觉。我要你多陪陪我，我喜欢有你做伴，你说不定能从你教父身上学到点为人处世的道理，帮你在了不起的好莱坞混世界。但是，不许唱歌，不许喝酒，不许碰女人。一个月结束，你回好莱坞去，这个一把手、炮筒子，就会把你要的角色交给你。成交吗？
+        emotion: 平静
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 这家伙和埃德加·胡佛有私交，在他面前说话都不能太大声。
+        parenthetical: (将信将疑，语气迟疑)
+        emotion: 疑惑
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 他是生意人。我会给他一个他无法拒绝的条件。
+        parenthetical: (不动声色)
+        emotion: 平静
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 太晚了。合约都已经签好，一周内就要开始拍摄。怎么想都不可能啊。
+        emotion: 疑惑
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 去，参加宴会吧。朋友们在等你呢，一切都交给我了。
+        parenthetical: (将约翰尼·方坦赶出房间)
+        emotion: 平静
+      - type: action
+        text: 约翰尼离开后，房间归于安静。黑根在办公桌前坐下，取出纸笔，准备记录。唐长叹一声。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 还有事情吗？
+        emotion: 平静
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 索洛佐，没法继续拖延了，你本周必须见他。
+        parenthetical: (抬起笔，指着日历)
+        emotion: 紧张
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 等婚礼结束，时间你来安排。
+        parenthetical: (耸耸肩)
+        emotion: 平静
+      - type: action
+        text: 黑根心里明白：这个答案意味着索洛佐将得到拒绝，也意味着唐清楚这个拒绝会招来麻烦。他小心地开口。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 要我吩咐克莱门扎找几个人住在家里吗？
+        emotion: 紧张
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          为什么？我不肯在婚礼前回答，是因为这么重要的日子容不得乌云，连远远的一丝乌云也不行。另外，我想事先知道他想谈什么。现在我们知道了。他的提议很见不得人。
+        parenthetical: (不耐烦地挥手)
+        emotion: 冷漠
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 那么，你打算拒绝？
+        emotion: 疑惑
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 我觉得你回答之前，我们应该先讨论一下，全家一起讨论。
+        parenthetical: (见唐点头，继续说)
+        emotion: 紧张
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          你这么想？好吧，讨论一下也好。等你从加州回来好了。你明天飞过去，替约翰尼摆平这件事。见见那个电影业的大人物。告诉索洛佐，你从加州回来，我就见他。还有事情吗？
+        parenthetical: (微微一笑)
+        emotion: 平静
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 医院打过电话。阿班丹多顾问快不行了，挺不过今天晚上。已经通知他家里人过去候着了。
+        parenthetical: (神色凝重)
+        emotion: 悲伤
+      - type: action
+        text: 黑根代理顾问职务已近一年，此刻暗自等待着唐正式承认他的地位。唐沉默片刻，没有任何表示，只是抬起眼睛。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 我女儿什么时候和新郎离开？
+        emotion: 平静
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 几分钟后，他们切蛋糕，再过半个小时就走。
+        parenthetical: (看看手表，随即想起另一件事)
+        emotion: 平静
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 你的新女婿，要给他在家族内部安排个重要职务吗？
+        emotion: 疑惑
+      - type: action
+        text: 唐用手掌猛拍桌面，力道之重令黑根一惊。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          没门。绝对没门。给他安排个挣钱过日子的活计，日子可以过得不错，但绝对不能让他了解家族生意。把这话告诉其他人，桑尼、弗雷迪、克莱门扎。
+        parenthetical: (斩钉截铁，语气不容置疑)
+        emotion: 愤怒
+      - type: action
+        text: 唐顿了顿，神色恢复平静。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          吩咐我的儿子，三个儿子，叫他们陪我去医院给可怜的占科送终。我要他们向他致以最后的敬意。叫弗雷德开大车，问约翰尼要不要一起去，就当给我个面子。
+        emotion: 平静
+      - type: action
+        text: 唐见到黑根疑惑地望着他，补充道。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你今晚就去加州。你没时间见占科了。不过等我从医院回来，和你谈完你再走。明白了？
+        emotion: 平静
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 明白。要弗雷德什么时候准备车子？
+        emotion: 平静
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 宾客离开以后。占科会等我的。
+        emotion: 平静
+      - type: transition
+        effect: 淡出
+    - scene_num: 12
+      heading:
+        location: 柯里昂大宅——花园婚宴现场
+        time: 昏
+        interior: false
+      description: 婚礼蛋糕推出，宾客欢庆后散去，康妮与卡洛离开度蜜月，唐彬彬有礼地送别众人并注意到调查局便衣已撤离。
+      characters_present:
+      - 唐·维托·柯里昂
+      - 康妮·柯里昂
+      - 卡洛·里齐
+      - 迈克尔·柯里昂
+      - 凯·亚当斯
+      - 纳佐里尼
+      content:
+      - type: action
+        text: 花园婚宴现场。宾客欢声笑语，乐声流动。约翰尼·方坦出现在花园入口，人群纷纷侧目。凯·亚当斯认出他，愣住了。
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 你没说你们家和约翰尼·方坦有交情。现在我非得嫁给你了。
+        parenthetical: (真心吃惊，抓住迈克尔的手臂)
+        emotion: 喜悦
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 想会会他吗？
+        parenthetical: (轻描淡写，带着一丝得意)
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 现在就算了。我爱了他足足三年。只要他在大都会剧院开演唱会我就来纽约，尖叫得脑袋要爆炸。他实在无与伦比。
+        parenthetical: (叹了口气，望向约翰尼的背影)
+        emotion: 喜悦
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 我们等会儿去找他。
+        emotion: 平静
+      - type: action
+        text: |-
+          约翰尼唱完一曲，谢幕时与唐·柯里昂交换了一个眼神，两人并肩走进屋内，消失在宾客视野里。凯目送他们离去，若有所思地转向迈克尔。
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 你不是想说约翰尼·方坦这样的大明星也要求你父亲帮忙吧？
+        parenthetical: (狡黠地笑)
+        emotion: 疑惑
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 他是我父亲的教子。要不是我父亲，他今天也成不了大明星。
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 听起来像是又一个了不起的故事。
+        parenthetical: (笑得很开心)
+        emotion: 喜悦
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 但我不能说。
+        parenthetical: (摇摇头)
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 你可以信任我。
+        emotion: 平静
+      - type: action
+        text: 迈克尔沉默片刻，看了看四周，压低声音开口。他语气平静，既无玩笑，也无自豪。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: |-
+          八年前，约翰尼和一个流行乐队合唱，红透了。可他一开始就被乐队领班莱斯·哈雷用五年合约套住了，哈雷靠转租他捞走大半收入。我父亲出面，想用两万块买断那份合约。哈雷不肯，说最多只交出五成分成。我父亲把价格降到一万——哈雷还是不肯，当场回绝。
+        parenthetical: (语气平静，没有起伏)
+        emotion: 平静
+      - type: action
+        text: 迈克尔顿了顿，目光平静。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: |-
+          第二天，我父亲亲自去见哈雷。带了顾问占科·阿班丹多，还有卢卡·布拉齐。没有旁人在场。我父亲用手枪顶着哈雷的脑门，告诉他——一分钟内要么签字，要么脑浆洒满那份文件。哈雷签了。我父亲收起枪，把一万元的保付支票递给他。
+        parenthetical: (不动声色，像在说一件寻常往事)
+        emotion: 冷漠
+      - type: action
+        text: 凯听得屏住了呼吸。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: |-
+          后来的事你大概知道了。约翰尼一飞冲天，成了全国最红的歌手，拍好莱坞音乐片，唱片销量百万计。然后他和青梅竹马的妻子离婚，抛下两个孩子，娶了好莱坞最灿烂的金发女星——很快发现那女人是个'婊子'。他开始酗酒、赌博、追女人。歌喉出了问题，唱片卖不动，电影公司不续约。所以他现在回来了。
+        emotion: 冷漠
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 你确定你不羡慕你父亲吗？听你说的，他尽在为别人办好事了。他肯定是天生的热心肠。
+        parenthetical: (若有所思，随即坏笑)
+        emotion: 疑惑
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 当然啦，手段不完全遵纪守法。
+        emotion: 喜悦
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: |-
+          听起来确实是这么一回事，但请让我换个说法。知道极地探险家在通往北极的路上要沿途存放口粮，防止日后某天会需要食物吗？那就是我父亲的人情。他迟早会找上门，而他们最好按他说的做。
+        parenthetical: (叹了口气，神情复杂)
+        emotion: 平静
+      - type: action
+        text: |-
+          暮色渐渐染红花园的边缘。婚宴侍从缓缓推出那座巨大的婚礼蛋糕，宾客们发出一阵赞叹。蛋糕出自纳佐里尼之手，贝壳形状的奶油装点其间，精巧而丰盛。
+      - type: action
+        text: |-
+          康妮·柯里昂挤到蛋糕前，贪婪地从上面挑了好几块奶油送入口中，笑声不断。片刻后她拉起卡洛·里齐的手，两人消失在人群里，向着蜜月奔去。
+      - type: action
+        text: |-
+          唐·维托·柯里昂在宾客中穿行，彬彬有礼地逐一道别，神情温和而不失从容。他的目光悄悄扫向庄园外的街道——调查局探员停在路边的那辆黑色轿车，已经悄然消失无踪。唐的嘴角微微一动。
+      - type: transition
+        effect: 淡出
+    - scene_num: 13
+      heading:
+        location: 柯里昂大宅——车道及前往法兰西医院途中
+        time: 昏
+        interior: false
+      description: 唐率桑尼、迈克尔、弗雷迪和约翰尼驱车前往医院探望垂死的顾问占科·阿班丹多，途中唐关切迈克尔学业并暗示日后另有安排。
+      characters_present:
+      - 唐·维托·柯里昂
+      - 桑尼·柯里昂
+      - 弗雷迪·柯里昂
+      - 迈克尔·柯里昂
+      - 约翰尼·方坦
+      content:
+      - type: action
+        text: |-
+          黄昏时分。柯里昂大宅车道上，一辆黑色凯迪拉克长轴轿车静静停着。宾客已散，四周归于平静。弗雷迪坐进驾驶座。唐·柯里昂身形魁梧，却动作灵巧地坐上前排。桑尼、迈克尔和约翰尼·方坦依次钻进后排。车门轻阖。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你的女朋友，她自己回市里没问题吧？
+        parenthetical: (半侧身，目光温和地望向迈克尔)
+        emotion: 平静
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 汤姆说他会安排好的。
+        parenthetical: (点头)
+        emotion: 平静
+      - type: action
+        text: |-
+          唐·柯里昂微微点头，转回目视前方。对黑根的效率，他显然满意。凯迪拉克缓缓驶离车道，驶上外环公园大道。燃油定量配给尚未取消，夜色中的公路车流稀落。
+      - type: action
+        text: 行车途中。车内安静，路灯光影从车窗一道道扫过。唐·柯里昂侧过身，望向迈克尔。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 学业怎么样？
+        parenthetical: (随口问，语气轻描淡写)
+        emotion: 平静
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 不错。
+        parenthetical: (点头，简短)
+        emotion: 平静
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 约翰尼说你在帮他处理好莱坞的事情，要我过去帮忙吗？
+        parenthetical: (从后座探身向前，随意而热络)
+        emotion: 疑惑
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 汤姆今晚过去。他不需要帮忙，事情很简单。
+        parenthetical: (不假思索，语气干脆)
+        emotion: 冷漠
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 约翰尼觉得你搞不定，所以我想你会派我去。
+        parenthetical: (笑着说，带着几分挑衅)
+        emotion: 喜悦
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你为什么质疑我？
+        parenthetical: (扭头盯住桑尼，目光沉定)
+        emotion: 冷漠
+      - type: action
+        text: 唐转向后排的约翰尼·方坦，目光带着追问。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你的教父曾经失信过吗？我被人愚弄过吗？
+        parenthetical: (语气平稳，却有无可辩驳的分量)
+        emotion: 冷漠
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 教父，幕后主使是个真正的炮筒子。油盐不进，连花钱都没用。他手眼通天，而且恨我。我实在想不出你还能怎么处理。
+        parenthetical: (局促不安，急于解释)
+        emotion: 紧张
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 听我一句话：你能如愿以偿。
+        parenthetical: (语带亲昵，似笑非笑，话音轻松却掷地有声)
+        emotion: 平静
+      - type: action
+        text: 唐用胳膊肘轻轻碰了碰坐在旁边的迈克尔，眼角含笑。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 我们可不能让我的教子失望，你说呢，迈克尔？
+        parenthetical: (侧目看向迈克尔，带着询问与逗弄)
+        emotion: 喜悦
+      - type: action
+        text: 迈克尔从未对父亲有过哪怕一秒的怀疑。他平静地摇摇头。
+      - type: action
+        text: |-
+          凯迪拉克驶入法兰西医院所在的街道，停靠路边。众人下车，向医院大门走去。唐·柯里昂忽然伸手，握住迈克尔的胳膊，示意其他人先行。桑尼、弗雷迪和约翰尼向前走去，父子二人留在原地。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 等你念完大学，来找我谈谈。我有些计划，你会喜欢的。
+        parenthetical: (低声，直视迈克尔，语气诚恳而郑重)
+        emotion: 平静
+      - type: action
+        text: 迈克尔沉默，没有应声。唐·柯里昂的神情微微一沉，语气里透出一丝按捺的急切。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          我知道你是什么人。我不会强迫你做你不赞成的事情。不过这次比较特殊。你现在尽管过你的日子，反正你已经成年了。但等你念完大学，请以儿子的身份来见我。
+        parenthetical: (压低声音，语气由嘟囔转为郑重，最后一句话咬字清晰)
+        emotion: 紧张
+      - type: action
+        text: 父子二人并肩踏上医院台阶，走入大门。夜色沉落。
+      - type: transition
+        effect: 淡出
+    - scene_num: 14
+      heading:
+        location: 法兰西医院——走廊及占科病房
+        time: 夜
+        interior: true
+      description: 唐率众人探望濒死的老友占科·阿班丹多，占科在弥留之际哀求唐救他性命，唐以慰藉回应，最终独自陪伴老友走向死亡。
+      characters_present:
+      - 唐·维托·柯里昂
+      - 占科·阿班丹多
+      - 约翰尼·方坦
+      - 迈克尔·柯里昂
+      - 桑尼·柯里昂
+      - 弗雷迪·柯里昂
+      - 肯尼迪医生
+      content:
+      - type: action
+        text: |-
+          法兰西医院走廊。白色瓷砖在灯光下泛着冷光。占科·阿班丹多的妻子与三个女儿身着黑衣，聚在走廊一角，像一群蜷缩的乌鸦。电梯门打开，唐·柯里昂走出——身穿略显宽大的燕尾服，矮胖而沉稳。那几个女人像被什么力量牵引，立刻扑过来围住他。
+      - type: action
+        text: 阿班丹多太太抓住唐的双臂，热泪盈眶，在他面颊上用力一吻。
+      - type: dialogue
+        character: 阿班丹多太太
+        line: 噢，您是什么样的圣人啊，在女儿结婚的日子来这儿。
+        parenthetical: (哽咽，抬头望着唐)
+        emotion: 悲伤
+      - type: action
+        text: 唐轻轻抬起一只手，示意她不必言谢。他的眼神平静，语气却掷地有声。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 我难道不该来向这么一位朋友表示敬意吗？他担任我的右臂足有二十年啊。
+        parenthetical: (语气温和，却带着不容置疑的份量)
+        emotion: 平静
+      - type: action
+        text: 阿班丹多太太喋喋不休，丝毫没有察觉丈夫今夜将要离去。她攥着唐的手往病房方向引。
+      - type: dialogue
+        character: 阿班丹多太太
+        line: |-
+          进去见见我可怜的丈夫吧，他问起你来着。可怜的男人，他想去参加婚礼，表示敬意，但医生怎么都不许。他随后说你会在这个大喜之日来看他，但我怎么都不肯相信。唉，男人比女人更理解友谊。快进去吧，他见到你一定会很高兴。
+        parenthetical: (边说边拉着唐的手臂，眼角含泪却并无绝望)
+        emotion: 悲伤
+      - type: action
+        text: |-
+          就在这时，病房门开了。一名护士和一位年轻医生走出来。那医生面色严肃，举止中天生带着一股发号施令的气派。众人的目光齐刷刷投向他。
+      - type: dialogue
+        character: 阿班丹多大女儿
+        line: 肯尼迪医生，我们能进去看看他吗？
+        parenthetical: (低声，怯生生地)
+        emotion: 恐惧
+      - type: action
+        text: 肯尼迪医生扫视这一大群人，眉头微皱，压下心中的不耐。
+      - type: dialogue
+        character: 肯尼迪医生
+        line: 只能是直系亲属。
+        parenthetical: (语气礼貌却冷淡，不容商量)
+        emotion: 冷漠
+      - type: action
+        text: 肯尼迪医生话音刚落，却发现妻子和三个女儿全都扭过头，望向那个身穿燕尾服的矮胖男人，像是等他发话。医生微微一愣。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 亲爱的医生，他真的快死了吗？
+        parenthetical: (不紧不慢，目光直视肯尼迪，语气近乎轻柔)
+        emotion: 平静
+      - type: dialogue
+        character: 肯尼迪医生
+        line: 对。
+        parenthetical: (简短，语气略显戒备)
+        emotion: 冷漠
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 那你就没什么可做的了。把重任交给我们吧。我们会安慰他，帮他合眼。我们会埋葬他，在葬礼上流泪，之后照顾他的妻子和女儿。
+        parenthetical: (语气平静而直截了当，未加任何修饰)
+        emotion: 平静
+      - type: action
+        text: |-
+          这番话毫无遮掩，如同一把钥匙，强行打开了阿班丹多太太心底封锁已久的那道门。她终于明白过来，失声痛哭。肯尼迪医生沉默片刻，耸了耸肩。
+      - type: dialogue
+        character: 肯尼迪医生
+        line: 请等护士放你们进去，她还有些必要的事情要帮患者做。
+        parenthetical: (仍保持礼貌，但话语里已无对抗的余地，随即转身离去)
+        emotion: 冷漠
+      - type: action
+        text: 肯尼迪医生的白大褂在走廊尽头翻飞消失。众人在门口静静等候。片刻后，护士从病房里出来，拉开了门。
+      - type: dialogue
+        character: 护士
+        line: 疼痛和高烧害得他神志不清，尽量别惊动他。你们只能待几分钟，妻子可以留下。
+        parenthetical: (压低声音，神情职业而疲惫)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          众人依次走进病房。约翰尼·方坦经过护士身旁时，护士猛地认出了他，眼睛瞬间睁大。约翰尼朝她浅浅一笑。护士回以毫不掩饰的挑逗眼神。约翰尼在心里默默将她归了个档，随即跟上众人，走进病房。
+      - type: action
+        text: |-
+          病房内。昏黄的灯光。占科·阿班丹多仰躺在升高的床上，如同一具已被死神预定的躯壳——皮肉消耗殆尽，曾经浓密的黑发如今只剩几缕细丝贴在头皮上。唐·柯里昂走到床边，神情振作，刻意带出一丝喜气。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 占科，亲爱的朋友，我带几个儿子来向你致意了，还有啊，你看，连约翰尼都从好莱坞赶回来了。
+        parenthetical: (语气刻意轻快，掩盖内心的悲恸)
+        emotion: 悲伤
+      - type: action
+        text: |-
+          占科·阿班丹多缓缓睁开烧红的眼睛，望向唐，眼神里涌出深重的感激。他抬起那只骨瘦如柴的手，让桑尼、弗雷迪、迈克尔、约翰尼逐一握住。另一侧，妻子和女儿在床边排开，轮流俯身亲吻他的面颊，握他的手。唐在床边坐下，将老友的手攥在掌中。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 赶紧好起来，我们一起回意大利，去我们原来的村子，像父亲当年那样在酒馆门前玩地滚球。
+        parenthetical: (轻声，拇指缓缓摩挲着占科的手背)
+        emotion: 悲伤
+      - type: action
+        text: |-
+          占科摇了摇头。他用眼神示意年轻人和家人退开，随后伸出另一只颤抖的手，死死抓住唐的手腕，把他往近处拽。他想说话。唐俯低身子，将耳朵凑近他的嘴边。占科·阿班丹多开口，语无伦次地念叨起两人的童年旧事。渐渐地，他炭黑色的眼睛里浮出一丝狡猾的光。他压低声音说了什么。唐猛地直起身，用力摇头，泪水无声地滚下脸颊。
+      - type: action
+        text: |-
+          颤抖的声音越来越大，从床上漫出来，充满整个病房。占科·阿班丹多用超乎常人的力气从枕头上撑起脑袋，眼神散乱而燃烧，一根骷髅般的食指颤巍巍地指向唐。
+      - type: dialogue
+        character: 占科·阿班丹多
+        line: |-
+          教父，教父啊，救救我，别让我死，我求你了。我的血肉要从骨头上烧掉了，我感觉虫子在吃我的脑浆。教父啊，医治我，你有力量，擦干我可怜妻子的眼泪。小时候我们在柯里昂村一起玩耍，现在怎能让我死去？我有罪，我害怕下地狱！
+        parenthetical: (近乎嘶喊，手指颤抖着直指唐，眼神在绝望与狂热之间游荡)
+        emotion: 恐惧
+      - type: action
+        text: 病房里的人都被这一幕惊住，屏住呼吸。占科的眼神忽然变得像孩子一样狡猾，仿佛想起了什么最后的筹码。
+      - type: dialogue
+        character: 占科·阿班丹多
+        line: 今天是你女儿结婚的日子，你不能拒绝我啊。
+        parenthetical: (声音骤然压低，像是在讨价还价)
+        emotion: 恐惧
+      - type: action
+        text: 唐没有动。他等占科的声音落定，才开口，声音沉静而郑重，穿透那些亵渎的呼喊，落入病房的寂静之中。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          老朋友啊，我没有这种力量。要是有，我肯定比上帝更加仁慈，你要相信我。但是，我不畏惧死亡，不畏惧地狱。我将每晚每早为你的灵魂望弥撒。你的妻子和女儿也会为你祈祷。有这么多人求情，上帝怎么会惩罚你呢？
+        parenthetical: (双手握紧占科的手，语气悲悯却绝不动摇)
+        emotion: 悲伤
+      - type: action
+        text: 一阵沉默。占科·阿班丹多的脸上浮出一个奸诈而疲倦的笑，像是老骗子最后的本能。
+      - type: dialogue
+        character: 占科·阿班丹多
+        line: 这么说，你都安排好了？
+        parenthetical: (狡黠地挑起嘴角，眼神却已暗淡)
+        emotion: 疑惑
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 别亵渎神灵，你要认命。
+        parenthetical: (语气冰冷，不含一丝安慰，却比任何安慰都更有力量)
+        emotion: 平静
+      - type: action
+        text: |-
+          占科·阿班丹多缓缓倒回枕头上。眼神里那团狂野的希望之火，熄灭了。护士走进来，用不容置疑的职业态度示意众人退出。唐站起身，却感到手腕被用力攥住。
+      - type: dialogue
+        character: 占科·阿班丹多
+        line: 教父，留下陪我，帮我面对死神。他见到你在我身边，说不定会被吓跑，让我过得安稳。说不定你可以说点什么，拉拉关系，对吧？
+        parenthetical: (用尽全力握住唐的手，嘴角牵出一丝虚弱的嘲讽)
+        emotion: 恐惧
+      - type: dialogue
+        character: 占科·阿班丹多
+        line: 再怎么说，你和死神都是亲兄弟嘛。
+        parenthetical: (像是怕唐生气，立刻攥得更紧，声音带着一丝讨好的颤抖)
+        emotion: 恐惧
+      - type: dialogue
+        character: 占科·阿班丹多
+        line: 留下陪我，让我握着你的手。我们智取那个混蛋，就像我们智取其他人一样。教父啊，你不要出卖我。
+        parenthetical: (泪水从眼角渗出，声音越来越小)
+        emotion: 恐惧
+      - type: action
+        text: 唐向其余所有人轻轻摆了摆手。桑尼、弗雷迪、迈克尔、约翰尼，连同护士和那几个女人，无声地退出病房，轻轻带上了门。
+      - type: action
+        text: |-
+          病房里只剩下唐与占科·阿班丹多。唐重新坐回床边的椅子，用两只大手将老友枯瘦如鸟爪的手包裹住，温柔而笃定。他不说话，只是握着。窗外是黑夜。两个老人一起等待死神。
+      - type: transition
+        effect: 淡出
+    - scene_num: 15
+      heading:
+        location: 柯里昂大宅——婚宴现场（婚礼结束后）及各人住处
+        time: 夜
+        interior: true
+      description: |-
+        婚礼夜晚的多条线索收束：康妮的钱包与蜜月、露西等待桑尼电话落空、邦纳塞拉噩梦惊醒，保利与克莱门扎送凯回酒店并暗中查探其身份。
+      characters_present:
+      - 康妮·柯里昂
+      - 卡洛·里齐
+      - 露西·曼奇尼
+      - 亚美利哥·邦纳塞拉
+      - 凯·亚当斯
+      - 保利·加图
+      - 彼得·克莱门扎
+      content:
+      - type: action
+        text: 柯里昂大宅。婚宴已散，夜色笼罩庭院。室内灯火渐暗，喜庆气氛消散殆尽。
+      - type: action
+        text: 新房内。康妮坐在梳妆台前，手包紧握膝上。卡洛站在她身后，笑容里藏着算计。片刻后，他伸手，她不动。他的笑意消失。
+      - type: action
+        text: 康妮捂着眼眶，松开了手包。卡洛拿过去，翻开，清点礼金，神情满意。
+      - type: transition
+        effect: 切至
+      - type: action
+        text: 露西的公寓。陈设简单，灯光昏黄。露西坐在电话旁，时而看表，时而看话筒，等待的神情愈来愈焦灼。
+      - type: action
+        text: 她终于拿起话筒，拨出号码。电话那头接通，是一个女人的声音。露西僵住，缓缓将话筒放回去。
+      - type: action
+        text: 她望着话筒，表情从期盼变成空洞。窗外传来远处的车声，夜很安静。
+      - type: transition
+        effect: 切至
+      - type: action
+        text: 邦纳塞拉的卧室。夜深，室内寂静。邦纳塞拉在床上翻来覆去，眉头紧锁，呼吸急促。
+      - type: action
+        text: 梦境画面：殡仪馆门口，黑暗中。唐·柯里昂头顶军官帽，身穿工装裤，手戴厚手套，将一具浑身弹孔的尸体丢在门槛前，抬起头来。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 记住，亚美利哥，一个字也别透露，尽快埋了尸体。
+        parenthetical: (低沉，不容置疑)
+        emotion: 冷漠
+      - type: action
+        text: 邦纳塞拉在床上发出低沉的呻吟，越来越响，手脚开始挣扎。他妻子被惊醒，伸手用力摇他。
+      - type: dialogue
+        character: 唐·柯里昂的妻子（妈妈柯里昂）
+        line: 唉，你怎么回事呀？刚从婚礼上回来就做噩梦。
+        parenthetical: (睡眼惺忪，带着不满)
+        emotion: 疑惑
+      - type: action
+        text: 邦纳塞拉猛地睁开眼，大口喘气，望着黑暗中的天花板，久久没有动作。
+      - type: transition
+        effect: 切至
+      - type: action
+        text: |-
+          豪华轿车内，夜间行驶于纽约街头。车厢宽敞，内饰考究。保利·加图专注驾驶，凯·亚当斯坐在副驾驶，彼得·克莱门扎横占整个后排，身形庞大却举止从容。
+      - type: action
+        text: 三人谈笑，气氛出乎意料地轻松。凯侧头听克莱门扎说话，时而露出真实的惊讶神情。
+      - type: action
+        text: 克莱门扎向前倾身，压低带有气音的嗓门，语气诚恳。
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: '''老头子''认为迈克尔是三个儿子里最优秀的，家业肯定会交给他继承。'
+        parenthetical: (低声，语带笃定)
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 什么样的家业？
+        parenthetical: (轻描淡写，佯装随意)
+        emotion: 疑惑
+      - type: action
+        text: 保利·加图手腕一转，方向盘微微偏动，眼角飞快地扫了凯一眼，随即收回目光。
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: |-
+          迈克没跟你说过？柯里昂先生是全美国最大的意大利橄榄油进口商。战争已经结束，这门生意保准能发大财。他很需要迈克这样的精明孩子。
+        parenthetical: (带着惊讶，随即恢复热络)
+        emotion: 平静
+      - type: action
+        text: 凯看着前方夜色中的街道，若有所思，没有再追问。
+      - type: transition
+        effect: 切至
+      - type: action
+        text: 酒店大堂。灯光明亮，大理石地面光洁。前台服务员站在柜台后，神情职业。克莱门扎跟在凯身侧，步伐稳健，体积庞大地占据着空间。
+      - type: action
+        text: 凯在前台办完手续，拿到钥匙，转向克莱门扎。
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 不用了，这里到了。
+        parenthetical: (礼貌推辞，示意克莱门扎留步)
+        emotion: 平静
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: 老板说要保证送你到家。我非得做到才行。
+        parenthetical: (语气温和，却没有任何商量的余地)
+        emotion: 平静
+      - type: action
+        text: |-
+          克莱门扎陪凯走到电梯口，电梯门打开，送她进去。凯转过身，朝他挥手微笑。克莱门扎回以一个真诚的笑容，电梯门在两人之间缓缓合拢。
+      - type: action
+        text: 克莱门扎转身，走回前台。他不动声色，将一团攥皱的绿纸悄悄滚过台面。
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: 她登记的名字是什么？
+        parenthetical: (声音很低，眼神平静地看着服务员)
+        emotion: 冷漠
+      - type: action
+        text: 服务员冷冷地看了克莱门扎一眼，低头瞄了眼台面，手掌一收，纸团消失。
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: 迈克尔·柯里昂先生和夫人。
+        parenthetical: (服务员答，语气迅速转为配合)
+        emotion: 冷漠
+      - type: transition
+        effect: 切至
+      - type: action
+        text: 酒店外，轿车内。克莱门扎重新坐回后排，车门砰地合上。保利·加图望着后视镜，懒洋洋地开口。
+      - type: dialogue
+        character: 保利·加图
+        line: 这小妞真不错。
+        parenthetical: (漫不经心，带着轻佻的欣赏)
+        emotion: 冷漠
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: 迈克已经和她睡过了。
+        parenthetical: (随口，语气笃定而平淡，随即陷入片刻沉默)
+        emotion: 冷漠
+      - type: action
+        text: 克莱门扎盯着窗外流逝的街灯，心里转着另一个念头——除非，他们真的已经结婚了。
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: 明天一大早来接我。黑根有事情交给我们，得尽快解决。
+        parenthetical: (转向保利，语气变得简短有力)
+        emotion: 平静
+      - type: action
+        text: 保利·加图点头，发动引擎，轿车驶入夜色之中。
+      - type: transition
+        effect: 淡出
+    - scene_num: 16
+      heading:
+        location: 前往洛杉矶的飞机上
+        time: 夜
+        interior: true
+      description: 汤姆·黑根连夜飞赴洛杉矶，在机上梳理杰克·沃尔茨的背景资料，回顾自己被唐收留的身世与此行的任务重量。
+      characters_present:
+      - 汤姆·黑根
+      content:
+      - type: action
+        text: |-
+          内景——飞机客舱——夜。活塞引擎轰鸣，机身持续抖动。客舱灯光昏黄，大多数乘客已经入睡。汤姆·黑根独自坐在靠窗座位，西装笔挺，公文箱搁在膝上，目光望向舷窗外的黑暗。
+      - type: action
+        text: 黑根翻开公文箱，盯着里面的文件，却迟迟没有动手。他将箱子合上，抬手示意空姐。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 再来一杯马丁尼。
+        parenthetical: (疲惫地靠回椅背，闭上眼睛)
+        emotion: 疲惫
+      - type: action
+        text: 空姐送来酒杯。黑根端起来抿了一口，目光渐渐失焦——他的思绪回到今天一早发生的一切。
+      - type: action
+        text: |-
+          【闪回——内景·医院走廊——黎明前】占科·阿班丹多的病房门敞开着，走廊里寂静无声。唐·柯里昂从门内走出，在走廊尽头停步，转身面对黑根。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 占科走了。汤姆，从今天起，你是家族正式的顾问。
+        parenthetical: (低沉平静，目光直视黑根)
+        emotion: 平静
+      - type: action
+        text: 黑根微微颔首，没有说话。两人在走廊里站了片刻，无需多言。【闪回结束】
+      - type: action
+        text: 飞机再次剧烈颠簸。黑根握紧扶手，等待震动平息，然后往后靠深了一些，在脑子里逐条梳理手头的资料。
+      - type: action
+        text: 【闪回——内景·办公室——当天上午】黑根坐在桌子对面，约翰尼·方坦在屋里踱步，说话时手势激动。
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 沃尔茨恨我，汤姆。不是一般的恨——他要把我彻底毁掉。那个角色是我最后的机会，你明白吗？就这一次。
+        parenthetical: (停下脚步，双手撑在桌沿，声音低哑)
+        emotion: 绝望
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 我明白了。教父会想办法的。
+        parenthetical: (神情平稳，不置可否)
+        emotion: 冷静
+      - type: action
+        text: 【闪回结束】黑根叹了口气，在心里对这件事做出判断：光靠嘴皮子，根本说不动杰克·沃尔茨。
+      - type: action
+        text: |-
+          机舱再度平稳。黑根端起酒杯，再喝一口，目光转向舷窗。黑暗中，云层在机翼下缓缓流过。他开始往更深处想——不是沃尔茨，而是更久以前的事。
+      - type: action
+        text: |-
+          【闪回——外景·街头门廊——1930年代·黎明】十一岁的汤姆·黑根蜷缩在一栋楼的门廊台阶上，破旧的外套裹紧身体。左眼红肿，眼皮半睁。街道冷清，无人经过。
+      - type: action
+        text: 脚步声近了。十七岁的桑尼·柯里昂停在台阶前，俯视他片刻，然后不由分说地伸出手。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 起来，跟我回家。
+        parenthetical: (语气不容置疑，却没有恶意)
+        emotion: 平静
+      - type: action
+        text: |-
+          【闪回——内景·柯里昂家厨房——片刻后】汤姆·黑根坐在餐桌前，面前摆着一盘热腾腾的意大利面，番茄酱汁油光发亮。他低下头，拿起叉子，第一次嗅到那个气味——那个从此与'安全'画了等号的气味。
+      - type: action
+        text: |-
+          【闪回——内景·柯里昂书房——数日后】唐·维托·柯里昂站在窗边，没有回头，也没有说话，只是沉默地点了一下头。汤姆·黑根就这样被允许留下来了。【闪回结束】
+      - type: action
+        text: 飞机引擎声变得沉稳。黑根微微侧过头，望着机舱顶部的灯盏，继续在记忆里往前走。
+      - type: action
+        text: |-
+          【闪回——内景·柯里昂书房——多年后·傍晚】年轻的汤姆·黑根站在唐的书桌前，刚刚通过律师执照考试不久，措辞已经比当年的街头流浪儿沉稳得多。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 我愿意为您做事。
+        parenthetical: (垂下头，语气轻但坚定)
+        emotion: 诚恳
+      - type: action
+        text: 唐·柯里昂抬起眼睛，神色里带着一丝他极少流露的惊喜。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你知道我是什么人吗？
+        parenthetical: (身体微微前倾，目光审视)
+        emotion: 疑惑
+      - type: action
+        text: 黑根抬起头，直视唐的双眼，点了点头。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 我愿意像你的儿子那样为你做事。
+        parenthetical: (目光坚定，没有回避)
+        emotion: 平静
+      - type: action
+        text: 唐沉默片刻，随即起身，走到黑根面前，飞快地搂住他，拥抱了一下，然后松开，重新坐回椅子，像什么都没发生过一样。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 汤姆，千万别忘了亲生父母。
+        parenthetical: (平静地说，目光却带着一丝难以言说的温意)
+        emotion: 平静
+      - type: action
+        text: 【闪回结束】黑根把酒杯搁回托盘上，轻轻摇了摇头，嘴角有一丝他自己都未察觉的弧度。他不会忘记——那些事，一件都不会忘。
+      - type: action
+        text: 他重新打开公文箱，又盯着文件看了一会儿，终究还是将箱子推到一边，闭上眼睛。引擎持续轰鸣，机身微微震颤。
+      - type: action
+        text: 【闪回——内景·黑根家·客厅——前一天】黑根手持话筒，直接切入正题。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 高夫先生，我需要你帮我安排一件事。明天，我要登门拜访沃尔茨先生。
+        parenthetical: (语气礼貌，但措辞精准，每个字都有分量)
+        emotion: 冷静
+      - type: action
+        text: 一小时后，电话铃响起。黑根拿起话筒。
+      - type: dialogue
+        character: 比利·高夫
+        line: |-
+          约好了，上午十点。不过我得告诉你，沃尔茨明白你这次来意味着什么，但他好像并不在意。他还说，事情要是真的发展到那一步，他得先和唐本人谈谈才行。
+        parenthetical: (语气透着几分为难，又带着些许暗示)
+        emotion: 疑惑
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 要是真的发展到那一步，他一定会找你谈的。
+        parenthetical: (不急不慢，语气平稳，没有作出任何承诺)
+        emotion: 冷静
+      - type: action
+        text: 【闪回结束】
+      - type: action
+        text: |-
+          机窗外，云层渐渐稀薄，远处隐约透出一丝灰蒙蒙的光。黑根把外套拉上遮住肩膀，合上眼睛。飞机开始缓缓下降，洛杉矶的灯火在云层下方次第展开。
+      - type: transition
+        effect: 淡出
+    - scene_num: 17
+      heading:
+        location: 洛杉矶——沃尔茨电影公司办公室
+        time: 日
+        interior: true
+      description: 黑根与电影公司老板杰克·沃尔茨会面，提出以友情换取约翰尼出演角色，沃尔茨强硬拒绝并出言羞辱，黑根克制离去。
+      characters_present:
+      - 汤姆·黑根
+      - 杰克·沃尔茨
+      content:
+      - type: action
+        text: |-
+          沃尔茨电影公司接待室。装潢奢华，陈设精美。黑根独自坐等，目光扫过对面的暗紫色沙发——一个金发女孩端坐其上，年约十一二岁，服饰昂贵而简洁，打扮得像个成年人。深海蓝色的大眼睛，新鲜树莓颜色的红嘴唇，美得超凡脱俗。她身旁的母亲用冰冷的傲慢气势死盯着黑根。黑根毫不示弱，冷眼还以颜色。
+      - type: action
+        text: |-
+          半小时后，一个衣着优雅但身材矮胖的中年女秘书出现，领着黑根穿过一间又一间布置精美的办公室，向内走去。黑根环顾四周，嘴角微微上扬。
+      - type: action
+        text: |-
+          沃尔茨的私人办公套间。宽阔气派。杰克·沃尔茨站在桌边迎接，身量高大、体格粗壮，西装剪裁精良，勉强遮住肥硕的腹部。古铜色的脸，须发修剪考究，随便歪了歪嘴，算是微笑打招呼。尽管如此，脸上的肌肉仍像是被勉强缝在一起。黑根落座，神情平静。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          沃尔茨先生，我受一位朋友委托前来传话。这位朋友很有权势。他说，若是您愿意帮个小忙，他保证会感激不尽，并愿意奉上一辈子的友谊。这个小忙，就是允许约翰尼·方坦主演贵公司下周开拍的那部战争电影。
+        parenthetical: (开门见山，语气平稳)
+        emotion: 平静
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 你那位朋友能帮我什么忙呢？
+        parenthetical: (不动声色，语气中带着一丝掩不住的高傲)
+        emotion: 冷漠
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          你会遇到一些劳工方面的麻烦。那位朋友百分之百能消除这个麻烦。你有个给公司挣了许多钱的头牌男星，癖好最近从大麻转到了海洛因。那位朋友能保证这个男星再也搞不到海洛因。今后要是再遇到这种小事情，打个电话就能解决你的问题。
+        parenthetical: (语气平稳，就事论事)
+        emotion: 平静
+      - type: action
+        text: 沃尔茨像听小孩吹牛似的听完，忽然刻意换上一口东城腔调，语气粗声粗气。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 你在威胁我？
+        emotion: 疑惑
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 绝对不是。我受朋友之托求你办事。我想说的重点是，这么做对你没有任何坏处。
+        emotion: 平静
+      - type: action
+        text: 沃尔茨像是早有准备，猛地换上一脸怒容。嘴唇卷曲，染黑的浓眉皱成一条粗线，盖住闪闪发亮的眼睛。他俯身探过桌子，直逼黑根。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: |-
+          够了，油腔滑调的混蛋，我跟你和你的老板直说，我才不在乎他是谁。约翰尼·方坦绝对不可能主演那部电影。我不在乎有多少个黑皮黑手党大佬会从暗处钻出来。
+        parenthetical: (俯身探过桌子，压低声音)
+        emotion: 愤怒
+      - type: action
+        text: 沃尔茨坐回椅子，换上一副轻蔑的笑容。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 听我一句劝。埃德加·胡佛，知道这个名字吧——和我有私交。要是我告诉他有人逼我，你们死都不知道怎么死的。
+        parenthetical: (哂笑，居高临下)
+        emotion: 傲慢
+      - type: action
+        text: |-
+          黑根耐心地听着，神情纹丝不动。他在心里估量着眼前这个人——如此情绪失控，却能管理一家价值几百万美元的公司，倒是耐人寻味。侮辱对他毫无影响。他重新开口，语气一如既往地平常。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          请看我的名片。我是律师。难道我会自寻死路吗？我威胁你了吗？只要能让约翰尼·方坦主演那部电影，要求随便你提。我们为这个小忙提出了丰厚的回报。就我所知，这个忙对你只有好处。约翰尼说你承认他是完美的人选，正是因为这样我们才请你帮忙。如果你担心你的投资，我的客户愿意出资赞助这部电影。我们明白你说一不二。谁也不能强迫你，也不会强迫你。我们知道你和胡佛先生有私交，请允许我补充一句，我的老板因此很尊敬你。他非常尊敬这份关系。
+        parenthetical: (将名片推过桌面，语气平稳诚恳)
+        emotion: 平静
+      - type: action
+        text: 沃尔茨一直拿着一杆大号红色羽毛笔在纸上胡写乱画。听见提到钱，他忽然来了精神，放下羽毛笔，神气活现地抬起头。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 这部电影的预算是五百万。
+        emotion: 冷漠
+      - type: dialogue
+        character: 汤姆·黑根
+        line: （轻轻吹了声口哨）我老板的很多朋友都信任他的判断。
+        parenthetical: (漫不经心，轻描淡写)
+        emotion: 平静
+      - type: action
+        text: 沃尔茨第一次认真打量起黑根，低头盯着那张名片。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 我没听说过你。我认识纽约大部分有头面的律师，你他妈到底是谁？
+        emotion: 疑惑
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 我在高级律师事务所执业，只负责一个客户。
+        parenthetical: (干巴巴地答，起身)
+        emotion: 平静
+      - type: action
+        text: 黑根站起身，伸出手。沃尔茨与他握手。黑根朝房门走了几步，忽然停住，转身面对沃尔茨。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 我明白你经常和一些自以为了不起的人打交道。但我恰恰相反。你不妨通过我们共同的朋友查证。要是愿意考虑，就打电话到我的酒店。
+        parenthetical: (顿一顿，语气趋于低沉)
+        emotion: 平静
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 恕我无礼——有些事情，连胡佛先生都觉得无能为力，但我的客户做得到。
+        emotion: 平静
+      - type: action
+        text: 沃尔茨眯起双眼，沉默片刻。他终于明白了这句话的意思。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 顺便说一句，我非常欣赏你的电影。希望你能再接再厉，我们的国家需要好电影。
+        parenthetical: (换上最恳切的奉承语气，微微一笑)
+        emotion: 平静
+      - type: transition
+        effect: 切至
+    - scene_num: 18
+      heading:
+        location: 沃尔茨郊区庄园——马厩与正厅
+        time: 夜
+        interior: false
+      description: 沃尔茨邀黑根赴郊区庄园共进晚餐，带他参观名马喀土穆，餐后谈判仍以破裂告终，黑根离去时目睹沃尔茨对幼女的丑行。
+      characters_present:
+      - 汤姆·黑根
+      - 杰克·沃尔茨
+      content:
+      - type: action
+        text: |-
+          日落时分。豪华轿车沿着蜿蜒的黑土马道驶入沃尔茨郊区庄园。庄园一派种植园风格——广阔花园、整齐树篱、修剪如明星指甲般精细的草坪。马厩和草场在暮色中静默伫立。汤姆·黑根坐在车后座，神情若有所思。
+      - type: transition
+        effect: 切至
+      - type: action
+        text: |-
+          有空调的玻璃门廊。杰克·沃尔茨身穿蓝色丝绸衬衫，敞开领口，芥末黄便裤配软皮凉鞋，手持一杯特大号马丁尼。那张被岁月刻出刀疤般皱纹的硬汉脸在华服衬托下愈显狰狞，此刻却堆满笑意。他伸手递给黑根一杯马丁尼，将手臂搂上黑根的肩膀。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 晚餐前还有一点时间，我们去看看我的马匹吧。
+        parenthetical: (搂住黑根肩膀，引领他向马厩走去)
+        emotion: 友善
+      - type: action
+        text: 两人并肩走向马厩。沃尔茨语气随意，像是闲聊。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: |-
+          我摸了你的底细，汤姆，你怎么不说你的老板是柯里昂啊？我还以为你是约翰尼请来吓唬我的三流骗子呢。我可从来不吓唬人。倒不是说我喜欢树敌，我只是不吃这一套而已。我们现在先开心开心，吃过晚餐再谈生意。
+        parenthetical: (边走边说，语气轻松，带着一丝得意)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          马厩内。防火材料的墙壁、一尘不染的地面、私人保安在暗处巡逻。沃尔茨如数家珍地介绍他的新设施和创新措施，言语间难掩自豪。他引领黑根走向走廊尽头一个特殊的隔间，外墙上嵌着一块厚重的黄铜标牌，铭刻着两个字：「喀土穆」。
+      - type: action
+        text: |-
+          隔间内。一匹漆黑如夜的骏马昂首而立，宽阔额头正中有一块钻石形状的白斑，棕色大眼闪烁着金苹果般的光泽，绷紧肌肉上的黑色皮肤丝绸般柔滑。黑根站在栅栏外，肃然凝视。沃尔茨走近马头，眼神里浮现出孩童般的光芒。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: |-
+          全世界的头号赛马。我去年在英国用六十万买的。我打赌连俄国沙皇也没花过这么多钱买一匹马。但我不打算让它上场，我要让它当种马。我要建立起美国历史上最伟大的赛马马厩。
+        parenthetical: (手指轻柔地梳理马的鬃毛，声音低柔)
+        emotion: 喜悦
+      - type: action
+        text: 沃尔茨低下头，轻声唤着马的名字，马轻轻摇动鬃毛作出回应。他挠着喀土穆的肚皮，目光中满是真挚的钦慕。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 喀土穆，喀土穆。
+        parenthetical: (低声呢喃，充满爱意)
+        emotion: 喜悦
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 我是天生的骑手，知道吗？第一次上马背都五十岁了。
+        parenthetical: (转向黑根，哈哈大笑)
+        emotion: 喜悦
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 也许我的俄国祖母或外祖母被哥萨克骑兵强奸过，我继承了血脉。
+        parenthetical: (大笑，自嘲口吻)
+        emotion: 喜悦
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 看它的鸡巴，我真想也有那么一根。
+        parenthetical: (挠着喀土穆肚皮，语气无比真挚)
+        emotion: 喜悦
+      - type: transition
+        effect: 切至
+      - type: action
+        text: |-
+          庄园正厅。烛光摇曳，镶金线的桌布铺陈整洁，银器餐具在灯光下熠熠生辉。三名侍者在管家的指挥下无声穿梭，伺候着桌边两人。晚餐已近尾声，黑根和沃尔茨各自点起一根粗大的哈瓦那雪茄。烟雾在两人之间缓缓升腾。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 约翰尼能不能拿到那个角色？
+        parenthetical: (吐出一口烟，平静开口)
+        emotion: 平静
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 我没办法，就算我想，也没法把约翰尼塞进那部电影。演员的合同全都签好了，下周就要开拍。现在我哪儿还有回旋余地？
+        parenthetical: (摊开双手，一副无奈的姿态)
+        emotion: 冷漠
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 沃尔茨先生，和大人物打交道有个好处，就是知道这种借口一推就翻。实际上你想做什么就可以做什么。
+        parenthetical: (抽了一口雪茄，目光直视沃尔茨)
+        emotion: 冷漠
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 不相信我的客户能信守承诺？
+        parenthetical: (语气不急不缓，但带着明显的不耐烦)
+        emotion: 冷漠
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: |-
+          我相信我会遇到劳工纠纷。高夫打电话说过了，那个混蛋，听他说话的口气，绝对想不到我每年付他十万黑钱。我相信你能让我那个娘娘腔'男'明星再也弄不到海洛因。但我不在乎，而且我能为电影提供资金。我恨方坦。告诉你的老板，我没法帮他这个忙，不过别的事情倒是可以考虑。随便什么事情。
+        parenthetical: (语气干巴巴，磕着雪茄灰，眼神冰冷)
+        emotion: 冷漠
+      - type: action
+        text: 黑根在心里骂了一声，面上不动声色。他缓缓放下雪茄，重新组织语言。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 我认为你并不理解如今的局面。柯里昂先生是约翰尼·方坦的教父。这是非常亲密、非常神圣的宗教关系。
+        parenthetical: (语调平稳，字字清晰)
+        emotion: 平静
+      - type: action
+        text: 沃尔茨听见「宗教」二字，微微欠了欠身，神情流露出一丝礼节性的谦恭。黑根继续说。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          意大利人有个玩笑话，说世界太残酷，所以一个人非得有两个父亲照看他，这就是教父的由来。约翰尼的父亲已经过世，因此柯里昂先生觉得他的责任更加重大。说到其他的要求，柯里昂先生可是很敏感的。第一个要求被回绝，他绝对不可能求你帮第二个忙。
+        parenthetical: (语速不疾不徐，眼神沉稳而坚定)
+        emotion: 平静
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 我很抱歉，可答案仍旧是不行。但既然你来都来了，说个价码吧，我得花多少钱摆平劳工纠纷这档事？现金，马上付。
+        parenthetical: (耸耸肩，语气轻描淡写，将话题强行转向)
+        emotion: 冷漠
+      - type: action
+        text: 黑根内心某个疑惑在此刻有了答案——沃尔茨从一开始就没打算让步，这场晚宴不过是他打探筹码的棋局。黑根最后一次开口。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          你存心歪曲我的意思。你想把我说成是勒索帮凶。柯里昂先生答应为你解决劳工纠纷，这是友情的表现，作为回报你要帮助他的客户。朋友之间交换影响力罢了，没别的意思。但是你并没有拿我当回事。我个人认为你犯了个错。
+        parenthetical: (语气平静，带着最后一丝耐心)
+        emotion: 冷漠
+      - type: action
+        text: 沃尔茨像是等待这句话许久了。他猛地把雪茄按进烟灰缸，身体前倾，脸上那张缝起来的硬汉脸因愤怒而扭曲。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: |-
+          我非常明白，这是黑手党的风格，不是吗？嘴上说得好听，其实是在威胁。我跟你挑明了吧，约翰尼·方坦的确是完美的人选，那个角色会让他成为大明星，但他就是拿不到，绝对拿不到，因为我恨这个混蛋，我要把他赶出电影圈。
+        parenthetical: (猛地站起，声音越说越响)
+        emotion: 愤怒
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: |-
+          听我告诉你原因，他毁了我最值钱的女明星。我培养了她五年，唱歌、跳舞、表演，什么都学了，我砸下去了几十万美元想要把她捧成明星。但你别以为我铁石心肠，眼里只有钱，坦白说，这个姑娘很漂亮，我这辈子从没玩过她那么漂亮的屁股，要知道我可是见识过各种各样的女人。她能像水泵一样榨干你。可是约翰尼出现了，用橄榄油似的嗓子和黑皮的魅力拐走了她。她抛弃了一切，害得我被人嘲笑。我这种地位的人，黑根先生，是不能忍受被耻笑的。我必须让约翰尼偿还我的损失。
+        parenthetical: (在餐桌旁来回踱步，声色俱厉)
+        emotion: 愤怒
+      - type: action
+        text: |-
+          黑根听完，神情没有丝毫波动，心里却感到某种难以言说的困惑——他无法理解，一个坐拥这般财富和权势的成年人，居然会因一个女人的出走让自己的生意判断蒙尘。他决定最后再试一次，语气依旧平和。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          你说得对极了，沃尔茨先生，但你至于愤怒到这个地步吗？我觉得你并不理解这个小人情对我的客户有多重要。约翰尼小时候是在柯里昂先生怀里受洗的，他父亲过世后，柯里昂先生担负起了父亲的职责。有很多人称呼他'教父'，表达尊敬和谢意，因为他曾经帮助过这些人。柯里昂先生从不让朋友失望。
+        parenthetical: (不急不躁，目光直视沃尔茨)
+        emotion: 平静
+      - type: action
+        text: 沃尔茨猛地站直身子，一掌拍在餐桌上，银器哗然作响。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: |-
+          我听够了。从来是我命令匪徒，匪徒哪儿有资格命令我？我要是拿起听筒，你今晚就得在牢里过夜。那位黑手党老大要是敢跟我动粗，他会发现我可不是什么乐队领头。没错，我也知道那个故事。听着，你们柯里昂先生死都不知道怎么死的。别逼我动用我在白宫的关系。
+        parenthetical: (怒不可遏，手指指向黑根，声音在整个大厅回响)
+        emotion: 愤怒
+      - type: action
+        text: 黑根静静地看着眼前这个暴跳如雷的人，心里只剩下冷冷的念头：白痴，愚蠢的杂种。他放下雪茄，从容起身。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 谢谢你招待晚餐，让我度过这么愉快的夜晚。能安排人送我去机场吗？我想我就不必过夜了。
+        parenthetical: (礼貌而冷漠，嘴角微微上扬)
+        emotion: 冷漠
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 柯里昂先生坚持要在第一时间听见坏消息。
+        parenthetical: (轻蔑地冷笑，语调不紧不慢)
+        emotion: 冷漠
+      - type: transition
+        effect: 切至
+      - type: action
+        text: 庄园正门柱廊。水银灯将白色廊柱照得刺眼。黑根独自等候座车，神情沉静。车道上，一辆黑色加长林肯已发动引擎。
+      - type: action
+        text: |-
+          两个女人从庄园内侧走出，踩上台阶。黑根认出她们——正是他今天在沃尔茨办公室见过的那对母女：母亲衣着考究，女儿不过十二岁，金发如丝，曾生得十分美丽。
+      - type: action
+        text: |-
+          但此刻，女孩线条优雅的嘴唇成了乱七八糟的一团粉红色，海蓝色的双眼目光呆滞，空洞地望着前方。她沿着台阶向林肯走去，两条长腿像跛马似的蹒跚。母亲一手搀扶，侧过头对着女儿耳朵咬牙切齿地低声说着什么。就在钻进车门的前一刻，母亲扭头望向黑根，眼神里燃烧着秃鹫般的凯旋光彩。车门随即合上，林肯无声驶离。
+      - type: action
+        text: |-
+          黑根站在水银灯下，望着远去的尾灯，脑子里某块最后的拼图落入了位置。他明白了为什么沃尔茨没有邀他同乘私人飞机——飞机上坐着这对母女，沃尔茨需要在晚餐前腾出时间。黑根转身，等待接他的车缓缓驶来，面无表情。
+      - type: transition
+        effect: 淡出
+    - scene_num: 19
+      heading:
+        location: 纽约市街头酒吧外
+        time: 夜
+        interior: false
+      description: 保利·加图奉克莱门扎之命，与两名打手在酒吧外设伏，将侵害邦纳塞拉女儿的两名年轻人杰瑞·瓦格纳和凯文·穆南痛打致重伤。
+      characters_present:
+      - 保利·加图
+      - 杰瑞·瓦格纳 / 凯文·穆南
+      content:
+      - type: action
+        text: |-
+          纽约市街头。深夜。街道昏暗，路灯将湿漉漉的柏油路面映出一道道橙黄色光晕。一家酒吧的招牌灯在夜风中轻微闪烁，是街上仅剩的几处亮光之一。其余店铺早已拉闸打烊。
+
+          一辆黑色四门雪佛兰轿车停在路边，引擎熄火，车内黑暗，后排隐约可见两个体型硕大的轮廓。
+
+          保利·加图靠在车身挡泥板上，手持一杯啤酒，眼神不动声色地扫向酒吧门口。他身形瘦削，雪貂般的脸孔在夜色里透着一股精明的警觉。
+      - type: action
+        text: 酒吧内透出的灯光和嘈杂声隐隐传到街上。保利小口啜饮啤酒，目光在街道两端来回游走，神情沉稳，像一个等待时机的猎手。
+      - type: action
+        text: 酒吧内，一个女人的笑声穿过嗡嗡的人声传了出来。
+      - type: dialogue
+        character: 酒吧女郎
+        line: 你疯了吗，杰瑞？我才不和你上车呢。我不想像某个可怜姑娘一样进医院。
+        parenthetical: (笑声中带着恶意的满足，声音清晰地穿透嘈杂)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          保利听见这话，嘴角微动。他将杯中剩余的啤酒一口喝尽，随手将空杯搁在车顶，走向漆黑的街道中央。他停下脚步，从口袋里摸出一只特制铜指套，在掌心掂了掂，重新收回口袋。
+      - type: action
+        text: 保利走回雪佛兰，俯身靠近车窗，压低声音说话。
+      - type: dialogue
+        character: 保利·加图
+        line: 他们一出来就动手。
+        parenthetical: (低声，目光仍盯着酒吧大门)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          后排两个大块头无声地点头。他们前后排坐着，身体几乎把座位撑满，棒球帽压得很低。曾经是拳击手的手掌搁在膝盖上，一动不动。
+
+          酒吧大门被推开。
+      - type: action
+        text: |-
+          杰瑞·瓦格纳和凯文·穆南走出酒吧。两人都是二十岁上下，棕色头发，高挑身材，长得一表人才，带着几分被奚落之后残余的愠色和酒意。他们一步踏上街道，走进黑暗。
+      - type: action
+        text: 保利·加图从挡泥板上直起身，扯开嗓门，语气轻佻。
+      - type: dialogue
+        character: 保利·加图
+        line: 喂，情圣，被女人甩了吧。
+        parenthetical: (大声嘲笑，故意挑衅)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          瓦格纳和穆南同时停步，转过身来。保利——雪貂脸，矮个子，瘦削，一副自作聪明的模样——在他们眼里简直是天上掉下来的发泄对象。两人对视一眼，带着被冒犯后的冲动朝他扑上来。
+
+          就在这一瞬间，车门弹开。
+
+          两个大块头从两侧同时出现，从背后牢牢锁住两人的手臂。动作精准，毫无声息。
+
+          保利从口袋里取出铜指套，慢条斯理地套上右手，五根手指逐一扣紧。指套内侧嵌有十六分之一英寸的细铁刺，在路灯下泛着微光。
+      - type: action
+        text: |-
+          保利深吸一口气，抬起右手，一拳正中瓦格纳的鼻梁。
+
+          清脆的骨裂声。
+
+          抱住瓦格纳的大块头将他整个身体举起，保利蓄力，一记上勾拳不偏不倚打进他的下腹。瓦格纳像泄了气的皮球，双腿瞬间失力，大块头将他丢在地上。
+
+          从始至终不超过六秒。
+
+          两人的注意力随即转向穆南。穆南张嘴想喊，背后的男人一条手臂横扫过来，轻松锁住他的喉咙，另一只手死死箍住他的颈部。喊声被扼死在嗓子里。
+      - type: action
+        text: |-
+          保利走回雪佛兰，坐进驾驶座，插上钥匙，没有启动引擎，只是把手搭在方向盘上，眼睛盯着后视镜。
+
+          街道上，两个大块头对着穆南下手。他们的动作不慌不忙，甚至显出某种令人不寒而栗的从容——不是慌乱的乱拳，而是一板一眼，出拳时身体全部的重量都压在后面，像是在进行某种有条不紊的工序。每一拳落下去都带着皮开肉绽的沉闷声响。
+
+          保利瞥了一眼后视镜里穆南的脸。已经面目全非。
+
+          两条大汉将穆南扔在人行道上，转身走向瓦格纳。瓦格纳正撑着地面试图起身，喉咙里挤出一声救命。
+
+          酒吧的门被推开，有人探出头张望。
+      - type: action
+        text: |-
+          两个打手对视一眼，加快节奏。他们把瓦格纳打得跪倒在地。一个人抓住他的手臂，猛地一扭，脚跟同时踹上他的脊背。
+
+          '咔嚓'——
+
+          瓦格纳发出一声惨叫，响彻整条街。窗户一扇接一扇被推开，探出一张张惊惶的脸。
+
+          一个大汉双手像老虎钳般夹住瓦格纳的头，将他拽起来固定住。另一个人挥动拳头，一下一下，对准同一个位置，砸实了，砸进去。
+
+          又有几个人从酒吧里跑出来。没有一个人上前阻拦。
+      - type: dialogue
+        character: 保利·加图
+        line: 够了，快走。
+        parenthetical: (从车窗探出头，声音低沉而急迫)
+        emotion: 紧张
+      - type: action
+        text: |-
+          两条大汉立刻收手，跳上车，后门砰地关上。保利一脚将油门踩到底。
+
+          雪佛兰轿车猛地窜出，车轮与柏油路面摩擦出一道短促的嘶叫声，瞬间消失在夜色里。
+
+          街道重归寂静。路灯下，瓦格纳和穆南横陈在人行道上，一动不动。围拢来的人群站在原地，没有人说话。
+      - type: transition
+        effect: 淡出
+  - chapter_num: 2
+    title: |-
+      第二章
+
+
+      星期四早晨，汤姆·黑根走进他在市区的事务所。他打算先处理积欠的文书工作，好在周五和维吉尔·索洛佐会面前准备妥当资料。考虑到这次会面如此重要，他已经请求唐空出一个晚上讨论应对方法，他们知道索洛佐想和家族做什么生意。黑根希望先处理完所有琐事，然后心无旁骛地参加这次初步的会面。
+    scenes:
+    - scene_num: 20
+      heading:
+        location: 唐·柯里昂长滩家宅
+        time: 夜
+        interior: true
+      description: 黑根从加州返回后向唐汇报与沃尔茨磋商的结果，唐追问沃尔茨的性格底细。
+      characters_present:
+      - 汤姆·黑根
+      - 唐·维托·柯里昂
+      content:
+      - type: action
+        text: |-
+          深夜。唐·柯里昂长滩家宅书房。灯光昏黄，室内陈设厚重而简朴。唐坐在桌后，神情沉静。黑根风尘仆仆，刚从加州返回，站在桌前汇报。
+      - type: action
+        text: |-
+          黑根逐一陈述与沃尔茨磋商的每个细节。唐静静倾听，面色平静，没有半点惊讶。当黑根提及那个小女孩和她母亲的遭遇时，唐眉头骤然皱起，低声咕哝，语气中压着掩不住的厌恶。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 这家伙……真的有种吗？
+        parenthetical: (缓缓抬起目光，直视黑根)
+        emotion: 冷漠
+      - type: action
+        text: 黑根沉默片刻，细细揣摩这个问题背后的真实用意。多年相处，他早已熟悉唐说话的方式——字面之下，往往另有所指。
+      - type: action
+        text: |-
+          黑根在脑海中逐一推演：沃尔茨有性格，意志坚强，百分之百。但这不是唐问的。沃尔茨扛得住财务压力，扛得住丑闻，但这也不是唐的意思。最终，他找到了那个准确的诠释——唐想问的是：杰克·沃尔茨有没有那种卵蛋，甘冒失去一切的风险，只为维护原则和荣誉，只为复仇？
+      - type: action
+        text: 黑根嘴角浮现一丝浅笑。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 你想问他是不是西西里人。
+        parenthetical: (轻声，带着一点调侃)
+        emotion: 平静
+      - type: action
+        text: 唐愉快地点点头，既是认可这句俏皮的奉承，也是默许黑根说对了。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 不。
+        parenthetical: (语气平稳，斩钉截铁)
+        emotion: 平静
+      - type: action
+        text: 话题就此打住。唐陷入沉默，一直思索到第二天。
+      - type: action
+        text: |-
+          星期三下午，同一书房。唐将黑根召来，逐条下达指令。黑根神情专注，一字不漏地听完，将这一天剩余的时间全部用于安排部署。他心中对唐的钦佩，已深至无以言表。
+      - type: action
+        text: 黑根望向窗外，确信无疑——沃尔茨今天上午必定已经打来电话，告知约翰尼·方坦将出演那部战争新片的男主角。问题已经解决。
+      - type: transition
+        effect: 淡出
+    - scene_num: 21
+      heading:
+        location: 黑根市区事务所
+        time: 日
+        interior: true
+      description: 黑根在事务所处理文书，先后接到邦纳塞拉的感谢电话和沃尔茨的愤怒威胁电话，确认约翰尼·方坦将获得角色。
+      characters_present:
+      - 汤姆·黑根
+      - 亚美利哥·邦纳塞拉
+      content:
+      - type: action
+        text: 黑根市区事务所。日。办公桌上摊开几份财务报表，桌角放着一份《每日新闻》。电话铃响起。
+      - type: action
+        text: 黑根接起电话，听筒里传来一个发颤的声音。
+      - type: dialogue
+        character: 亚美利哥·邦纳塞拉
+        line: 黑根先生，请转告唐——我的友谊至死不变。只需要唐一个电话，我亚美利哥·邦纳塞拉肯为敬爱的教父肝脑涂地。
+        parenthetical: (声音因感激而发颤)
+        emotion: 感激
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 我一定转告。
+        parenthetical: (语气平稳，简短)
+        emotion: 平静
+      - type: action
+        text: |-
+          黑根挂断电话，随手拿起桌上那份《每日新闻》。版面正中间刊着一张触目惊心的照片——杰瑞·瓦格纳和凯文·穆南倒在马路上，浑身是血，简直成了两堆肉块。他盯着照片看了片刻，在记事本上写下一行字：保利·加图。
+      - type: action
+        text: |-
+          黑根将报纸放到一边，重新埋入财务报表。接下来三个钟头，他高效地为唐的房地产公司、橄榄油进口生意和建筑公司合并收入报表。窗外光线渐渐移动，办公室安静如常。
+      - type: action
+        text: 秘书轻叩门框，探进头来。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 我是黑根。
+        parenthetical: (拿起听筒，语气颇为期待)
+        emotion: 疑惑
+      - type: action
+        text: 线路那头传来一个被仇恨和激动扭曲的声音，高亢而失控。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 你这个狗杂种！我要你们一个个进监狱蹲一百年！我拿全部家产跟你们拼了！我要割了约翰尼·方坦的卵蛋，听见了吗，黑皮杂种？
+        parenthetical: (扯着嗓子，声嘶力竭)
+        emotion: 愤怒
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 我是德国和爱尔兰的血统。
+        parenthetical: (语气友好，不慌不忙)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          线路那头沉默良久。「咔嗒」一声，对方挂断电话。黑根放下听筒，嘴角浮现一丝微笑。沃尔茨骂尽了所有人，却一个字也没敢威胁唐·柯里昂本人。
+    - scene_num: 22
+      heading:
+        location: 沃尔茨加州大宅卧室
+        time: 晨
+        interior: true
+      description: 沃尔茨清晨醒来，在床脚发现名马喀土穆被割下的头颅，惊骇之下意识到柯里昂的警告，最终决定答应约翰尼·方坦出演。
+      characters_present:
+      - 杰克·沃尔茨
+      content:
+      - type: action
+        text: |-
+          内景——沃尔茨加州大宅卧室——晨。卧室宽阔如舞厅，黎明的光线稀薄而漫散，像雾气浮在草场上。那张足以容纳十人的大床中央，杰克·沃尔茨独自沉睡。
+      - type: action
+        text: |-
+          沃尔茨不知为何醒得极早。他挣扎着用手肘撑起半个身子，眯眼望向床脚。晨雾般的光线里，有个模糊的轮廓。他辨认着——是马头的形状。
+      - type: action
+        text: 沃尔茨伸手打开床头柜上的台灯。
+      - type: action
+        text: |-
+          灯光亮起。沃尔茨定住了。名马喀土穆那丝绸般柔滑的黑色头颅被割离了躯体，粘在厚厚的一摊血迹中央。细长的白色筋腱裸露在外，口鼻满是泡沫，曾经闪烁金光的苹果大眼因死亡与失血，已成两颗斑驳的腐烂水果。
+      - type: action
+        text: 就像胸口挨了大锤——沃尔茨心脏狂跳，阵阵反胃，呕吐物喷溅在厚实的熊皮地毯上。他从床上跌滚下来，跌跪在地，颤抖着。
+      - type: action
+        text: 纯粹原始的恐惧击垮了他。他扯开喉咙大喊。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 有人吗——！进来！快进来！
+        parenthetical: (跌坐地板，声音嘶哑失控)
+        emotion: 恐惧
+      - type: action
+        text: 沃尔茨扑向电话，拨出号码，手指抖个不停。电话接通了——是黑根。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 你们……你们他妈的知道自己干了什么吗？！我要让你们所有人付出代价——所有人！你听到没有？！你们死定了——
+        parenthetical: (语无伦次，声音在颤抖与怒吼之间撕裂)
+        emotion: 恐惧
+      - type: action
+        text: |-
+          慌乱的管家跑进卧室，看见地板上的血与那颗马头，脸色煞白，扶着门框稳住身体。沃尔茨挂断电话，跌坐在床沿，大口喘气。管家颤着手拨出两个电话——私人医生，以及电影公司的二把手。
+      - type: action
+        text: |-
+          他们赶到之前，沃尔茨已经控制住了自己。他独坐在那张巨大的床上，双手握紧，盯着熊皮地毯上的那滩血，眼神从惊惶渐渐变得僵冷。他开始思考。
+      - type: action
+        text: |-
+          什么样的人，能随随便便毁灭一头价值六十万美元的动物？没有警告，不装腔作势，不按理出牌，不留任何余地。夜班警卫说没有听到任何动静。沃尔茨明白那意味着什么——马厩的安保在那个人眼里犹如儿戏。
+      - type: action
+        text: 医生赶到，打开药箱。沃尔茨抬手示意他停下，然后开口，声音已经平稳了。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 给我一剂镇静剂。药效轻一点的。我需要清醒着想事情。
+        parenthetical: (平静，几乎是命令的语气)
+        emotion: 冷漠
+      - type: action
+        text: 医生为他注射，沃尔茨闭眼靠在床头。沉默片刻，他睁开眼，目光对准天花板。思绪在他脑中展开——
+      - type: action
+        text: |-
+          他很有钱。他和美国总统有关系，和联邦调查局局长有私交。然而一个躲在暗处的意大利橄榄油进口商，就这样走进了他的卧室。就因为约翰尼·方坦想要一个角色。
+      - type: action
+        text: 沃尔茨突然发出一阵笑声。那笑声尖而嘶哑，听起来不像笑，更像是什么东西断裂的声音。医生和仆人对视一眼，神情紧张。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 杀一匹赛马……能得到什么刑罚？
+        parenthetical: (低声自语，带着一丝狂乱的轻笑)
+        emotion: 恐惧
+      - type: action
+        text: |-
+          笑声止住。另一个念头取代了它：有人如此公然蔑视他的权力，他将沦为整个加州的笑柄。沃尔茨打了个寒战。他想到了他建立起的这一切——财富、权力、勾勾手指就能得到的女人。因为心血来潮就拿这一切去冒险？
+      - type: action
+        text: 沃尔茨作了决定。他转向管家，语气回到了他惯常的那种发号施令的平静。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 把我的人都叫进来。
+        parenthetical: (语调低沉，不容置疑)
+        emotion: 冷漠
+      - type: action
+        text: 亲信班子鱼贯而入。沃尔茨站起身，走到窗边，背对着他们开口。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 所有人封口。谁要是让这件事传出去，就是跟我和公司为敌，后果自己想清楚。
+        parenthetical: (背对众人，望向窗外，语气如陈述事实)
+        emotion: 冷漠
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 对外就说，喀土穆在从英国运来的途中染病，不治身亡。尸体就地处理，埋在大宅里，地点保密。
+        parenthetical: (转身，扫视众人，目光稳定)
+        emotion: 冷漠
+      - type: action
+        text: 仆人和医生纷纷点头，无人敢吱声。沃尔茨重新坐回床沿，独自对着那滩已经变黑的血迹。
+      - type: action
+        text: 六小时后。那部电影的执行制片人拨出一个电话。
+      - type: dialogue
+        character: 杰克·沃尔茨
+        line: 通知方坦，下周一报到。
+        parenthetical: (画外音，语气平淡，如同一个无关紧要的决定)
+        emotion: 冷漠
+      - type: transition
+        effect: 淡出
+    - scene_num: 23
+      heading:
+        location: 唐·柯里昂长滩家宅办公室
+        time: 夜
+        interior: true
+      description: 黑根与唐、桑尼就次日与索洛佐的会面进行准备，黑根陈述了支持毒品生意的理由，唐决定听取建议后再作定夺。
+      characters_present:
+      - 汤姆·黑根
+      - 唐·维托·柯里昂
+      - 桑尼·柯里昂
+      content:
+      - type: action
+        text: |-
+          夜。长滩，唐·柯里昂家宅办公室。室内光线沉稳，书桌与扶手椅之间弥漫着雪茄烟气。汤姆·黑根手持文件夹站在一侧。唐·柯里昂沉入扶手椅，点燃一支「高贵」牌雪茄。桑尼·柯里昂坐在角落，浓眉大眼的脸疲惫而憔悴，手里捧着一杯水，小口啜饮。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 该知道的情况都搞清楚了吧？
+        parenthetical: (缓缓吸了一口雪茄，目光平静地望向黑根)
+        emotion: 平静
+      - type: action
+        text: 黑根翻开文件夹，扫了一眼纸上那些简短的暗语式提示。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          索洛佐找我们是为了求助。他想请家族投资至少一百万美元，同时寻求法律方面的保护伞。答应这两个条件，我们就能分一杯羹，但具体数字没人知道。塔塔利亚家族为索洛佐作保，他们多半也有一份。生意是毒品。索洛佐在土耳其有关系，把土耳其种植的罂粟运往西西里没有任何问题。他在西西里有加工海洛因的地点，而且还能加工吗啡，如果有需要的话，这也是一种保险。不过他的加工厂似乎十分隐蔽安全。现在的障碍只剩下运进美国和分销。另外就是启动资金。
+        parenthetical: (翻开文件夹，逐条汇报，语气沉稳)
+        emotion: 平静
+      - type: action
+        text: 黑根余光瞥见唐微微皱起眉头，立刻意识到自己多说了一句废话，连忙接续下去。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          大家管索洛佐叫'土佬'有两个原因。第一，他在土耳其待的时间很多，在土耳其有老婆和孩子。第二，据说他很容易拔刀子，至少年轻时是这样。不过只因为生意动刀，而且都有说得过去的理由。很有能力，不受别人的管教。他有案底，蹲过两次监狱，一次在意大利，一次在美国，政府知道他的毒贩身份。对我们是个优势。他被认为是黑帮大佬，而且有案底，意味着他不可能靠作证得到豁免。他在美国也有老婆和三个孩子，是个顾家的男人。只要知道家里人的生活费用有着落，他就愿意承担任何刑罚。
+        parenthetical: (加快语速，不再停顿)
+        emotion: 平静
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 桑蒂诺，你怎么看？
+        parenthetical: (慢慢吐出一口烟，侧目望向桑尼)
+        emotion: 平静
+      - type: action
+        text: 桑尼抬起头，仰脖灌了一大口威士忌，放下杯子，眼神里压抑着一股跃跃欲试的劲头。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 白粉是个金矿，同时也很危险。最后得有人去蹲二十年大牢。要我说，别插手具体运营，只提供保护和资金，这么做应该不错。
+        parenthetical: (放下酒杯，语气直接，掩不住兴奋)
+        emotion: 紧张
+      - type: action
+        text: 黑根望了桑尼一眼，心里暗暗赞许。这手牌打得有分寸。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你呢，汤姆，你怎么想？
+        parenthetical: (雪茄未放，目光转向黑根)
+        emotion: 平静
+      - type: action
+        text: 黑根沉默片刻。他知道唐多半要拒绝，也知道自己此刻说的话不会改变结果，但他只能如实说。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 直说吧，汤姆。西西里血统的顾问也不总是赞同老板。
+        parenthetical: (见黑根迟疑，语带鼓励，嘴角微扬)
+        emotion: 平静
+      - type: action
+        text: 三个人都笑了起来，气氛短暂地松动了一下。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          我认为你该答应。显而易见的原因你都清楚，但最重要的一条是毒品的盈利能力远远超过其他行当。就算我们不插手，也有其他人会，说不定就是塔塔利亚家族。借着毒品的利润，他们可以买通越来越多的警察和政客。他们的家族会变得比我们更强大，最后甚至动手抢走我们的产业。这就像国与国的关系。他们搞军备，我们也只能跟着搞。他们的经济力量越是强盛，对我们的威胁就越大。我们现在有赌场和工会，这两门生意暂时最挣钱。不过我认为毒品是未来的希望。我认为我们应该分一杯羹，否则就是在拿所有家业冒险。风险不在眼前，而是在十年以后。
+        parenthetical: (神情诚恳，语速平稳，目光直视唐)
+        emotion: 疑惑
+      - type: action
+        text: 唐没有立刻回答。他低头凝视雪茄燃烧的一端，若有所思。片刻后，轻轻叹了口气，缓缓站起身。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 这确实是最重要的事情。
+        parenthetical: (喃喃自语，语调沉)
+        emotion: 疑惑
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 明天我几点见那个异教徒？
+        parenthetical: (叹气，起身，语气转为随意)
+        emotion: 平静
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 他上午十点到这儿。
+        parenthetical: (心中燃起一丝希望，语气略微轻松)
+        emotion: 疑惑
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你俩陪我见他。
+        parenthetical: (起身伸了个懒腰，随后挽住桑尼的胳膊，目光柔和地打量儿子的脸)
+        emotion: 平静
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 桑蒂诺，好好睡一觉，你的脸色活像魔鬼他本人。照顾好自己，你不可能永远年轻。
+        parenthetical: (拍了拍桑尼的手臂，语带关切，却藏着一点玩笑)
+        emotion: 平静
+      - type: action
+        text: 桑尼受到父亲关心的鼓舞，难得地流露出一丝轻松，随即脱口问出了黑根压在心里没敢说的话。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 爸爸，你会怎么回答他？
+        parenthetical: (眼神期待，语气直接)
+        emotion: 紧张
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 不了解怎么分账和其他的细节，我怎么知道？另外，我得考虑一下今晚得到的建议。我毕竟不是那种鲁莽行事的人。
+        parenthetical: (笑着摆摆手，向门口走去)
+        emotion: 平静
+      - type: action
+        text: 唐走到门边，停下脚步，头也没回，语气极为随意地开口。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你的笔记里有没有说土佬在战前靠妓院谋生？就像现在的塔塔利亚家族。记下这一条，免得忘了。
+        parenthetical: (背对着黑根，语气轻描淡写，却含着最细微的一丝嘲弄)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          黑根感到脸上一阵燥热。他故意略去了这一条，以为无关紧要，也怕先入为主地影响唐的判断。唐在男女之事上极其古板。然而什么都瞒不过他。黑根低下头，默默在笔记上补上这一行字。
+      - type: transition
+        effect: 淡出
+    - scene_num: 24
+      heading:
+        location: 唐·柯里昂长滩家宅办公室
+        time: 日
+        interior: true
+      description: 索洛佐登门拜访，向唐提出毒品合作方案，唐以影响政治关系为由予以拒绝，桑尼的失言令索洛佐察觉到家族内部裂痕。
+      characters_present:
+      - 唐·维托·柯里昂
+      - 汤姆·黑根
+      - 桑尼·柯里昂
+      - 维吉尔·"土佬"·索洛佐
+      content:
+      - type: action
+        text: |-
+          唐·柯里昂长滩家宅办公室。日。室内陈设庄严而简朴。维吉尔·'土佬'·索洛佐站在室内——体格粗壮，中等块头，五官黝黑，鼻梁犹如弯刀，一双冷酷的黑眼睛，神态威严。桑尼·柯里昂领他进门，汤姆·黑根与唐·维托·柯里昂已在室内等候。
+      - type: action
+        text: |-
+          众人礼貌握手寒暄。黑根暗自打量索洛佐——除卢卡·布拉齐之外，这是他见过的最危险的人。他也注意到，唐今天的状态反常，与索洛佐打招呼时显得过于单纯，过于像个农夫。
+      - type: action
+        text: 众人落座。索洛佐开门见山，语气平稳而自信。
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: |-
+          生意是贩毒。一切都已安排妥当。土耳其的罂粟田保证每年如数供货。我在法国有一家受到保护的工厂，将罂粟提炼成吗啡；在西西里有个绝对安全的场地，将吗啡加工成海洛因。走私进入法国和意大利，万无一失。运进美国会有百分之五左右的货损——联邦调查局实在无法收买，这大家都清楚。但利润大得惊人，风险近乎于零。
+        parenthetical: (直视唐，语气沉稳)
+        emotion: 冷漠
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 那为什么来找我呢？我为何配得上你的慷慨？
+        parenthetical: (彬彬有礼，不动声色)
+        emotion: 平静
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: |-
+          我需要两百万美元的现金。另外一点同样重要——我需要一个伙伴，他得在重要位置有权势滔天的朋友。今后几年里，我的递送人员也许会有人被逮住，这是难免的。他们都是没有案底的人，这点我可以保证，因此法官从轻发落也合乎逻辑。我需要一个朋友，能保证我的人就算进监狱，也只蹲个一两年。这样他们就不会乱说话了。但要是被判个十年二十年，那可就说不准了。天底下有很多软骨头。他们会乱说话，咬出更关键的角色。法律方面的保护伞必不可少。我听说，您，唐·柯里昂的口袋里装了很多法官，数量比得上擦鞋匠口袋里的零钱。
+        parenthetical: (面无表情，侃侃而谈)
+        emotion: 冷漠
+      - type: action
+        text: 唐·柯里昂对这番恭维毫无反应，只是平静地接着问。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 我的家族能分多少？
+        emotion: 平静
+      - type: action
+        text: 索洛佐两眼一亮。
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: 五成。
+        parenthetical: (顿了顿，声音近乎爱抚)
+        emotion: 平静
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: 头一年，你的分红就有三四百万，往后只会越来越多。
+        emotion: 平静
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 塔塔利亚家族占多少呢？
+        emotion: 平静
+      - type: action
+        text: 索洛佐第一次流露出紧张神色，微微停顿。
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: 他们从我那份里拿分红，我在运作方面需要人手。
+        emotion: 紧张
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 这么说，我只需要提供一点资金和法律保护就能拿五成，不必担心运作方面的问题，你想说的就是这些吧？
+        emotion: 平静
+      - type: action
+        text: 索洛佐点头，嘴角带着一丝讽刺。
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: 假如你觉得两百万美元现金只是'一点资金'，那么我要为你的成功喝彩了，唐·柯里昂。
+        emotion: 冷漠
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          我之所以同意见你，是为了表示我对塔塔利亚家族的尊重，也因为我听说你做事认真，理当得到我的尊敬。我不得不拒绝你的提议，但请你听我的理由。你这门生意利润丰厚，但风险同样巨大。我要是参与你的运作，就会损害我的其他利益。没错，我在政坛上有许许多多朋友，但我的生意假如不是赌博而是毒品，他们对我恐怕就没那么友好了。他们认为赌博和烈酒一样，有伤风化但无害，但他们认为毒品很肮脏。不，你不用辩解。我说的是他们的看法，不是我的。一个人怎么谋生不关我的事。我想说的是，你的生意对我来说风险太大。我的家族成员过去这十年都过得很好，风平浪静。我不能因为贪婪而危害他们和他们的生计。
+        parenthetical: (语气平和，娓娓道来，不容置疑)
+        emotion: 平静
+      - type: action
+        text: 索洛佐失望之色仅有一个表现：眼神飞快地扫视整个房间，像是希望黑根或桑尼出言支持他。
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: 你担心你的两百万没有保障？
+        emotion: 疑惑
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 不。
+        parenthetical: (冷冷一笑)
+        emotion: 冷漠
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: 塔塔利亚家族愿意担保你的投资。
+        emotion: 紧张
+      - type: action
+        text: 桑尼·柯里昂按捺不住，脱口而出——黑根顿时被他吓傻了。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 塔塔利亚能担保我们收回投资，但不需要任何佣金吗？
+        parenthetical: (急切地插嘴)
+        emotion: 疑惑
+      - type: action
+        text: |-
+          黑根看见唐将凶恶而冷酷的视线转向大儿子。桑尼因莫名受斥而手足无措。索洛佐的眼神飞快一闪——这次是满足。他发现了唐的堡垒中有一条裂缝。唐开口，驳回了桑尼的话。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          年轻人嘛，免不了贪心，而且越来越没规矩，居然打断长辈说话，乱管闲事。唉，我对孩子总是很心软，宠坏了他们。你也看见了。索洛佐先生，我的拒绝是最终决定。请允许我恭祝您生意兴隆。你我在生意上没有冲突。很抱歉，我让你失望了。
+        parenthetical: (语气平静，眼神凌厉扫过桑尼，随即转回索洛佐)
+        emotion: 平静
+      - type: action
+        text: 索洛佐低了低头，与唐握手。黑根送他走出房间，来到外面的车旁。索洛佐与黑根道别，脸上毫无表情，随即离去。
+      - type: action
+        text: 黑根返回办公室。唐·柯里昂正若有所思地坐着，转向黑根。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 你怎么看他？
+        emotion: 平静
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 西西里人。
+        parenthetical: (干巴巴地)
+        emotion: 冷漠
+      - type: action
+        text: 唐若有所思地点点头，转向桑尼，语气出人意料地心平气和。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: |-
+          桑蒂诺，绝对不要让家族外的人知道你在想什么。绝对不要让他们知道你手里有什么牌。我觉得你和那个小姑娘搞名堂把脑子搞坏了。别鬼混了，好好关心生意。现在从我面前滚开吧。
+        parenthetical: (平静而冰冷，不容置疑)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          桑尼先是一愣，继而压着怒火，起身离开房间。黑根将这一切尽收眼底，心中暗想：桑蒂诺·柯里昂要是当上了唐，他可不想当他的顾问。
+      - type: action
+        text: |-
+          等桑尼的脚步声消失，唐·柯里昂一屁股坐进皮革扶手椅，打了个粗暴的手势示意倒酒。黑根给他斟了一杯茴香酒。唐抬起头，目光沉重地看着黑根。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 叫卢卡·布拉齐来见我。
+        parenthetical: (沉声，眼神深邃)
+        emotion: 平静
+      - type: transition
+        effect: 淡出
+    - scene_num: 25
+      heading:
+        location: 黑根市区事务所
+        time: 日
+        interior: true
+      description: 黑根在事务所处理文件，接连接到约翰尼·方坦和康妮的电话，最后接到迈克尔来电称次日进城拜访父亲。
+      characters_present:
+      - 汤姆·黑根
+      - 约翰尼·方坦
+      - 康妮·柯里昂
+      - 迈克尔·柯里昂
+      content:
+      - type: action
+        text: |-
+          黑根市区事务所。日。桌上文件堆积，黑根埋头处理案头工作，偶尔抬头望向窗外，神情中带着一丝急于收工的疲态。圣诞节将至，他显然还有别的打算。
+      - type: action
+        text: 电话铃声响起。黑根拿起听筒，电话那头传来约翰尼·方坦一贯轻松愉快的声音。
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: |-
+          汤姆！电影拍完了，毛片好得没法说。我给唐准备了一件圣诞礼物，他看了保准两眼发亮。本来想亲自送来的，但这边还有些小事缠着，实在走不开。圣诞只能在西海岸过了。
+        parenthetical: (语气轻快，略带炫耀)
+        emotion: 喜悦
+      - type: action
+        text: 黑根听着，表情平静，对方坦一贯的魅力攻势毫无反应，只是被那件礼物勾起了一丝好奇。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 什么礼物？
+        emotion: 疑惑
+      - type: dialogue
+        character: 约翰尼·方坦
+        line: 不能说。保证是一等一的圣诞礼物。
+        parenthetical: (嘿嘿一笑)
+        emotion: 喜悦
+      - type: action
+        text: 黑根瞬间失去兴趣，礼貌而果断地结束通话，将听筒放回原处。他重新低头翻看文件，却被又一声电话铃打断。
+      - type: action
+        text: 秘书探头进来通报。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: ……
+        parenthetical: (轻叹一口气，拿起听筒)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          是康妮·柯里昂。黑根在心里整理了一下耐性——康妮婚前是个好姑娘，婚后成了讨厌鬼。卡洛·里齐的那些烂事他都清楚：酗酒、嫖妓、赌博、打老婆。不知道这次又要讲什么伤心事。
+      - type: action
+        text: 然而康妮的声音意外地轻快。圣诞气氛似乎暂时冲散了她的抱怨。她只是想问几个问题。
+      - type: dialogue
+        character: 康妮·柯里昂
+        line: 汤姆，你说我爸爸、桑尼、弗雷德还有迈克，他们会喜欢什么样的圣诞礼物？妈妈那边我已经想好了。
+        emotion: 喜悦
+      - type: action
+        text: 黑根逐一给出建议。康妮一一否决，嫌这个俗气，嫌那个不够用心。黑根保持着一贯的耐心，直到她终于满意地挂断电话。
+      - type: action
+        text: |-
+          电话铃第三次响起。黑根把文件扔回待处理的档案篮，心里骂了一句，打定主意接完这通就走人。但他没有丝毫拒接的念头——秘书说打来的是迈克尔·柯里昂。他开开心心地拿起听筒。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 汤姆，我明天带着凯开车进城。有些重要的事情想在圣诞节前告诉老头子。他明晚在家吗？
+        emotion: 平静
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 当然，他过完圣诞才出城。需要我帮你安排什么吗？
+        emotion: 平静
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 不需要。我们圣诞节见，大家都要去长滩，对吧？
+        emotion: 平静
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 对。
+        emotion: 平静
+      - type: action
+        text: 迈克直接挂断，没有多余的寒暄。黑根放下听筒，嘴角微微上扬。他喜欢这种干脆。他合上文件夹，起身，准备去挑圣诞礼物。
+      - type: transition
+        effect: 切至
+    - scene_num: 26
+      heading:
+        location: 市区街道
+        time: 昏
+        interior: false
+      description: 黑根离开事务所准备购物，在街上被索洛佐的手下拦截并强行押上轿车。
+      characters_present:
+      - 汤姆·黑根
+      - 维吉尔·"土佬"·索洛佐
+      content:
+      - type: action
+        text: 黄昏时分，市区商业街人流熙攘。汤姆·黑根从办公楼里走出，脚步轻快，朝梅西百货方向走去。
+      - type: action
+        text: 一个身影突然挡住他的去路。黑根抬头，愣住——来者是索洛佐。
+      - type: action
+        text: 索洛佐伸手抓住黑根的胳膊，身体贴近，压低声音。
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: 别怕，我只想和你聊聊。
+        parenthetical: (轻声，握紧黑根手臂)
+        emotion: 冷漠
+      - type: action
+        text: 路边一辆轿车的车门骤然打开。
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: 进去，我想和你聊聊。
+        parenthetical: (催促，示意车门)
+        emotion: 冷漠
+      - type: action
+        text: 黑根甩开他的手臂，神情不是恐惧，而是恼怒。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 我没这个工夫。
+        parenthetical: (冷淡，抽回手臂)
+        emotion: 冷漠
+      - type: action
+        text: 两个男人从黑根背后悄然逼近，左右夹住。黑根感到双腿一阵发软。
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: 上车。我要是想杀你，你已经是个死人了。请相信我。
+        parenthetical: (语气温和，眼神锐利)
+        emotion: 平静
+      - type: action
+        text: 黑根扫视四周，无路可退。他弯腰钻进轿车——心里根本不信索洛佐这句话。车门随即关上。
+      - type: transition
+        effect: 切至
+    - scene_num: 27
+      heading:
+        location: 宾夕法尼亚酒店房间
+        time: 夜
+        interior: true
+      description: 迈克尔与凯在酒店缠绵，随后外出用餐看戏，深夜在酒店大堂看到报纸，得知父亲遭枪击的消息后立刻致电长滩。
+      characters_present:
+      - 迈克尔·柯里昂
+      - 凯·亚当斯
+      content:
+      - type: action
+        text: 宾夕法尼亚酒店房间，夜。房间里弥漫着烟草气息。迈克尔放下电话听筒，凯揿熄烟头。
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 迈克，你真是个撒谎精。
+        parenthetical: (带着笑意，半嗔半怨)
+        emotion: 平静
+      - type: action
+        text: 迈克尔挨着凯坐在床边。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: |-
+          都是为了你，亲爱的。要是告诉家里人我已经在城里了，那就非得立刻去见他们不可。那样今晚我们就没法出去吃饭、去戏院、一起睡觉了。我们还没结婚，在我父亲的家肯定没法睡在一起。
+        parenthetical: (搂住凯，轻轻亲吻她的嘴唇)
+        emotion: 平静
+      - type: action
+        text: 凯闭上眼睛。迈克尔温柔地拉着她倒在床上。窗外纽约的夜色沉静，房间里只有两个人彼此靠近的声音。
+      - type: action
+        text: 街道，夜。华灯初上的百货商店橱窗流光溢彩，圣诞购物的人群将店铺挤得水泄不通。迈克尔与凯肩并肩走过。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 你要什么圣诞礼物？
+        emotion: 喜悦
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 只要你。你觉得你父亲会接受我吗？
+        parenthetical: (贴紧迈克尔)
+        emotion: 喜悦
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 不成问题。你父母会接受我吗？
+        parenthetical: (柔声)
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 我不在乎。
+        parenthetical: (耸耸肩)
+        emotion: 平静
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 我甚至想过走法律途径改名换姓，但要是出了事情也没什么用处。你确定愿意成为柯里昂家的一员吗？
+        parenthetical: (半开玩笑)
+        emotion: 平静
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 愿意。
+        parenthetical: (没有笑，神情认真)
+        emotion: 平静
+      - type: action
+        text: 两人彼此贴紧，在人群中慢慢走着。圣诞的喧嚣声退潮般远去。
+      - type: action
+        text: 他们谁都没有提起迈克尔将不得不斩断家族联系的问题。街道尽头，剧院的霓虹灯牌在夜风中闪烁。
+      - type: action
+        text: 剧院外，夜。音乐剧散场，人流涌出剧院大门。寒风凛冽。凯偎依在迈克尔身边。
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 我们结婚以后，你会先揍我，然后偷一颗星星当礼物吗？
+        parenthetical: (偎依着迈克尔，仰头看他)
+        emotion: 喜悦
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 我要当数学教授。要不要先吃东西再回饭店？
+        parenthetical: (笑)
+        emotion: 喜悦
+      - type: action
+        text: 凯摇摇头，意味深长地抬头看着他。迈克尔低头报以微笑，两人在冰冷的马路上拥吻。
+      - type: action
+        text: 宾夕法尼亚酒店大堂，夜。大堂里人头攒动。迈克尔与凯走进来，脸颊因寒风而微微泛红。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 你买报纸，我去拿钥匙。
+        parenthetical: (示意凯朝报摊走去)
+        emotion: 平静
+      - type: action
+        text: |-
+          前台排着几个人。迈克尔耐心等候，拿到房间钥匙，转身在大堂里环顾寻找凯。凯站在报摊前，低头盯着手里的一份报纸，一动不动。迈克尔走过去。凯慢慢抬起头。
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 噢，迈克。噢，迈克。
+        parenthetical: (两眼充满泪水)
+        emotion: 悲伤
+      - type: action
+        text: |-
+          迈克尔接过报纸。头版：一张黑白照片，一个男人躺在马路上，脑袋浸在血泊里。另一个男人坐在马路牙子上，哭得像个孩子——那是弗雷迪。标题横跨整个版面：
+
+          维托·柯里昂遭到枪击。所谓的黑帮大佬严重受伤。手术在警方重兵把守下进行。血腥的黑帮斗争令人担忧。
+
+          迈克尔的手收紧。他的脸没有任何表情。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 上楼回房间。
+        parenthetical: (挽起凯的手臂，拉着她走进电梯，声音平静得不像样子)
+        emotion: 冷漠
+      - type: action
+        text: 电梯门关上。两人一路无言。
+      - type: action
+        text: 酒店房间。迈克尔在床边坐下，展开报纸，逐字逐句地读。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 他没死，那些杂种没能得逞。
+        parenthetical: (抬头看凯，声音压得很低)
+        emotion: 冷漠
+      - type: action
+        text: 他低下头，再读一遍。父亲在今天下午五点遭到枪击。迈克尔慢慢放下报纸。
+      - type: dialogue
+        character: 凯·亚当斯
+        line: 我们这就去医院？
+        emotion: 悲伤
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 我先给家里打个电话。下手的人疯了，老头子没死，他们会孤注一掷。天晓得下一步会搞什么名堂。
+        parenthetical: (摇摇头，走向电话机)
+        emotion: 冷漠
+      - type: action
+        text: 迈克尔拨号。占线。再拨。还是占线。他重复拨了将近二十分钟，凯坐在房间角落，双手交握，沉默地看着他。电话终于接通。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 哪位？
+        parenthetical: (听筒里，警惕)
+        emotion: 紧张
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 桑尼，是我。
+        emotion: 冷漠
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 天哪，小弟，我们都在担心你。你他妈在哪儿？我派手下去你那小城打探情况了。
+        parenthetical: (长舒一口气)
+        emotion: 紧张
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 老头子怎么样？伤得重吗？
+        emotion: 冷漠
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 很重。他们冲他开了五枪。不过他够硬气。医生说他熬得过来。听着，小弟，我很忙，没时间聊天，你在哪儿？
+        parenthetical: (声音里藏着一丝自豪)
+        emotion: 紧张
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 纽约。汤姆没说我要进城？
+        emotion: 冷漠
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: |-
+          他们抓走了汤姆，所以我才担心你。他老婆在我这儿。她还不知道，警察也一样。我不想告诉他们。策划这事的混蛋肯定是疯子。你给我马上过来，别乱说话。明白吗？
+        parenthetical: (压低声音)
+        emotion: 紧张
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 好的。知道是谁下的手吗？
+        emotion: 冷漠
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 当然。只要卢卡·布拉齐赶过来，他们就死定了。我们还是有优势。
+        emotion: 紧张
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 我一小时内就到。搭出租车。
+        emotion: 冷漠
+      - type: action
+        text: |-
+          迈克尔挂断电话。他站在原地，没有动。消息登报已经超过三个钟头。电台肯定也播了这条新闻。卢卡·布拉齐不可能没有听到。
+
+          迈克尔盯着某个虚空的地方。一个问题缓缓成形：卢卡·布拉齐在哪儿？
+      - type: transition
+        effect: 淡出
+    - scene_num: 28
+      heading:
+        location: 第九大道橄榄油公司门前街道
+        time: 昏
+        interior: false
+      description: 唐·柯里昂离开办公室在水果摊购物时遭到两名枪手伏击，身中数枪倒在血泊中，弗雷迪因惊吓过度未能还击。
+      characters_present:
+      - 唐·维托·柯里昂
+      - 弗雷迪·柯里昂
+      content:
+      - type: action
+        text: 外景。第九大道橄榄油公司门前街道。初冬傍晚，天色暗淡，圣诞节的购物人潮涌动在大街上。
+      - type: action
+        text: 唐·柯里昂放下手中的报表，拿起外衣，走向正埋头看报纸的弗雷迪，用指节轻敲他的脑袋。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 叫加图把车从停车场开过来，等几分钟我们就回家。
+        parenthetical: (语气平静，随手拿起外衣)
+        emotion: 平静
+      - type: dialogue
+        character: 弗雷迪·柯里昂
+        line: 只能我自己去了。保利今天早上打电话请病假，说是又感冒了。
+        parenthetical: (嘟囔，头也不抬)
+        emotion: 冷漠
+      - type: action
+        text: 唐·柯里昂若有所思地沉默片刻。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 本月的第三次。看来你得找个更健康的伙计开车了。告诉汤姆。
+        parenthetical: (语调轻描淡写，却带着不容置疑的意味)
+        emotion: 冷漠
+      - type: dialogue
+        character: 弗雷迪·柯里昂
+        line: 保利是个好小伙子。他要是说生病，那就肯定是生病了。没关系，我不怕开车。
+        parenthetical: (辩解，起身走向门口)
+        emotion: 疑惑
+      - type: action
+        text: |-
+          弗雷迪走出办公室。唐·柯里昂转向窗口，望着儿子穿过第九大道向停车场走去。他拨打黑根办公室的电话——无人接听。再拨长滩家中的电话——同样无人接听。他放下听筒，神情略显不悦，再次望向窗外。别克轿车已经停在楼门口的路边，弗雷迪靠在挡泥板上，双臂抱胸，漫不经心地打量着街上熙来攘往的购物人群。
+      - type: action
+        text: 唐·柯里昂穿上外衣，经理上前帮他披好大衣。唐轻声道了谢，走出门，踏下两段楼梯，来到街上。
+      - type: action
+        text: 外景。街道。连续。初冬的天光昏暗而稀薄，行人裹紧冬衣。弗雷迪见到父亲走出大楼，立刻跑过马路，从司机座那侧钻进车里。
+      - type: action
+        text: |-
+          唐·柯里昂正要从人行道一侧上车，忽然顿住脚步。他转身，向路口的露天水果摊走去。摊位上，黄澄澄的桃子和橙子在绿色盒子里闪着光泽。摊主小跑过来招呼。唐·柯里昂没有动手，只用手指一一点过。摊主捡起一个他选中的水果，翻过来，给他看底部的烂斑——唯一一次违背他的意愿。唐用左手接过装好的纸袋，掏出一张五元钞票付账，将找零收入口袋。
+      - type: action
+        text: 唐·柯里昂转身，迈步走向路边等候的轿车。就在这一刻，两个男人突然绕过街角出现。唐立刻停住——他意识到发生了什么。
+      - type: action
+        text: |-
+          两人身穿黑色大衣，黑色帽檐压得极低。他们没有料到唐会如此警觉。唐丢下纸袋，水果滚散一地，他猛地冲向路边的轿车——对他这样体型的人而言，速度快得出乎意料。
+      - type: dialogue
+        character: 唐·维托·柯里昂
+        line: 弗雷迪！弗雷迪！
+        parenthetical: (边跑边喊，声音急迫)
+        emotion: 恐惧
+      - type: action
+        text: |-
+          两名男子同时拔枪射击。第一发子弹击中唐的后背，如重锤砸落，他踉跄着仍向前跑。接连两发击中臀部——他摊手摊脚，重重倒在马路上。两名枪手小心绕过地上滚动的水果，逼近，要补上最后一枪。
+      - type: action
+        text: |-
+          距唐第一声喊叫不足五秒，弗雷迪从车门冲出，出现在车的另一侧。枪手朝滚入排水沟的唐匆忙又补了两枪——一发射中手臂，一发射中右小腿，伤势不重，但鲜血迅速在他身旁晕开，汇成几块暗红色的血泊。唐·柯里昂失去了意识。
+      - type: action
+        text: |-
+          弗雷迪听见父亲喊自己出生时的名字，紧接着是两声震耳的枪响。他下车时已经慌了神，甚至忘记拔枪。两名刺客本可轻易撂倒他，却因惊慌和时间拖延而放弃——他们拐过街角，消失不见。弗雷迪独自留在路边，守着血流不止的父亲。街上的购物客有的扑倒在地，有的躲进门洞，零星的几拨人群开始向这里聚拢。
+      - type: action
+        text: |-
+          弗雷迪始终没有拔枪。他像被钉在原地，目光死死盯着父亲脸朝下趴在柏油路上，周围的血泊正在蔓延扩大。他的身体陷入休克。人群重新涌出，有人发现他摇摇欲坠，扶着他在路边的马路牙子上坐下。
+      - type: action
+        text: |-
+          倒地的唐·柯里昂周围，人群越聚越密。第一辆警车鸣着警笛强行分开一条路。紧随其后的是《每日新闻》的无线电报道车——车还未停稳，摄影师已经跳下来，举起相机，对准血泊中的唐·柯里昂连续拍摄。
+      - type: action
+        text: |-
+          几分钟后，救护车赶到。摄影师将镜头转向弗雷迪·柯里昂——他哭得毫无遮掩，鼻涕糊满那张英俊却此刻滑稽的脸。警探散入人群，更多警车陆续抵达。一名警探在弗雷迪身边蹲下，低声问话，但弗雷迪震惊过度，无法回答。
+      - type: action
+        text: |-
+          警探伸手，从弗雷迪大衣里摸出钱包，翻开证件看了一眼，对搭档低声吹了声口哨。片刻后，一群便衣警察将弗雷迪与人群隔开。警探从他的肩套里取出那把从未被拔出的枪，收走。他们架起弗雷迪，将他推进一辆没有标记的警车。车门关上，引擎轰鸣，驶离现场。《每日新闻》的报道车跟了上去。摄影师还在拍摄——每一个人，每一件东西。
+      - type: transition
+        effect: 淡出
+    - scene_num: 29
+      heading:
+        location: 桑尼·柯里昂住所
+        time: 夜
+        interior: true
+      description: 桑尼连续接到五个电话，确认父亲遇袭未死、黑根被绑，并开始部署应对：联络忒西奥集结人手，着手调查保利·加图。
+      characters_present:
+      - 桑尼·柯里昂
+      - 珊德拉（桑尼的妻子）
+      - 彼得·克莱门扎
+      - 忒西奥
+      content:
+      - type: action
+        text: 桑尼·柯里昂住所，夜。餐厅灯光昏黄，桌上摆着未吃完的晚饭。桑尼靠在椅背上打盹，珊德拉坐在桌子对面。电话铃骤然响起。
+      - type: action
+        text: 珊德拉起身，轻推丈夫肩膀，桑尼猛地睁眼，拿起听筒。
+      - type: dialogue
+        character: 约翰·菲利普斯警探（电话中）
+        line: 听得出我是谁？
+        parenthetical: (压低声音，语速极快)
+        emotion: 紧张
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 听得出。
+        parenthetical: (尚未完全清醒，声音沙哑)
+        emotion: 疑惑
+      - type: action
+        text: 桑尼身体前倾，表情随着听筒里的话语逐渐凝固，面色由苍白转为潮红，眼神发直。
+      - type: dialogue
+        character: 约翰·菲利普斯警探（电话中）
+        line: |-
+          有人在你父亲的办公楼外面刺杀他。十五分钟之前。他还活着，但伤得很重。救护车送他去了法兰西医院。警察把你弟弟弗雷迪带到切尔西分局去了。等他们释放他，你最好给他请个医生。我这就去医院，协助询问你家老头子，但前提是他能说话。有情况我随时通知你。
+        parenthetical: (不废话，语速飞快)
+        emotion: 紧张
+      - type: action
+        text: 珊德拉发现丈夫脸色异常，悄悄绕到他身边。
+      - type: dialogue
+        character: 珊德拉
+        line: 出什么事了？
+        parenthetical: (压低声音，担忧地注视丈夫)
+        emotion: 疑惑
+      - type: action
+        text: 桑尼不耐烦地朝她挥挥手，示意她安静，转身背对妻子，对着听筒说。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 确定他还活着？
+        parenthetical: (压抑着情绪，声音低沉)
+        emotion: 紧张
+      - type: dialogue
+        character: 约翰·菲利普斯警探（电话中）
+        line: 对，确定。流了很多血，但我认为看起来可怕，实际上还好。
+        emotion: 紧张
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 谢谢。明早八点整在家等着。有一千块送到。
+        parenthetical: (语气平稳，迅速挂断)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          桑尼放下听筒，强迫自己坐着不动，双拳握紧再松开。电话铃再度响起——家族许可的赌博簿记打来，报告唐在街上被乱枪打死。桑尼简短追问几句后挂断，判断对方消息不如菲利普斯准确。听筒刚落，电话第三次响起。
+      - type: action
+        text: 桑尼拿起听筒，对方自报是《每日新闻》记者。桑尼话不多说，直接挂断。他随即拨出一个号码。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 汤姆还没到家吗？
+        parenthetical: (强作镇定，但语气急迫)
+        emotion: 紧张
+      - type: action
+        text: 黑根的妻子在电话那头回答没有，说距他应到家的时间还有二十分钟，她在等他回来吃饭。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 叫他打电话给我。
+        parenthetical: (简短，挂断)
+        emotion: 冷漠
+      - type: action
+        text: 桑尼盯着桌面，在脑海中迅速梳理。电话铃第四次响起。他拿起听筒，对面传来一把极为柔和、彬彬有礼的声音。
+      - type: dialogue
+        character: 索洛佐（电话中）
+        line: 桑蒂诺·柯里昂吗？
+        parenthetical: (声音轻柔，措辞客气)
+        emotion: 冷漠
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 对。
+        parenthetical: (警惕，克制)
+        emotion: 紧张
+      - type: dialogue
+        character: 索洛佐（电话中）
+        line: |-
+          汤姆·黑根在我们手上。大约三小时后，我们将释放他，让他带来我们的提议。别匆忙下决定，先听听他怎么说。否则你只会惹来更多的麻烦。木已成舟，现在大家必须讲道理。别发你那出了名的脾气。
+        parenthetical: (语调带着一丝嘲讽)
+        emotion: 冷漠
+      - type: action
+        text: 桑尼辨出这声音极有可能是索洛佐。他压下胸中怒火，装出一副意志消沉的疲倦口吻。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 我等着。
+        parenthetical: (有气无力，刻意示弱)
+        emotion: 冷漠
+      - type: action
+        text: 对方挂断。桑尼扭头看一眼沉重的镶金手表，随手在台布上写下准确的来电时间。他抬起头，看见珊德拉正默默地看着他。
+      - type: dialogue
+        character: 珊德拉
+        line: 桑尼，怎么了？
+        parenthetical: (声音颤抖，眼眶泛红)
+        emotion: 恐惧
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 老头子被人放了冷枪。
+        parenthetical: (平静地说出，目光直视妻子)
+        emotion: 冷漠
+      - type: action
+        text: 珊德拉骤然变色，捂住嘴。桑尼见状，不耐烦地摆摆手。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 别怕，他没死。不会发生其他事情了。
+        parenthetical: (口气强硬，不容置疑)
+        emotion: 冷漠
+      - type: action
+        text: 他没有提黑根的事。电话铃第五次响起。桑尼拿起听筒，听到克莱门扎那熟悉的、粗重的喘息声。
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: 知道你父亲出事了？
+        parenthetical: (呼哧呼哧，声音急促)
+        emotion: 紧张
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 知道。不过他还活着。
+        parenthetical: (冷静作答，耳朵竖着听对方的反应)
+        emotion: 冷漠
+      - type: action
+        text: 电话那头沉默良久，随后传来克莱门扎带着哽咽的声音。
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: 感谢上帝，感谢上帝。
+        parenthetical: (声音沙哑，饱含感情)
+        emotion: 悲伤
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: 确定吗？我听说他死在街上了。
+        parenthetical: (焦虑，语气急切)
+        emotion: 紧张
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 他活着。
+        parenthetical: (短促有力，同时仔细分辨对方情绪的真假)
+        emotion: 冷漠
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: 你必须接手，桑尼。要我做什么？
+        parenthetical: (语气坚定，表态效忠)
+        emotion: 紧张
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 来我父亲家。带上保利·加图。
+        parenthetical: (不动声色，语气平淡)
+        emotion: 冷漠
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: 就这些？不用我派人去医院和你家？
+        parenthetical: (有些迟疑)
+        emotion: 疑惑
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 不用，我只要你和保利·加图。
+        parenthetical: (语气坚决，停顿片刻后，语气稍软)
+        emotion: 冷漠
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 保利他妈的到底在哪儿？他到底在干什么？
+        parenthetical: (语气骤然变重)
+        emotion: 愤怒
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: 保利请病假，他感冒了，所以在家里。他今年冬天一直病怏怏的。
+        parenthetical: (呼哧声消失，语气明显有些戒备)
+        emotion: 紧张
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 这几个月他请了几次病假？
+        parenthetical: (立刻追问，语气锐利)
+        emotion: 疑惑
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: 大概三四次吧。我问了弗雷迪好几次要不要换人，但他说不用。没有理由，过去十年过得风平浪静，你知道的。
+        parenthetical: (字斟句酌，语气小心)
+        emotion: 紧张
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 对。到我父亲家碰头吧。记得带上保利，过来的时候接上他。我不管他病得有多重。听明白了？
+        parenthetical: (语气不容商量，不等对方回答便挂断)
+        emotion: 愤怒
+      - type: action
+        text: 桑尼摔下听筒。珊德拉眼眶泛红，泪水无声地流下来。桑尼盯着她看了好一会儿，语气强硬而冷静。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: |-
+          我们的人打电话，就说我在我父亲家，叫他们打他的特别专线。其他人打电话，一律回答你什么都不知道。要是汤姆的老婆打电话，就说他在忙生意上的事情，过一阵才能回家。
+        parenthetical: (平静地下达指令，目光在妻子脸上停留片刻)
+        emotion: 冷漠
+      - type: action
+        text: 他沉思片刻，补充道。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 我们的人会过来看家。
+        parenthetical: (见妻子露出惧色，不耐烦地摆手)
+        emotion: 冷漠
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: |-
+          用不着害怕，我只是要他们过来守着而已。他们叫你做什么你就做什么。找我就打爸爸的特别专线，但除非有要紧事，否则别打过来。还有，别担心。
+        parenthetical: (语气强硬中带着一丝不耐烦的安抚，起身走向门口)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          桑尼走出家门，十二月的夜风扑面而来，吹过林荫道两旁的落叶。水银灯将八幢房屋周围照得通明。他大步穿过马路，用自己的钥匙开了父亲家的门，走进门厅。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 妈，你在哪儿？
+        parenthetical: (扬声呼喊)
+        emotion: 紧张
+      - type: action
+        text: 母亲从厨房走出，身后飘来煎辣椒的香气。桑尼不等她开口，上前抓住她的胳膊，拉着她在椅子上坐下。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 我接到电话。不过你别担心。爸爸受伤进医院了。你换身衣服，准备过去。我马上给你安排车子和司机。好吗？
+        parenthetical: (尽量放缓语速，握着母亲的手)
+        emotion: 紧张
+      - type: action
+        text: 母亲定定地看了他几秒钟，随后用意大利语平静地问。
+      - type: dialogue
+        character: 唐·柯里昂的妻子
+        line: 中冷枪了？
+        parenthetical: (用意大利语，声音平静，目光沉着)
+        emotion: 悲伤
+      - type: action
+        text: |-
+          桑尼点点头。母亲低头沉默片刻，随后站起身，走回厨房，关掉煤气炉，上楼去换衣服。桑尼走进厨房，随手用锅里的辣椒和面包捏了个三明治，滚烫的橄榄油从指缝间滴落。他端着三明治走进父亲的办公室，从上锁的柜橱抽屉里取出那部登记在假名假地址下的特别专线电话，拨出第一个号码。无人应答。他放下听筒，接着拨出布鲁克林安全阀首领忒西奥的号码。
+      - type: action
+        text: 桑尼快速向忒西奥说明现状，布置任务：召集五十名绝对忠诚的部下，派人守卫医院，派人赶赴长滩。忒西奥沉默片刻，开口说话。
+      - type: dialogue
+        character: 忒西奥
+        line: 克莱门扎呢？也被他们抓走了？
+        parenthetical: (语气警觉，试探性地问)
+        emotion: 疑惑
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 我暂时不想用克莱门扎的人。
+        parenthetical: (简短，语气坚定)
+        emotion: 冷漠
+      - type: action
+        text: 忒西奥立刻听出话中深意，顿了顿，语气诚恳。
+      - type: dialogue
+        character: 忒西奥
+        line: 抱歉，桑尼，但换了你父亲也会这么说：别忙着下决定，我不相信克莱门扎会背叛我们。
+        parenthetical: (语气稳重，字斟句酌)
+        emotion: 平静
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 谢谢。我也不这么认为，但此刻我必须谨慎。对吧？
+        parenthetical: (口气缓和，语气中带着一丝疲惫)
+        emotion: 平静
+      - type: dialogue
+        character: 忒西奥
+        line: 对。
+        parenthetical: (简短，表示认可)
+        emotion: 平静
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: |-
+          还有一件事。我小弟迈克在新罕布什尔州汉诺威念大学。叫几个我们在波士顿的熟人过去接他，带他回纽约家里，等事情平息再说。我打电话通知他，让他等着。我只是想预防万一，免得出意外。
+        parenthetical: (语气严肃，字句清晰)
+        emotion: 紧张
+      - type: dialogue
+        character: 忒西奥
+        line: 好的。安排妥当了我马上去你父亲家，好吗？你认识我的人，对吧？
+        parenthetical: (干脆利落，确认)
+        emotion: 平静
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 对。
+        parenthetical: (挂断)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          桑尼走到墙边保险箱前，拨开锁，取出蓝色皮革装订的索引簿，翻到「账」字头部分，找到条目——雷·法瑞尔，五千块，圣诞夜——拨打后面的号码。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 法瑞尔？
+        parenthetical: (开门见山)
+        emotion: 冷漠
+      - type: dialogue
+        character: 雷·法瑞尔（电话中）
+        line: 对。
+        emotion: 平静
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 我是桑蒂诺·柯里昂。我想请你帮个忙，马上就要结果。请你帮我查两个电话号码，列出过去三个月内打进打出的所有通话。
+        parenthetical: (报出保利·加图和克莱门扎两人的家庭号码，语气平稳而命令式)
+        emotion: 冷漠
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 非常重要，今晚十二点前给我，你会得到一份额外的圣诞礼物。
+        parenthetical: (语气平稳，挂断)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          桑尼再次拨出卢卡·布拉齐的号码。铃声响了很久，无人接听。他放下听筒，在心里压下一丝不安，沉沉坐进父亲的转椅。办公室陷入寂静，只有窗外十二月的夜风低鸣。桑尼望着桌面，嘴角慢慢浮出一丝狞笑——土佬固然老谋深算，可惜老头子还活着，那就只有一条路：开战。然而，那个始终挥之不去的念头又悄悄回来。
+      - type: action
+        text: 卢卡·布拉齐在哪儿？
+        emotion: 疑惑
+      - type: transition
+        effect: 淡出
+  - chapter_num: 3
+    title: |-
+      第三章
+
+
+      算上司机，车里有四个人守着黑根。他们逼着他坐进后座，街上两个站在他背后的人这会儿坐在他两边。索洛佐坐在前排。黑根右边的男人探身过来，拉下黑根的帽子遮住眼睛，他什么都看不见了。“小拇指都不许动一下。”他说。
+    scenes:
+    - scene_num: 30
+      heading:
+        location: 不明地点地下室
+        time: 夜
+        interior: true
+      description: 索洛佐在地下室审问黑根，试图说服他转告桑尼接受毒品交易，并透露唐·柯里昂已遭伏击，最终得知唐仍然生还，局势骤然逆转。
+      characters_present:
+      - 汤姆·黑根
+      - 维吉尔·"土佬"·索洛佐
+      content:
+      - type: action
+        text: |-
+          不知名地点的地下室。灯光昏暗，潮气弥漫。黑根被押进来，按进一把直背餐椅。索洛佐隔着餐桌在对面坐下，黝黑的脸庞棱角分明，目光如秃鹫般锐利。
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: 我不希望你害怕。我知道你不是家族的打手。我希望你帮助柯里昂家族，也希望你帮助我。
+        parenthetical: (语气平稳，像在谈一笔寻常生意)
+        emotion: 冷漠
+      - type: action
+        text: |-
+          黑根颤抖着将香烟送进嘴里。一个男人走来，把一瓶黑麦威士忌放在桌上，用骨瓷咖啡杯给他斟了半杯。黑根端起杯子一饮而尽。烈酒灼过喉咙，手脚渐渐稳住。
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: 你老板死了。
+        parenthetical: (停顿，惊讶地看见黑根眼里涌出热泪)
+        emotion: 冷漠
+      - type: action
+        text: 黑根没有说话。悲痛与怕死的恐惧在他胸口交织，令他自己也感到意外。
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: 我们在他办公室外面的马路上伏击了他。我一得到消息就抓了你。你必须帮我和桑尼讲和。
+        emotion: 冷漠
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: |-
+          桑尼对我的生意很感兴趣，对吧？你也知道这条路前途无量。毒品是未来。里面的钱太多了。用不了几年，大家都能发财。唐是个上了年纪的「胡子彼得」，他的时代已经结束，只有他自己不知道。现在他死了，再怎么样也不可能让他起死回生。我打算提出新的建议，希望你说服桑尼接受。
+        parenthetical: (语调愈发笃定，像是在陈述既成事实)
+        emotion: 冷漠
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 你一点机会都没有。桑尼会动用全部力量追杀你。
+        emotion: 悲伤
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: |-
+          这肯定是他的第一反应。你必须用道理说服他。塔塔利亚家族全力支持我。只要能阻止双方全面开战，纽约的其他几大家族什么都能接受。我们的战争会危及他们和他们的生意。要是桑尼接受提议，美国的其他家族都会认为事情和他们没关系，唐的老朋友也包括在内。
+        parenthetical: (不耐烦地摆手)
+        emotion: 冷漠
+      - type: action
+        text: 黑根低头看着自己的双手，沉默不语。
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: |-
+          唐在走下坡路。换了是以前，我绝对不可能碰他。另外几大家族不信任他，因为他任命你当顾问，而你连意大利人都不是，更别说西西里人了。要是全面开战，柯里昂家族会被碾碎，大家都是输家，包括我在内。比起金钱，我更需要柯里昂家族的政治影响力。所以请说服桑尼，说服各位首领，这样能少流很多血。
+        emotion: 冷漠
+      - type: action
+        text: 黑根举起空杯，示意续酒。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 我可以试试看。但桑尼很顽固。再说，连桑尼也阻止不了卢卡。你得当心卢卡。要是我赞成你的提议，我也得当心卢卡。
+        emotion: 疑惑
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: |-
+          卢卡让我操心好了。你只需要操心桑尼和唐的另外两个儿子。听着，你可以告诉他们，弗雷迪本来也会像他老头子那样吃子弹，但我严格命令手下，不准对他开枪。我不希望造成不必要的仇恨。记得告诉他们，弗雷迪还活着都是因为我。
+        parenthetical: (平静而笃定，字字分量十足)
+        emotion: 平静
+      - type: action
+        text: |-
+          黑根的头脑开始运转。他第一次真的相信索洛佐并不打算杀他。恐惧解除，突如其来的解脱感流遍全身，他羞愧得脸色通红。索洛佐带着心照不宣的笑容看着他。黑根冷静权衡：阻止柯里昂与塔塔利亚两家全面开战，才是当务之急。先达成交易，等时机成熟，再对付索洛佐。他抬起头，发现索洛佐早已看穿他在想什么，嘴角噙着笑。黑根心头猛然一凛——卢卡·布拉齐到底出了什么事，索洛佐为何对他毫不在意？
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 我尽量。我觉得你说得对，甚至唐也会希望我们这么做。
+        parenthetical: (语气经过计算，克制而务实)
+        emotion: 平静
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: 很好。我不喜欢血流成河，我是一个商人，流血过于浪费金钱。
+        parenthetical: (肃然点头)
+        emotion: 平静
+      - type: action
+        text: |-
+          电话铃骤然响起。坐在黑根背后的男人起身接听，沉默片刻，简短地说了句「好，我转告他」，便挂断电话，走到索洛佐身旁，附耳低语。黑根看着索洛佐的脸色刷地变得惨白，眼底涌起怒火。黑根感到一阵心慌。索洛佐陷入沉思，目光落在黑根身上，黑根猛地意识到——自己恐怕不会被释放了。
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: 老头子还活着。一身西西里老皮吃了五颗子弹，居然还活着。
+        parenthetical: (听天由命地耸耸肩)
+        emotion: 愤怒
+      - type: dialogue
+        character: 维吉尔·"土佬"·索洛佐
+        line: 运气不好。我运气不好，你也运气不好。
+        parenthetical: (看着黑根，语气沉冷)
+        emotion: 冷漠
+      - type: transition
+        effect: 淡出
+  - chapter_num: 4
+    title: |-
+      第四章
+
+
+      迈克尔·柯里昂赶到父亲的长滩家宅，发现一条铁链拦住了林荫道狭窄的入口。八幢屋子都亮起水银灯，林荫道照得通明，弯曲的水泥人行道前停着至少十辆轿车。
+    scenes:
+    - scene_num: 31
+      heading:
+        location: 柯里昂家宅林荫道入口
+        time: 夜
+        interior: false
+      description: 迈克尔抵达父亲家宅，被陌生守卫拦下盘问，随后被向导带入屋内。
+      characters_present:
+      - 迈克尔·柯里昂
+      content:
+      - type: action
+        text: 柯里昂家宅林荫道入口。夜。两个陌生男人靠在铁链上，神情警惕地守着入口。迈克尔·柯里昂独自走近。
+      - type: dialogue
+        character: 守卫甲
+        line: 你是谁？
+        parenthetical: (布鲁克林口音，打量来人)
+        emotion: 疑惑
+      - type: action
+        text: 迈克尔报上姓名。附近屋内走出另一个男人，走上前仔细打量他的脸。
+      - type: dialogue
+        character: 守卫乙
+        line: 唐的儿子。
+        parenthetical: (向同伴点头，转向迈克尔)
+        emotion: 平静
+      - type: action
+        text: 守卫乙示意迈克尔跟上。两人向父亲家走去，铁链旁的两个守门人放他们进屋。
+    - scene_num: 32
+      heading:
+        location: 柯里昂家宅客厅
+        time: 夜
+        interior: true
+      description: 迈克尔进入客厅，察觉克莱门扎与保利·加图神情异常，判断二人有嫌疑。
+      characters_present:
+      - 迈克尔·柯里昂
+      - 彼得·克莱门扎
+      - 保利·加图
+      - 特蕾莎·黑根
+      content:
+      - type: action
+        text: |-
+          柯里昂家宅客厅。夜。室内灯光昏黄，沙发、咖啡桌、角落里站着几个陌生男人。空气沉重。特蕾莎·黑根僵直地坐在沙发一端，手夹香烟，咖啡桌上摆着一杯威士忌，她盯着前方，眼神空洞。克莱门扎坐在沙发另一侧，体型壮硕，面无表情，汗水渗透衬衫，手里的雪茄被口水泡得发黑，滑腻发亮。保利·加图站在不远处，神情紧绷。迈克尔·柯里昂走进客厅。
+      - type: action
+        text: 克莱门扎起身迎上来，双手用力握住迈克尔的手。
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: 你母亲在医院陪你父亲，他不会有事的。
+        parenthetical: (低声，尽量平稳)
+        emotion: 紧张
+      - type: action
+        text: |-
+          保利·加图站起身，伸手想与迈克尔握手。迈克尔看了他一眼，目光停留片刻——他知道保利是父亲的保镖，却从这张细瘦黑脸上读出了掩藏不住的紧张。他扫了一眼房间角落里几个陌生男人，迅速将几件事拼在一起。他没有与保利握手，转而望向克莱门扎。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 弗雷迪怎么样？他还好吧？
+        parenthetical: (若无其事地问，目光却在暗中观察)
+        emotion: 疑惑
+      - type: dialogue
+        character: 彼得·克莱门扎
+        line: 医生给他打了一针，他在睡觉。
+        parenthetical: (简短，不多解释)
+        emotion: 冷漠
+      - type: action
+        text: 迈克尔走向特蕾莎，俯身轻轻吻了吻她的面颊。她是个优雅而美貌的女人，此刻浑身透着恐惧。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 别担心，汤姆不会有事的。你和桑尼谈过了吗？
+        parenthetical: (贴近她耳边低语)
+        emotion: 平静
+      - type: action
+        text: 特蕾莎靠在迈克尔身上片刻，慢慢摇头。迈克尔握住她的手，轻轻将她从沙发上拉起来，引着她向父亲的拐角办公室走去。
+      - type: transition
+        effect: 切至
+    - scene_num: 33
+      heading:
+        location: 柯里昂家宅拐角办公室
+        time: 夜
+        interior: true
+      description: 迈克尔与桑尼在办公室内商议局势，桑尼确认保利·加图是叛徒并着手制订暗杀名单，汤姆·黑根平安归来。
+      characters_present:
+      - 迈克尔·柯里昂
+      - 桑尼·柯里昂
+      - 忒西奥
+      - 特蕾莎·黑根
+      - 汤姆·黑根
+      content:
+      - type: action
+        text: |-
+          内景。柯里昂家宅拐角办公室。夜。桑尼·柯里昂摊坐在办公桌前的椅子里，左手拿黄色记事簿，右手握铅笔。忒西奥首领站在一旁，同样手持记事簿和铅笔。两人神情凝重，正在商议要事。
+      - type: action
+        text: |-
+          迈克尔·柯里昂推门而入，目光扫过房间，认出忒西奥，随即意识到外面那些生面孔都是他的人——正在组建新的保镖队伍。特蕾莎·黑根跟在迈克尔身后走进来，眼圈泛红。桑尼见状，从桌后起身迎上去，搂住特蕾莎。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 别担心，特蕾莎。汤姆没事。对方只是要他传话，说很快就放他。他不是动手的人，只是家族的律师。没理由伤害他。
+        parenthetical: (轻拍特蕾莎的肩膀，语气安抚)
+        emotion: 平静
+      - type: action
+        text: 桑尼松开特蕾莎，转身搂住迈克尔，在他面颊上亲了一口。迈克尔微怔，随即推开桑尼，咧嘴笑起来。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 当初被你揍习惯了，现在又得习惯这个？
+        parenthetical: (苦笑，推开桑尼)
+        emotion: 喜悦
+      - type: action
+        text: 桑尼耸耸肩，神情轻描淡写，眼底却有一丝疲惫和真实的担忧。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: |-
+          听着，小子，派人去那个乡下小城没接到你，我很担心。不是怕你被他们干掉，而是不想把坏消息带给妈妈。我跟她说爸爸出事就够受了。
+        parenthetical: (耸肩，语气随意却掩不住关切)
+        emotion: 平静
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 她撑得住吗？
+        emotion: 疑惑
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 还行。她经历过这种事。我也是。你那时候还小，到你懂事的时候，情况已经好得多了。
+        parenthetical: (顿了顿)
+        emotion: 平静
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 她在医院陪老头子。他会挺过来的。
+        emotion: 平静
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 我们要不要也过去？
+        emotion: 疑惑
+      - type: action
+        text: |-
+          桑尼摇摇头，话音干脆。电话铃骤然响起。桑尼抄起听筒，神情立刻收紧，仔细倾听。趁此间隙，迈克尔踱至桌边，低头扫了一眼那本黄色记事簿——上面密密麻麻列着七个名字，头三个赫然是：索洛佐、菲利普·塔塔利亚、约翰·塔塔利亚。迈克尔脸色微变，悄然明白过来。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 事情了结之前，我不能离开这里。
+        parenthetical: (摇头，语气干脆)
+        emotion: 冷漠
+      - type: action
+        text: 桑尼挂断电话，转向特蕾莎和迈克尔。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 你们到外面去等好吗？我有些事情还没和忒西奥安排妥当。
+        parenthetical: (语气平稳，带着不容置疑的分寸)
+        emotion: 平静
+      - type: dialogue
+        character: 特蕾莎·黑根
+        line: 是汤姆的电话吗？
+        parenthetical: (声音几近哽咽，泪水夺眶而出)
+        emotion: 恐惧
+      - type: action
+        text: 桑尼搂住特蕾莎，轻柔地引着她走向房门。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 我发誓他不会有事。在客厅等着，我有消息就出来通知你。
+        parenthetical: (温声安抚，为她带上房门)
+        emotion: 平静
+      - type: action
+        text: 桑尼在特蕾莎身后轻掩房门，回身一看，迈克尔已经稳稳坐进了那把皮革扶手椅，神态自若。桑尼瞪了他一眼，在桌后坐回去。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 你要是留在我这儿，迈克，就会听到你不想听见的内容。
+        emotion: 冷漠
+      - type: action
+        text: 迈克尔不慌不忙地点燃一支香烟，吐出一口烟。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 我要帮忙。
+        emotion: 平静
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 不行，没门。老头子要是知道我让你掺和进来，会心疼死的。
+        emotion: 冷漠
+      - type: action
+        text: 迈克尔猛地起身，声调骤然拔高，压抑已久的情绪全然迸发。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: |-
+          混蛋，他也是我父亲！我难道不该帮他吗？我可以帮忙。我不需要出去杀人，但我帮得上忙。别再当我是你的小弟了。我打过仗，挨过枪子，忘记了？我杀了不少日本人。你要干掉什么人，我知道了又怎么样？昏过去吗？
+        parenthetical: (起身，逼视桑尼，声音压抑而有力)
+        emotion: 愤怒
+      - type: action
+        text: 桑尼盯着迈克尔片刻，嘴角慢慢浮出一丝笑。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 很快你就会希望我出手的。好吧，你留下，电话归你管。
+        parenthetical: (咧嘴一笑，转向忒西奥)
+        emotion: 喜悦
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 我刚才接到了内部消息。
+        parenthetical: (对忒西奥)
+        emotion: 平静
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: |-
+          肯定有人出卖了老头子。有可能是克莱门扎，有可能是保利·加图，这家伙今天请病假，倒是凑巧。我已经知道答案了，让我看看你有多聪明。迈克，你是大学生——是谁投靠了索洛佐？
+        parenthetical: (转向迈克尔，目光锐利)
+        emotion: 平静
+      - type: action
+        text: |-
+          迈克尔重新沉入皮革扶手椅，烟雾在他身旁缓缓升散。他闭目思索，将已知的一切在脑海中逐一过筛——克莱门扎的身家、资历、与唐的情谊；保利的年轻、野心、今日反常的病假。良久，他缓缓睁眼，摇了摇头。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 两个都不是。
+        parenthetical: (摇头，语气平静却带着一丝刻意)
+        emotion: 平静
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 别担心。克莱门扎没问题，是保利。
+        parenthetical: (对迈克尔微笑)
+        emotion: 平静
+      - type: action
+        text: 忒西奥听到这句话，悄悄松了一口气，肩膀微微下沉。
+      - type: dialogue
+        character: 忒西奥
+        line: 那么，明天我就可以让我的人回家了？
+        parenthetical: (小心翼翼地开口)
+        emotion: 疑惑
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: |-
+          后天。在此之前我不希望有别人知道这一点。听着，我要和我弟谈些家事，纯粹是私事。到外面客厅等我，好吗？我们等会儿继续列名单。你和克莱门扎一起解决这事。
+        emotion: 平静
+      - type: dialogue
+        character: 忒西奥
+        line: 好的。
+        parenthetical: (起身，离开房间)
+        emotion: 平静
+      - type: action
+        text: 门轻轻带上。房间里只剩下兄弟二人。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 你怎么确定是保利？
+        emotion: 疑惑
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: |-
+          电话公司有我们的线人，帮忙查到了保利家和克莱门扎家所有打进打出的电话。老头子办公楼的马路对面有个电话亭，保利本月请病假的三天里，都接到了从这个电话亭打来的电话。今天也是。对方想搞清楚保利是不是失势了，或者被谁顶替了位置。或者什么别的原因。无所谓。
+        parenthetical: (耸耸肩)
+        emotion: 冷漠
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 感谢上帝，还好是保利。我们太需要克莱门扎了。
+        emotion: 平静
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 那么，两边会全面开战吗？
+        parenthetical: (试探性地)
+        emotion: 疑惑
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 我就是这么打算的，现在只等汤姆回来。除非老头子有别的想法。
+        parenthetical: (眼神坚定)
+        emotion: 平静
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 那为什么不等老头子醒来跟你说？
+        emotion: 疑惑
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 你的战斗勋章到底是怎么骗来的？对方拿枪口指着我们，老弟，我们只能还击。我只害怕他们扣着汤姆不放。
+        parenthetical: (好玩地打量着迈克尔)
+        emotion: 疑惑
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 为什么不放？
+        parenthetical: (一愣)
+        emotion: 疑惑
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: |-
+          他们抓汤姆是因为他们以为老头子死了，打算和我谈笔交易，汤姆是牵线人，带着他们的提议回来。现在，老头子还活着，他们知道我作不了决定，所以汤姆对他们毫无用处了，要杀要剐全凭索洛佐高兴。他们要是杀了他，就等于和我们摊牌，打算铲除我们。
+        parenthetical: (耐心解释，语气变得沉稳)
+        emotion: 平静
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 索洛佐凭什么认为他能和你达成交易？
+        parenthetical: (平静地问)
+        emotion: 平静
+      - type: action
+        text: 桑尼脸色微微泛红，一时间无话可说。沉默片刻，他才开口，语气里带着一丝罕见的自责。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: |-
+          我们几个月前见过一面，索洛佐提议一起做毒品生意。老头子拒绝了他，但我没管住嘴，我表示愿意接受。这么做真是大错特错，要是说老头子对我有什么教导，那就是绝对不能做这种事情，让别人知道家族内部意见有分歧。于是索洛佐认为只要除掉老头子，我就会跟他合作搞毒品。老头子要是死了，家族的权力至少减半。要守住老头子积攒的家业，我非得拼死一搏才行。毒品是未来的大买卖，我们应该介入。就生意而言，我会跟他联手。当然了，他不可能让我太接近他，免得我一时心痒做掉他。但他同时也很清楚，要是我接受交易，其他几大家族就不会允许我几年后仅仅为了复仇而开战。另外，塔塔利亚家族给他撑腰。
+        parenthetical: (停顿后开口，语气带着自责)
+        emotion: 悲伤
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 如果他们真的干掉了老头子，你打算怎么办？
+        emotion: 疑惑
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 索洛佐死定了。我不惜一切代价。不在乎我们是不是要同时和纽约五大家族开战。塔塔利亚家族会被抹掉，我不在乎同归于尽。
+        parenthetical: (语气简短，斩钉截铁)
+        emotion: 愤怒
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 这可不是爸爸的做事风格。
+        parenthetical: (轻声，语气温和)
+        emotion: 平静
+      - type: action
+        text: 桑尼猛地打了个凶狠的手势，语气炸裂。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: |-
+          我知道我不是他那块料，但我向你保证——他也会向你保证的——论到真刀真枪，短兵相接，我不比任何人逊色。索洛佐知道这一点，克莱门扎和忒西奥也知道，我十九岁那年就杀了第一个人，那是家族最近一次开战，我是老头子的得力干将。所以我现在并不担心。我们家族处理这种事的人马都在。我只希望能尽快联系上卢卡。
+        parenthetical: (打了个凶狠的手势，语气激烈)
+        emotion: 愤怒
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 卢卡真有大家说的那么凶悍吗？他真那么厉害？
+        parenthetical: (好奇地问)
+        emotion: 疑惑
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 独一无二的人物。我打算派他对付塔塔利亚家的三个头目。我亲自收拾索洛佐。
+        parenthetical: (点头，语气平静而坚决)
+        emotion: 平静
+      - type: action
+        text: |-
+          迈克尔在椅中轻轻动了一下，目光落在自己的大哥身上。印象里那个有时粗暴、骨子里却热心的人，此刻正像一个新登基的罗马皇帝，面不改色地清点着处决名单。一阵寒意悄然漫过迈克尔的脊背。他暗暗庆幸自己尚未深陷其中——父亲还活着，他不必卷入这一切。
+      - type: action
+        text: 客厅里骤然传来一声女人的尖叫。迈克尔猛地起身，冲过去拉开房门。
+      - type: action
+        text: |-
+          客厅里所有人都站了起来。汤姆·黑根就站在沙发前，神情略显尴尬，紧紧地搂着特蕾莎。特蕾莎哭得上气不接下气——那一声尖叫，是她在狂喜中冲口而出的丈夫的名字。迈克尔站在门口，静静注视着眼前的一幕。
+      - type: action
+        text: 汤姆·黑根从妻子的怀抱中轻轻挣脱，扶她坐回沙发，随即抬起头，目光越过人群，落在迈克尔身上，咧嘴一笑。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 很高兴见到你，迈克，真的很高兴。
+        parenthetical: (狰狞一笑，随即大踏步走向办公室，没有多看啜泣的妻子一眼)
+        emotion: 喜悦
+      - type: action
+        text: |-
+          黑根大步走进办公室，身后的门再度关上。迈克尔望着他的背影，心里涌起一阵奇特的自豪——黑根有着老头子的风范，桑尼也是。令人惊讶的是，甚至他自己也是。
+      - type: transition
+        effect: 淡出
+  - chapter_num: 5
+    title: |-
+      第五章
+
+
+      凌晨四点，桑尼、迈克尔、汤姆·黑根、克莱门扎和忒西奥，几个人都坐在拐角办公室里。汤姆·黑根说服特蕾莎回家了。保利·加图还在客厅等候，浑然不知忒西奥的手下已经得到指令，不准他离开，也不准他走出他们的视线。
+    scenes:
+    - scene_num: 34
+      heading:
+        location: 柯里昂家族宅邸拐角办公室
+        time: 夜
+        interior: true
+      description: 凌晨四点，黑根复述索洛佐的提议，众人商议应对策略，最终桑尼决定按兵不动等待唐康复，并部署各人任务。
+      characters_present:
+      - 汤姆·黑根
+      - 桑尼·柯里昂
+      - 迈克尔·柯里昂
+      - 彼得·克莱门扎
+      - 忒西奥
+      - 保利·加图
+      content:
+      - type: action
+        text: |-
+          柯里昂家族宅邸拐角办公室。夜。房间里光线昏暗，气氛压抑。迈克尔躺在扶手椅里，电话搁在右手边，冷静地打量着室内众人。克莱门扎和忒西奥分立两侧。桑尼在房间中踱步。黑根走进房间，风尘仆仆，神情疲惫却透着一股劫后余生的镇定。
+      - type: action
+        text: 桑尼大步冲上前，紧紧拥抱黑根。迈克尔望着这一幕，眼神里闪过一丝难以察觉的嫉妒。
+      - type: action
+        text: |-
+          黑根从桑尼怀里退出来，整了整衣领，开口复述索洛佐的提议。他说，索洛佐得知唐还活着之后，显然动了杀他的念头。说到这里，他咧嘴笑了。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          哪怕有一天我要向最高法院陈情，恐怕也比不上今晚我在该死的土佬面前的表现了。我说就算唐还活着，我也可以说服家族接受交易。我说我能随便摆布你，桑尼。我们从小就算好伙伴；另外，你别往心里去啊，我还让他觉得你要是能早点接老头子的班，并不会特别难过。上帝请宽恕我。
+        parenthetical: (对桑尼抱歉地笑了笑)
+        emotion: 平静
+      - type: action
+        text: 桑尼打了个手势，示意他明白，这话说了也不算数。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 我们说正经事吧。我们必须制订计划。看看我和忒西奥列出的名单。忒西奥，你把你那份给克莱门扎。
+        parenthetical: (语气果断，环视众人)
+        emotion: 紧张
+      - type: action
+        text: 忒西奥将手中的名单递给克莱门扎。迈克尔从扶手椅里抬起头。
+      - type: dialogue
+        character: 迈克尔·柯里昂
+        line: 假如要制订计划，弗雷迪应该也在场。
+        emotion: 平静
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: |-
+          弗雷迪眼下派不上用场。医生说他严重休克，必须彻底静养。真不明白。弗雷迪平时挺硬气的。估计见到老头子被放冷枪让他受了刺激，他一向以为唐就是上帝。迈克，他和你我不一样。
+        parenthetical: (恶狠狠地)
+        emotion: 愤怒
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          对，别让弗雷迪参与。什么都别让他参与，完全不参与。要我说，桑尼，风波过去之前，你应该留在家里，根本不要出门。你在家里很安全。别低估索洛佐的能力，他是个厉害的对手。医院安排了吗？
+        parenthetical: (语气冷静，目光扫向桑尼)
+        emotion: 平静
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 警察封锁了医院，我派我的手下不间断地探望爸爸。汤姆，你看看这份名单？
+        parenthetical: (点点头，将名单递给黑根)
+        emotion: 紧张
+      - type: action
+        text: 黑根接过名单，逐行扫视，眉头渐渐皱了起来。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          老天在上，桑尼，你真的动了个人感情。唐会认为这纯粹是生意争端。索洛佐是关键人物。干掉索洛佐，事情就会恢复原样。没必要对塔塔利亚家族下手。
+        parenthetical: (皱眉，语气中带着责备)
+        emotion: 疑惑
+      - type: action
+        text: 桑尼望向克莱门扎和忒西奥。忒西奥耸了耸肩。
+      - type: dialogue
+        character: 忒西奥
+        line: 棘手。
+        emotion: 冷漠
+      - type: action
+        text: 克莱门扎沉默，一言不发，只是静静地站着。桑尼转向他。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 有件事不需要讨论就能下结论。我不想再看见保利那张脸。把他列在名单的第一位。
+        parenthetical: (对克莱门扎，语气冰冷决绝)
+        emotion: 愤怒
+      - type: action
+        text: 克莱门扎缓缓点了点头。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          卢卡呢？索洛佐似乎并不担心卢卡。我很担心要是卢卡出卖了我们，那我们的麻烦就大了。我们必须首先搞清楚卢卡的下落。有谁联系上他了吗？
+        parenthetical: (神色凝重)
+        emotion: 紧张
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 没有。我整个晚上都在打电话找他。他也许在哪儿鬼混。
+        emotion: 疑惑
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 不，他从不和情妇过夜，完事后总是回家。迈克，继续打他的电话，直到有人接为止。
+        parenthetical: (转向迈克尔，语气笃定)
+        emotion: 平静
+      - type: action
+        text: 迈克尔顺从地拿起听筒，拨出号码。听筒里传来一声声空洞的振铃声，久久无人接听。他最终挂断电话，放回原处。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 一刻钟打一次。
+        emotion: 平静
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 好吧，汤姆，你是顾问，有什么好建议？你到底认为我们该怎么办？
+        parenthetical: (不耐烦地)
+        emotion: 愤怒
+      - type: action
+        text: 黑根拿起桌上的酒瓶，给自己倒了一杯威士忌，缓缓饮了一口。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          我们和索洛佐谈判，拖到你父亲恢复健康，能够控制局面为止。有必要的话，甚至可以和他达成交易。等你父亲从床上起来，他不费吹灰之力就能解决问题，其他家族都会听他的。
+        emotion: 平静
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 你认为我收拾不了索洛佐那家伙？
+        parenthetical: (怒道，音量上升)
+        emotion: 愤怒
+      - type: action
+        text: 黑根直勾勾地看着桑尼的眼睛，目光沉稳，没有半分退让。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          桑尼，你当然能击败他，柯里昂家族有这个力量。你有克莱门扎和忒西奥帮你，假如爆发全面战争，他们可以召集上千人手。但要是那样，整个东海岸会血流成河，其他家族会怪罪柯里昂家族。我们会四面树敌。那是你父亲最忌讳的情况。
+        parenthetical: (直视桑尼，语气坚定)
+        emotion: 平静
+      - type: action
+        text: 迈克尔望着桑尼，以为他听了进去。片刻沉默后，桑尼缓缓开口。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 要是老头子死了，顾问，你会建议我怎么做？
+        parenthetical: (语气压低，目光转向黑根)
+        emotion: 紧张
+      - type: dialogue
+        character: 汤姆·黑根
+        line: |-
+          我知道你不会听我的，但我会建议你和索洛佐做毒品交易。没了你父亲的政治关系和个人影响力，柯里昂家族就会失去一半力量。没了你父亲，纽约其他几大家族会转而支持塔塔利亚家族和索洛佐，避免长期无益的斗争。要是你父亲死了，达成交易，然后等待时机。
+        parenthetical: (平静地，一字一顿)
+        emotion: 平静
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 你说得倒是轻巧，他们杀的又不是你父亲。
+        parenthetical: (气得脸色发白)
+        emotion: 愤怒
+      - type: action
+        text: 黑根猛地抬起头，声音里涌出一股压抑已久的情绪。
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 对他来说，我和你还有迈克一样，都是他的好儿子，甚至更好。我给你的是职业意见。就个人而言，我想杀光那群杂种。
+        parenthetical: (语气骤然激动，随即克制住)
+        emotion: 悲伤
+      - type: action
+        text: 桑尼听出了黑根声音里的情绪，神情一僵，随即后悔起来。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 噢，天哪，汤姆，我不是那个意思。
+        parenthetical: (低头，语气软下来)
+        emotion: 悲伤
+      - type: action
+        text: 房间里陷入沉默。克莱门扎和忒西奥各自垂眼，不动声色。桑尼沉思片刻，众人在尴尬的寂静中等待。最后，他长叹一口气。
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: |-
+          好吧，我们按兵不动，等老头子回来作决定。汤姆，我要你也留在林荫道。别冒险。迈克，你要当心，虽说我觉得索洛佐不会把亲属拖进战争，因为那样所有人都会与他为敌。但你还是要当心。忒西奥，你的手下是后备力量，让他们在城里各处刺探情报。克莱门扎，处理掉狗东西保利·加图之后，把你的手下调进屋里和林荫道，替换忒西奥的人。忒西奥，你在医院的人就别动了。汤姆，明天一早就开始用电话和信使与索洛佐和塔塔利亚展开谈判。迈克，你明天带几个克莱门扎的人去卢卡家等他露面，要是他不露面，就搞清楚他到底去哪儿了。那个疯子说不定听到新闻，已经去找索洛佐算账了。我实在不相信他会背叛自己的唐，土佬给他多少钱都没用。
+        parenthetical: (静静地，逐一扫视众人)
+        emotion: 平静
+      - type: dialogue
+        character: 汤姆·黑根
+        line: 也许迈克不该这么直接地介入这种事。
+        parenthetical: (不情愿地，略作迟疑)
+        emotion: 疑惑
+      - type: dialogue
+        character: 桑尼·柯里昂
+        line: 也对。那就算了，迈克，我反正需要你在家等电话，这个任务比较重要。
+        emotion: 平静
+      - type: action
+        text: |-
+          迈克尔没有吭声。他感到一阵羞耻涌上心头。他注意到克莱门扎和忒西奥刻意垂下目光，努力掩饰着什么。他清楚那是轻蔑。他拿起电话，再次拨打卢卡·布拉齐的号码，将听筒压在耳朵上，听着铃声一遍遍响起，无人接听。
+      - type: transition
+        effect: 淡出
